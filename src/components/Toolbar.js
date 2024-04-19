@@ -13,7 +13,21 @@ const Toolbar = () => {
         setCheckbox1Checked(false);
         setCheckbox2Checked(true);
     }
-    
+
+    const generateOptions = () => {
+        const options = [];
+        const currentDate = new Date();
+        const startDate = new Date(currentDate.getFullYear(), currentDate.getMonth() + 2, 1);
+        for (let i = 0; i < 24; i++) {
+            const date = new Date(startDate.getFullYear(), startDate.getMonth() + i, 1);
+            const formattedDate = `${date.getMonth() + 1}/${date.getFullYear()}`;
+            options.push(
+                <option key={formattedDate} value={formattedDate}>{formattedDate}</option>
+            );
+        }
+        return options;
+    };
+
     return ( 
         <div className="toolbar">
             <h2 className="h2">Wählen Sie Ihr Bezugsmodell</h2>
@@ -23,25 +37,7 @@ const Toolbar = () => {
             </select>
             <h2 className="h2">Wählen Sie Ihren gewünschten Liefretermin</h2>
             <select>
-                <option value="option2.1">06/2024</option>
-                <option value="option2.2">07/2024</option>
-                <option value="option2.3">08/2024</option>
-                <option value="option2.4">09/2024</option>
-                <option value="option2.5">10/2024</option>
-                <option value="option2.6">11/2024</option>
-                <option value="option2.7">12/2024</option>
-                <option value="option2.8">01/2025</option>
-                <option value="option2.9">02/2025</option>
-                <option value="option2.11">03/2025</option>
-                <option value="option2.12">04/2025</option>
-                <option value="option2.13">05/2025</option>
-                <option value="option2.14">06/2025</option>
-                <option value="option2.15">07/2025</option>
-                <option value="option2.16">08/2025</option>
-                <option value="option2.17">09/2025</option>
-                <option value="option2.18">10/2025</option>
-                <option value="option2.19">11/2025</option>
-                <option value="option2.20">12/2025</option>
+                {generateOptions()}
             </select>
             <h2 className="h2">Wonach sollen die Fahrzeuge sortiert werden?</h2>
             <div className="inlinecheck">
