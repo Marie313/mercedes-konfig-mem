@@ -1,153 +1,177 @@
-{"cars":[
+[
             {
                 "id": 1,
                 "class": "A-Klasse",
                 "pic": "/images/A-KlasseLimousine.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 2,
                 "class": "B-Klasse",
                 "pic": "/images/B-Klasse.jpg",
-                "available": false
+                "mietmodell": false,
+                "kaufmodell": true
             },
             {
                 "id": 3,
                 "class": "C-Klasse",
                 "pic": "/images/C-KlasseLimousine.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 4,
                 "class": "CLA-Klasse",
                 "pic":"/images/CLA-KlasseLimousine.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 5,
                 "class": "CLE-Klasse",
                 "pic": "/images/CLE-Cabriolet.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 6,
                 "class": "E-Klasse",
                 "pic": "/images/E-KLasseLimousine.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 7,
                 "class": "EQA",
                 "pic": "/images/EQA.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 8,
                 "class": "EQB",
                 "pic": "/images/EQB.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 9,
                 "class": "EQE",
                 "pic": "/images/EQE.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 10,
                 "class": "EQE SUV",
                 "pic": "/images/EQE-SUV.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 11,
                 "class": "EQS",
                 "pic": "/images/EQS.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 12,
                 "class": "EQS SUV",
                 "pic": "/images/EQS_SUV.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 13,
                 "class": "EQV",
                 "pic": "/images/EQV.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 14,
                 "class": "GLA",
                 "pic": "/images/GLA.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 15,
                 "class": "GLB",
                 "pic": "/images/GLB.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 16,
                 "class": "GLC-Klasse",
                 "pic": "/images/GLC.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 17,
                 "class": "GLE-Klasse",
                 "pic": "/images/GLE.jpg",
-                "available": false
+                "mietmodell": false,
+                "kaufmodell": true
             },
             {
                 "id": 18,
                 "class": "GLS",
                 "pic": "/images/GLS.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 19,
                 "class": "GT",
                 "pic": "/images/GT_Coupe_2.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 20,
                 "class": "S-Klasse Limousine",
                 "pic": "/images/S-Klasse_Limousine.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 21,
                 "class": "SL",
                 "pic": "/images/SL.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 22,
                 "class": "T-Klasse",
                 "pic": "/images/T-Klasse.jpg",
-                "available": false
+                "mietmodell": false,
+                "kaufmodell": false
             },
             {
                 "id": 23,
                 "class": "V-Klasse",
                 "pic": "/images/V-Klasse.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": true
             },
             {
                 "id": 24,
                 "class": "Vito Tourer",
                 "pic": "/images/Vito_Tourer.jpg",
-                "available": false
+                "mietmodell": false,
+                "kaufmodell": false
             },
             {
                 "id": 25,
                 "class": "Marco Polo",
                 "pic": "/images/MarcoPolo.jpg",
-                "available": true
+                "mietmodell": true,
+                "kaufmodell": false
             }
         ]
-}

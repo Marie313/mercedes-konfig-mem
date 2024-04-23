@@ -1,0 +1,58 @@
+[
+    {
+        "id_t":1,
+        "name": "Limousine",
+        "mietmodell": true,
+        "kaufmodell": true,
+        "pic_t": "/images/karosserie_limousine.jpg"
+    },
+    {
+        "id_t":2,
+        "name": "Tourer",
+        "mietmodell": false,
+        "kaufmodell": true,
+        "pic_t": "/images/karosserie_tourer.jpg"
+    },
+    {
+        "id_t":3,
+        "name": "T-Modell",
+        "mietmodell": true,
+        "kaufmodell": true,
+        "pic_t": "/images/karosserie_t-modell.jpg"
+    },
+    {
+        "id_t":4,
+        "name": "Coupe",
+        "mietmodell": true,
+        "kaufmodell": true,
+        "pic_t": "/images/karosserie_coupe.jpg"
+    },
+    {
+        "id_t":5,
+        "name": "Shooting Brake",
+        "mietmodell": true,
+        "kaufmodell": true,
+        "pic_t": "/images/karosserie_shooting-brake.jpg"
+    },
+    {
+        "id_t":6,
+        "name":"Cabriolet/Roadster",
+        "mietmodell": true,
+        "kaufmodell": true,
+        "pic_t": "/images/karosserie_cabriolet-roadster.jpg"
+    },
+    {
+        "id_t":7,
+        "name": "SUV",
+        "mietmodell": true,
+        "kaufmodell": true,
+        "pic_t": "/images/karosserie_suv.jpg"
+    },
+    {
+        "id_t":8,
+        "name": "Großraumlimousine",
+        "mietmodell": true,
+        "kaufmodell": true,
+        "pic_t": "/images/karosserie_grossraumlimousine.jpg"
+    }
+]
