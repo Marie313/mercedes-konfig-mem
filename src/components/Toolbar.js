@@ -56,12 +56,11 @@ const Toolbar = () => {
                 <p>nach Karosserie</p>
             </div>
         </div>
-        {checkbox1Checked && selectedModell === "mietmodell" && <CarList selectedModell="mietmodell"/>}
-        {checkbox1Checked && selectedModell === "kaufmodell" && <CarList selectedModell="kaufmodell"/>}
-        {checkbox2Checked && selectedModell === "mietmodell" && <TypeList selectedModell="mietmodell"/>}
-        {checkbox2Checked && selectedModell === "kaufmodell" && <TypeList selectedModell="kaufmodell"/>}
+        {checkbox1Checked && <CarList selectedModell={selectedModell}/>}
+        {checkbox2Checked && <TypeList selectedModell={selectedModell}/>}
         </div>
     );
+    
 }
  
 export default Toolbar;

@@ -9,26 +9,37 @@ h1{
 }
 h2{
   margin-top: 0px;
+  cursor: default;
+}
+p{
+  cursor: default;
 }
 .App {
   padding-left: 100px;
   padding-top: 20px;
 }
 .cars-prview{
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(237, 237, 237);;
   width: 260px;
   height: 160px;
   margin: 2px;
 }
+.carClassDiv{
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  width: 260px;
+  height: 35px;
+  justify-content: space-between;
+}
 .carClassDiv:hover{
   background-color: rgb(224, 224, 224);
 }
-.carClassDiv p{
+.carClass {
   margin-top: 0px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 8px;
-  font-size: 13.5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-size: 12.5px;
 }
 .cars-map{
   display: flex;
@@ -78,7 +89,34 @@ select:hover{
 button{
   border: none;
   background-color: #ffffff;
+  cursor: pointer;
+  text-align: left;
+}
+select{
+  cursor: pointer;
+}
+input{
+  cursor: pointer;
 }
 .returnALL{
   margin-left: 40px;
+}
+.moreButton{
+  height: 30px;
+  width: 30px;
+  margin-top: 2.5px;
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 30px;
+}
+.linkSpecificCar{
+  text-decoration: none;
+  color: black;
+}
+.specific-preview{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 30px;
 }

@@ -4,174 +4,376 @@
                 "class": "A-Klasse",
                 "pic": "/images/A-KlasseLimousine.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": true
             },
             {
                 "id": 2,
                 "class": "B-Klasse",
+                "karosserie": "Tourer",
                 "pic": "/images/B-Klasse.jpg",
                 "mietmodell": false,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": false
             },
             {
                 "id": 3,
                 "class": "C-Klasse",
                 "pic": "/images/C-KlasseLimousine.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": true
             },
             {
                 "id": 4,
                 "class": "CLA-Klasse",
                 "pic":"/images/CLA-KlasseLimousine.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": true
             },
             {
                 "id": 5,
                 "class": "CLE-Klasse",
                 "pic": "/images/CLE-Cabriolet.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": true
             },
             {
                 "id": 6,
                 "class": "E-Klasse",
                 "pic": "/images/E-KLasseLimousine.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": true
             },
             {
                 "id": 7,
                 "class": "EQA",
+                "karosserie": "SUV",
                 "pic": "/images/EQA.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": false
             },
             {
                 "id": 8,
                 "class": "EQB",
+                "karosserie": "SUV",
                 "pic": "/images/EQB.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": false
             },
             {
                 "id": 9,
                 "class": "EQE",
+                "karosserie": "Limousine",
                 "pic": "/images/EQE.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": false
             },
             {
                 "id": 10,
                 "class": "EQE SUV",
+                "karosserie": "SUV",
                 "pic": "/images/EQE-SUV.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": false
             },
             {
                 "id": 11,
                 "class": "EQS",
+                "karosserie": "SUV",
                 "pic": "/images/EQS.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": false
             },
             {
                 "id": 12,
                 "class": "EQS SUV",
+                "karosserie": "SUV",
                 "pic": "/images/EQS_SUV.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": false
             },
             {
                 "id": 13,
                 "class": "EQV",
+                "karosserie": "Großraumlimousine",
                 "pic": "/images/EQV.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": false
             },
             {
                 "id": 14,
                 "class": "GLA",
+                "karosserie": "SUV",
                 "pic": "/images/GLA.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": false
             },
             {
                 "id": 15,
                 "class": "GLB",
+                "karosserie": "SUV",
                 "pic": "/images/GLB.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": false
             },
             {
                 "id": 16,
                 "class": "GLC-Klasse",
                 "pic": "/images/GLC.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": true
             },
             {
                 "id": 17,
                 "class": "GLE-Klasse",
                 "pic": "/images/GLE.jpg",
                 "mietmodell": false,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": true
             },
             {
                 "id": 18,
                 "class": "GLS",
+                "karosserie": "SUV",
                 "pic": "/images/GLS.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": false
             },
             {
                 "id": 19,
                 "class": "GT",
                 "pic": "/images/GT_Coupe_2.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": true
             },
             {
                 "id": 20,
                 "class": "S-Klasse Limousine",
+                "karosserie": "Limousine",
                 "pic": "/images/S-Klasse_Limousine.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": false
             },
             {
                 "id": 21,
                 "class": "SL",
+                "karosserie": "Cabriolet",
                 "pic": "/images/SL.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": false
             },
             {
                 "id": 22,
                 "class": "T-Klasse",
+                "karosserie": "Großraumlimousine",
                 "pic": "/images/T-Klasse.jpg",
                 "mietmodell": false,
-                "kaufmodell": false
+                "kaufmodell": false,
+                "moreCars": false
             },
             {
                 "id": 23,
                 "class": "V-Klasse",
+                "karosserie": "Großraumlimousine",
                 "pic": "/images/V-Klasse.jpg",
                 "mietmodell": true,
-                "kaufmodell": true
+                "kaufmodell": true,
+                "moreCars": false
             },
             {
                 "id": 24,
                 "class": "Vito Tourer",
+                "karosserie": "Großraumlimousine",
                 "pic": "/images/Vito_Tourer.jpg",
                 "mietmodell": false,
-                "kaufmodell": false
+                "kaufmodell": false,
+                "moreCars": false
             },
             {
                 "id": 25,
                 "class": "Marco Polo",
+                "karosserie": "Großraumlimousine",
                 "pic": "/images/MarcoPolo.jpg",
                 "mietmodell": true,
-                "kaufmodell": false
+                "kaufmodell": false,
+                "moreCars": false
+            },
+            {
+                "id": 26,
+                "class": "A-Klasse Limousine",
+                "karosserie": "Limousine",
+                "pic": "/images/A-KlasseLimousine.jpg",
+                "mietmodell": true,
+                "kaufmodell": true,
+                "moreCars": false,
+                "superiorClass": "A"
+            },
+            {
+                "id": 27,
+                "class": "A-Klasse Kompaktlimousine",
+                "karosserie": "Limousine",
+                "pic": "/images/A-KlasseKompaktlimousine.jpg",
+                "mietmodell": true,
+                "kaufmodell": true,
+                "moreCars": false,
+                "superiorClass": "A"
+            },
+            {
+                "id": 28,
+                "class": "C-Klasse Limousine",
+                "karosserie": "Limousine",
+                "pic": "/images/C-KlasseLimousine.jpg",
+                "mietmodell": true,
+                "kaufmodell": true,
+                "moreCars": false,
+                "superiorClass": "C"
+            },
+            {
+                "id": 29,
+                "class": "C-Klasse T-Modell",
+                "karosserie": "T-Modell",
+                "pic": "/images/C_KlasseT-Modell.jpg",
+                "mietmodell": true,
+                "kaufmodell": true,
+                "moreCars": false,
+                "superiorClass": "C"
+            },
+            {
+                "id": 30,
+                "class": "CLA Limousine",
+                "karosserie": "Limousine",
+                "pic": "/images/CLA-KlasseLimousine.jpg",
+                "mietmodell": true,
+                "kaufmodell": true,
+                "moreCars": false,
+                "superiorClass": "CLA"
+            },
+            {
+                "id": 31,
+                "class": "CLA Shooting Brake",
+                "karosserie": "Shooting Brake",
+                "pic": "/images/CLA-KlasseShootingBrake.jpg",
+                "mietmodell": true,
+                "kaufmodell": true,
+                "moreCars": false,
+                "superiorClass": "CLA"
+            },
+            {
+                "id": 32,
+                "class": "CLE Cabriolet",
+                "karosserie": "Cabriolet",
+                "pic": "/images/CLE-Cabriolet.jpg",
+                "mietmodell": true,
+                "kaufmodell": true,
+                "moreCars": false,
+                "superiorClass": "CLE"
+            },
+            {
+                "id": 33,
+                "class": "CLE Coupe",
+                "karosserie": "Coupe",
+                "pic": "/images/CLE-Coupe.jpg",
+                "mietmodell": true,
+                "kaufmodell": true,
+                "moreCars": false,
+                "superiorClass": "CLE"
+            },
+            {
+                "id": 34,
+                "class": "E-Klasse Limousine",
+                "karosserie": "Limousine",
+                "pic": "/images/E-KLasseLimousine.jpg",
+                "mietmodell": true,
+                "kaufmodell": true,
+                "moreCars": false,
+                "superiorClass": "E"
+            },
+            {
+                "id": 35,
+                "class": "E-Klasse T-Modell",
+                "karosserie": "T-Modell",
+                "pic": "/images/E-KlasseT-Modell.jpg",
+                "mietmodell": true,
+                "kaufmodell": true,
+                "moreCars": false,
+                "superiorClass": "E"
+            },
+            {
+                "id": 36,
+                "class": "GLC",
+                "karosserie": "SUV",
+                "pic": "/images/GLC.jpg",
+                "mietmodell": true,
+                "kaufmodell": true,
+                "moreCars": false,
+                "superiorClass": "GLC"
+            },
+            {
+                "id": 37,
+                "class": "GLC Coupe",
+                "karosserie": "Coupe",
+                "pic": "/images/GLC_Coupe.jpg",
+                "mietmodell": true,
+                "kaufmodell": true,
+                "moreCars": false,
+                "superiorClass": "GLC"
+            },
+            {
+                "id": 38,
+                "class": "GLE",
+                "karosserie": "SUV",
+                "pic": "/images/GLE.jpg",
+                "mietmodell": false,
+                "kaufmodell": false,
+                "moreCars": false,
+                "superiorClass": "GLE"
+            },
+            {
+                "id": 39,
+                "class": "GLE Coupe",
+                "karosserie": "Coupe",
+                "pic": "/images/GLE_Coupe.jpg",
+                "mietmodell": false,
+                "kaufmodell": true,
+                "moreCars": false,
+                "superiorClass": "GLE"
+            },
+            {
+                "id": 40,
+                "class": "Mercedes-AMG GT Coupe",
+                "karosserie": "Coupe",
+                "pic": "/images/GT_Coupe_2.jpg",
+                "mietmodell": true,
+                "kaufmodell": true,
+                "moreCars": false,
+                "superiorClass": "GT"
+            },
+            {
+                "id": 41,
+                "class": "Mercedes-AMG GT 4-Türer Coupe",
+                "karosserie": "Coupe",
+                "pic": "/images/GT_Coupe_4.jpg",
+                "mietmodell": true,
+                "kaufmodell": true,
+                "moreCars": false,
+                "superiorClass": "GT"
             }
         ]

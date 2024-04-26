@@ -1,6 +1,6 @@
 import { useState, useEffect} from "react";
 
-const TypeList = () => {
+const TypeList = ({selectedModell}) => {
     const [type, setType] = useState([]);
 
     useEffect(() => {
@@ -17,23 +17,47 @@ const TypeList = () => {
         fetchData();
     }, []);
 
-    const showReturn = (typesMietmodell, typespic, typesName) => {
-        if (typesMietmodell === true) return (
-            <div className="showReturn">
+    const showReturn = (typesMietmodell, typesKaufmodell, typespic, typesName) => {
+          if (selectedModell === "mietmodell")  {
+            if (typesMietmodell === true) return (
+                <div className="showReturn">
+                    <img src={typespic} className="carsPic" />
+                    <div className="carClassDiv">
+                        <p className="carClass">{typesName}</p>
+                        <button className="moreButton">v</button>
+                    </div>
+                </div>
+            );
+            return (
+            <div className="showReturnFalse">
                 <img src={typespic} className="carsPic" />
                 <div className="carClassDiv">
                     <p className="carClass">{typesName}</p>
+                    <button className="moreButton">v</button>
                 </div>
             </div>
-        );
-        return (
-        <div className="showReturnFalse">
-            <img src={typespic} className="carsPic" />
-            <div className="carClassDiv">
-                <p className="carClass">{typesName}</p>
+            );
+          }
+          if (selectedModell === "kaufmodell")  {
+            if (typesKaufmodell === true) return (
+                <div className="showReturn">
+                    <img src={typespic} className="carsPic" />
+                    <div className="carClassDiv">
+                        <p className="carClass">{typesName}</p>
+                        <button className="moreButton">v</button>
+                    </div>
+                </div>
+            );
+            return (
+            <div className="showReturnFalse">
+                <img src={typespic} className="carsPic" />
+                <div className="carClassDiv">
+                    <p className="carClass">{typesName}</p>
+                    <button className="moreButton">v</button>
+                </div>
             </div>
-        </div>
-        );
+            );
+          }
     };
 
     return (
@@ -41,7 +65,9 @@ const TypeList = () => {
         <div className="cars-map">
             {type.map((types) => (
             <div className="cars-prview" key={types.id}>
-                {showReturn(types.mietmodell, types.pic_t, types.name)}
+                <button>
+                {showReturn(types.mietmodell, types.kaufmodell, types.pic_t, types.name)}
+                </button>
             </div>
             ))}
         </div>
