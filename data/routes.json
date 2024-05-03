@@ -1,0 +1,3 @@
+{
+    "/cars/:class": "/cars/?class=:class"
+}

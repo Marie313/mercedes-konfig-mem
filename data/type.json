@@ -1,58 +1,66 @@
 [
     {
-        "id_t":1,
-        "name": "Limousine",
+        "id":1,
+        "class": "Limousine",
         "mietmodell": true,
         "kaufmodell": true,
-        "pic_t": "/images/karosserie_limousine.jpg"
+        "pic": "/images/karosserie_limousine.jpg",
+        "moreCars": true
     },
     {
-        "id_t":2,
-        "name": "Tourer",
+        "id":2,
+        "class": "Tourer",
         "mietmodell": false,
         "kaufmodell": true,
-        "pic_t": "/images/karosserie_tourer.jpg"
+        "pic": "/images/karosserie_tourer.jpg",
+        "moreCars": true
     },
     {
-        "id_t":3,
-        "name": "T-Modell",
+        "id":3,
+        "class": "T-Modell",
         "mietmodell": true,
         "kaufmodell": true,
-        "pic_t": "/images/karosserie_t-modell.jpg"
+        "pic": "/images/karosserie_t-modell.jpg",
+        "moreCars": true
     },
     {
-        "id_t":4,
-        "name": "Coupe",
+        "id":4,
+        "class": "Coupe",
         "mietmodell": true,
         "kaufmodell": true,
-        "pic_t": "/images/karosserie_coupe.jpg"
+        "pic": "/images/karosserie_coupe.jpg",
+        "moreCars": true
     },
     {
-        "id_t":5,
-        "name": "Shooting Brake",
+        "id":5,
+        "class": "Shooting Brake",
         "mietmodell": true,
         "kaufmodell": true,
-        "pic_t": "/images/karosserie_shooting-brake.jpg"
+        "pic": "/images/karosserie_shooting-brake.jpg",
+        "moreCars": true
     },
     {
-        "id_t":6,
-        "name":"Cabriolet/Roadster",
+        "id":6,
+        "class":"Cabriolet/Roadster",
         "mietmodell": true,
         "kaufmodell": true,
-        "pic_t": "/images/karosserie_cabriolet-roadster.jpg"
+        "pic": "/images/karosserie_cabriolet-roadster.jpg",
+        "moreCars": true
     },
     {
-        "id_t":7,
-        "name": "SUV",
+        "id":7,
+        "class": "SUV",
         "mietmodell": true,
         "kaufmodell": true,
-        "pic_t": "/images/karosserie_suv.jpg"
+        "pic": "/images/karosserie_suv.jpg",
+        "moreCars": true
     },
     {
-        "id_t":8,
-        "name": "Großraumlimousine",
+        "id":8,
+        "class": "Großraumlimousine",
         "mietmodell": true,
         "kaufmodell": true,
-        "pic_t": "/images/karosserie_grossraumlimousine.jpg"
+        "pic": "/images/karosserie_grossraumlimousine.jpg",
+        "moreCars": true
     }
 ]

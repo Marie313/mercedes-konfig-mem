@@ -11,6 +11,10 @@ h2{
   margin-top: 0px;
   cursor: default;
 }
+.newCars{
+  color: aqua;
+  background-color: aqua;
+}
 p{
   cursor: default;
 }
@@ -90,7 +94,7 @@ button{
   border: none;
   background-color: #ffffff;
   cursor: pointer;
-  text-align: left;
+  text-align: center;
 }
 select{
   cursor: pointer;
@@ -119,4 +123,14 @@ input{
   justify-content: center;
   height: 100vh;
   font-size: 30px;
+}
+.more-data-car{
+  color: aqua;
+}
+.newCars{
+  color: aqua;
+}
+.pink{
+  font-size: 40px;
+  color: palevioletred;
 }

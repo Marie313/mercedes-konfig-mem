@@ -2,6 +2,7 @@
             {
                 "id": 1,
                 "class": "A-Klasse",
+                "superiorClass":"A",
                 "pic": "/images/A-KlasseLimousine.jpg",
                 "mietmodell": true,
                 "kaufmodell": true,
@@ -19,6 +20,7 @@
             {
                 "id": 3,
                 "class": "C-Klasse",
+                "superiorClass": "C",
                 "pic": "/images/C-KlasseLimousine.jpg",
                 "mietmodell": true,
                 "kaufmodell": true,
@@ -27,6 +29,7 @@
             {
                 "id": 4,
                 "class": "CLA-Klasse",
+                "superiorClass":"CLA",
                 "pic":"/images/CLA-KlasseLimousine.jpg",
                 "mietmodell": true,
                 "kaufmodell": true,
@@ -35,6 +38,7 @@
             {
                 "id": 5,
                 "class": "CLE-Klasse",
+                "superiorClass":"CLE",
                 "pic": "/images/CLE-Cabriolet.jpg",
                 "mietmodell": true,
                 "kaufmodell": true,
@@ -43,13 +47,14 @@
             {
                 "id": 6,
                 "class": "E-Klasse",
+                "superiorClass":"E",
                 "pic": "/images/E-KLasseLimousine.jpg",
                 "mietmodell": true,
                 "kaufmodell": true,
                 "moreCars": true
             },
             {
-                "id": 7,
+                "id": 8,
                 "class": "EQA",
                 "karosserie": "SUV",
                 "pic": "/images/EQA.jpg",
@@ -58,7 +63,7 @@
                 "moreCars": false
             },
             {
-                "id": 8,
+                "id": 7,
                 "class": "EQB",
                 "karosserie": "SUV",
                 "pic": "/images/EQB.jpg",
@@ -87,7 +92,7 @@
             {
                 "id": 11,
                 "class": "EQS",
-                "karosserie": "SUV",
+                "karosserie": "Limousine",
                 "pic": "/images/EQS.jpg",
                 "mietmodell": true,
                 "kaufmodell": true,
@@ -132,6 +137,7 @@
             {
                 "id": 16,
                 "class": "GLC-Klasse",
+                "superiorClass":"GLC",
                 "pic": "/images/GLC.jpg",
                 "mietmodell": true,
                 "kaufmodell": true,
@@ -140,6 +146,7 @@
             {
                 "id": 17,
                 "class": "GLE-Klasse",
+                "superiorClass":"GLE",
                 "pic": "/images/GLE.jpg",
                 "mietmodell": false,
                 "kaufmodell": true,
@@ -157,6 +164,7 @@
             {
                 "id": 19,
                 "class": "GT",
+                "superiorClass":"GT",
                 "pic": "/images/GT_Coupe_2.jpg",
                 "mietmodell": true,
                 "kaufmodell": true,
@@ -174,7 +182,7 @@
             {
                 "id": 21,
                 "class": "SL",
-                "karosserie": "Cabriolet",
+                "karosserie": "Cabriolet/Roadster",
                 "pic": "/images/SL.jpg",
                 "mietmodell": true,
                 "kaufmodell": true,
@@ -279,7 +287,7 @@
             {
                 "id": 32,
                 "class": "CLE Cabriolet",
-                "karosserie": "Cabriolet",
+                "karosserie": "Cabriolet/Roadster",
                 "pic": "/images/CLE-Cabriolet.jpg",
                 "mietmodell": true,
                 "kaufmodell": true,
