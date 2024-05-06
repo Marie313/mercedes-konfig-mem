@@ -4,19 +4,23 @@ import { useEffect, useState } from "react";
 const SpecificCar = () => {
     const [specific, setSpecific] = useState([]);
 
-    const { id } = useParams();
+    const { classe } = useParams();
 
     useEffect(() => {
         const fetchData = async () => {
-        const specificData = [];
-        const response = await fetch("http://localhost:8001/" + (id-1) )
-        const data = await response.json();
-        console.log(data);
-        specificData.push(data)
-        setSpecific(specificData);
-        }
+          const carData = [];
+          for (let i = 0; i < 41; i++) {
+            const response = await fetch(`http://localhost:8001/${i}`);
+            const data = await response.json();
+            if (data.class === classe) {
+                carData.push(data);
+              }
+          }
+          setSpecific(carData);
+        };
+    
         fetchData();
-      }, []);
+    }, []);
 
     return ( 
         <div className="specific-preview">

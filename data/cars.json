@@ -54,7 +54,7 @@
                 "moreCars": true
             },
             {
-                "id": 8,
+                "id": 7,
                 "class": "EQA",
                 "karosserie": "SUV",
                 "pic": "/images/EQA.jpg",
@@ -63,7 +63,7 @@
                 "moreCars": false
             },
             {
-                "id": 7,
+                "id": 8,
                 "class": "EQB",
                 "karosserie": "SUV",
                 "pic": "/images/EQB.jpg",

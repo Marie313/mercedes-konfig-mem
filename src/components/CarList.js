@@ -112,7 +112,7 @@ const CarList = ({ selectedModell }) => {
             </div>
           );
         return (
-          <Link className="linkSpecificCar" to={`/specificCar/${carsid}`}>
+          <Link className="linkSpecificCar" to={`/specificCar/${carsClass}`}>
             <div className="showReturn">
               <img src={carspic} className="carsPic" />
               <div className="carClassDiv">
@@ -145,7 +145,7 @@ const CarList = ({ selectedModell }) => {
             </div>
           );
         return (
-          <Link className="linkSpecificCar" to={`/specificCar/${carsid}`}>
+          <Link className="linkSpecificCar" to={`/specificCar/${carsClass}`}>
             <div className="showReturn">
               <img src={carspic} className="carsPic" />
               <div className="carClassDiv">

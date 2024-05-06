@@ -14,7 +14,7 @@ function App() {
             <h1>{title}</h1>
             <Toolbar />
           </Route>
-          <Route path="/specificCar/:id">
+          <Route path="/specificCar/:classe">
             <SpecificCar />
           </Route>
         </Switch>
