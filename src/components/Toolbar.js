@@ -41,11 +41,13 @@ const Toolbar = () => {
             <select value={selectedModell} onChange={handleModellChange}>
                 <option value="mietmodell">Mietmodell</option>
                 <option value="kaufmodell">Kaufmodell</option>
-            </select>
+            </select > 
             <h2 className="h2">Wählen Sie Ihren gewünschten Liefretermin</h2>
-            <select>
-                {generateOptions()}
-            </select>
+            <div className="selct">
+                <select >
+                        {generateOptions()}
+                </select>
+            </div>
             <h2 className="h2">Wonach sollen die Fahrzeuge sortiert werden?</h2>
             <div className="inlinecheck">
                 <input type="checkbox" className="checkbox" checked={checkbox1Checked} onChange={handleCheckbox1} />

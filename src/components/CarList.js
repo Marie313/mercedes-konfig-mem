@@ -1,19 +1,14 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import { SlArrowDown } from "react-icons/sl";
+import { SlArrowUp } from "react-icons/sl";
 
 const CarList = ({ selectedModell }) => {
   const [car, setCar] = useState([]);
   const [showMoreCars, setShowMoreCars] = useState(false);
   const [carback, setCarback] = useState([]);
   const [buttonValues, setButtonValues] = useState({});
-
-  useEffect(() => {
-    const initialButtonValues = {};
-    for (let i = 0; i < 25; i++) {
-      initialButtonValues[i] = ">";
-    }
-    setButtonValues(initialButtonValues);
-  }, []);
+  const [backgroundcolor, setBackgroundcolor] = useState('white');
 
   useEffect(() => {
     const fetchData = async () => {
@@ -34,7 +29,7 @@ const CarList = ({ selectedModell }) => {
     const toggleButtonValue = () => {
       setButtonValues((prevState) => ({
         ...prevState,
-        [carsid]: prevState[carsid] === ">" ? "<" : ">",
+        [carsid]: prevState[carsid] === 'down' ? 'up' : 'down',
       }));
     };
 
@@ -43,7 +38,6 @@ const CarList = ({ selectedModell }) => {
     };
 
     const ShowCars = async () => {
-      toggleShowMoreCars();
       if (!showMoreCars) {
         const carMoreData = [];
         for (let i = 25; i < 41; i++) {
@@ -68,22 +62,24 @@ const CarList = ({ selectedModell }) => {
         };
         setCar([
           ...car.slice(0, carsid + addition(carsid)),
-          ...carMoreData,
-          ...car.slice(carsid + addition(carsid)),
+          ...carMoreData.map((car) => ({ ...car, newCar: true }) ),
+          ...car.slice(carsid + addition(carsid) -1 ),
         ]);
-        toggleButtonValue(); // Buttonwert basierend auf dem ButtonId wechseln
+        toggleButtonValue();
         toggleShowMoreCars();
+        setBackgroundcolor('black');
       } else {
         setCar(carback);
-        toggleButtonValue(); // Buttonwert basierend auf dem ButtonId wechseln
+        toggleButtonValue();
         toggleShowMoreCars();
+        setBackgroundcolor('white')
       }
     };
 
     if (carsmoreCars) {
       return (
-        <button className="moreButton" onClick={ShowCars}>
-          {buttonValues[carsid]}
+        <button className="moreButton" onClick={() => {ShowCars()}}>
+          {buttonValues[carsid] === 'down' ? <SlArrowUp /> : <SlArrowDown />}
         </button>
       );
     }
@@ -104,19 +100,23 @@ const CarList = ({ selectedModell }) => {
         if (carsmoreCars)
           return (
             <div className="showReturn">
+              <div className={`showReturn${carsid}`}>
               <img src={carspic} className="carsPic" />
-              <div className="carClassDiv">
+              <div className={backgroundcolor}>
                 <p className="carClass">{carsClass}</p>
                 {moreCars(carsmoreCars, carsSuperiorClass, carsid)}
+              </div>
               </div>
             </div>
           );
         return (
           <Link className="linkSpecificCar" to={`/specificCar/${carsClass}`}>
             <div className="showReturn">
+            <div className={`showReturn${carsid}`}>
               <img src={carspic} className="carsPic" />
-              <div className="carClassDiv">
+              <div className={backgroundcolor}>
                 <p className="carClass">{carsClass}</p>
+              </div>
               </div>
             </div>
           </Link>
@@ -124,10 +124,12 @@ const CarList = ({ selectedModell }) => {
       }
       return (
         <div className="showReturnFalse">
+          <div className={`showReturn${carsid}`}>
           <img src={carspic} className="carsPic" />
-          <div className="carClassDiv">
+          <div className={backgroundcolor}>
             <p className="carClass">{carsClass}</p>
             {moreCars(carsmoreCars, carsSuperiorClass, carsid)}
+          </div>
           </div>
         </div>
       );
@@ -137,19 +139,23 @@ const CarList = ({ selectedModell }) => {
         if (carsmoreCars)
           return (
             <div className="showReturn">
+              <div className={`showReturn${carsid}`}>
               <img src={carspic} className="carsPic" />
-              <div className="carClassDiv">
+              <div className={backgroundcolor}>
                 <p className="carClass">{carsClass}</p>
                 {moreCars(carsmoreCars, carsSuperiorClass, carsid)}
+              </div>
               </div>
             </div>
           );
         return (
           <Link className="linkSpecificCar" to={`/specificCar/${carsClass}`}>
             <div className="showReturn">
+            <div className={`showReturn${carsid}`}>
               <img src={carspic} className="carsPic" />
-              <div className="carClassDiv">
+              <div className={backgroundcolor}>
                 <p className="carClass">{carsClass}</p>
+              </div>
               </div>
             </div>
           </Link>
@@ -157,35 +163,66 @@ const CarList = ({ selectedModell }) => {
       }
       return (
         <div className="showReturnFalse">
+          <div className={`showReturn${carsid}`}>
           <img src={carspic} className="carsPic" />
-          <div className="carClassDiv">
+          <div className={backgroundcolor}>
             <p className="carClass">{carsClass}</p>
             {moreCars(carsmoreCars, carsSuperiorClass, carsid)}
+          </div>
           </div>
         </div>
       );
     }
   };
 
-  return (
-    <div className="returnALL">
-      <div className="cars-map">
-        {car.map((cars) => (
-          <div className="cars-prview" key={cars.id}>
-            {showReturn(
-              cars.mietmodell,
-              cars.kaufmodell,
-              cars.pic,
-              cars.class,
-              cars.moreCars,
-              cars.id,
-              cars.superiorClass
-            )}
+  const BeforeShowReturn = (carsNewCar,carsmietmodell,carskaufmodell,carspic,carsclass,carsmoreCars,carsid,carssuperiorClass) => {
+    if(carsNewCar){
+      return(
+      <div className="NewCarDiv">
+          <div className={`cars-prview ${carsNewCar ? 'new-cars-row' : ''}`} key={carsid}>
+          {showReturn(
+            carsmietmodell,
+            carskaufmodell,
+            carspic,
+            carsclass,
+            carsmoreCars,
+            carsid,
+            carssuperiorClass
+          )}
           </div>
-        ))}
       </div>
-    </div>
-  );
+      );
+    }
+    if(!carsNewCar){
+      return(
+      <div className="OldCarDiv">
+          <div className={`cars-prview ${carsNewCar ? 'new-cars-row' : ''}`} key={carsid}>
+          {showReturn(
+            carsmietmodell,
+            carskaufmodell,
+            carspic,
+            carsclass,
+            carsmoreCars,
+            carsid,
+            carssuperiorClass
+          )}
+          </div>
+      </div>
+      );
+    }
+  }
+  
+return(
+  <div className="returnALL">
+  <div className="cars-map">
+    {car.map((cars) => (
+      <div className="swirl">
+        {BeforeShowReturn(cars.newCar,cars.mietmodell,cars.kaufmodell,cars.pic,cars.class,cars.moreCars,cars.id,cars.superiorClass)}
+      </div>
+    ))}
+  </div>
+</div>
+);
 };
 
 export default CarList;

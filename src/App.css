@@ -11,10 +11,6 @@ h2{
   margin-top: 0px;
   cursor: default;
 }
-.newCars{
-  color: aqua;
-  background-color: aqua;
-}
 p{
   cursor: default;
 }
@@ -23,19 +19,30 @@ p{
   padding-top: 20px;
 }
 .cars-prview{
-  background-color: rgb(237, 237, 237);;
+  background-color: rgb(255, 255, 255);;
   width: 260px;
   height: 160px;
-  margin: 2px;
+  padding: 3px;
 }
-.carClassDiv{
+.white{
   background-color: rgb(237, 237, 237);
   display: flex;
   width: 260px;
   height: 35px;
   justify-content: space-between;
 }
-.carClassDiv:hover{
+.black{
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  width: 260px;
+  height: 38px;
+  justify-content: space-between;
+}
+.moreButton{
+  font-size: 10px;
+  size: 100px;
+}
+.white:hover{
   background-color: rgb(224, 224, 224);
 }
 .carClass {
@@ -48,7 +55,6 @@ p{
 .cars-map{
   display: flex;
   flex-wrap: wrap;
-  margin-left: 30px;
 }
 .carsPic{
   height: 125px;
@@ -57,6 +63,9 @@ p{
   vertical-align: bottom;
 }
 .showReturnFalse{
+  opacity: 0.5;
+}
+.showReturnFalseOpa{
   opacity: 0.5;
 }
 .h2{
@@ -72,7 +81,7 @@ select{
   font-size: 14px;
   color: #5f5f5f;
   border-color: #5f5f5f;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   cursor: pointer;
 
   appearance: none;
@@ -108,7 +117,7 @@ input{
   cursor: pointer;
 }
 .returnALL{
-  margin-left: 40px;
+  margin-left: 70px;
 }
 .moreButton{
   height: 30px;
@@ -129,13 +138,43 @@ input{
   height: 100vh;
   font-size: 30px;
 }
-.more-data-car{
-  color: aqua;
+.moreButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.newCars{
-  color: aqua;
+.new-cars-row {
+  background-color: black;
+  padding-bottom: 6.5px;
 }
-.pink{
-  font-size: 40px;
-  color: palevioletred;
+.NewCarDiv{
+  padding-right: 262.5px;
+  background-color: black;
+  position: relative;
+  margin-left: -262.5px;
+  left: 265px;
+}
+.NewTypeDiv{
+  padding-right: 262.5px;
+  margin-left: -262.5px;
+  position: relative;
+  left: 264px;
+}
+.NewTypeDiv1{
+  padding-right: 262.5px;
+  background-color: black;
+  position: relative;
+  margin-left: -262.5px;
+  left: 265px;
+}
+.NewTypeDiv2{
+  padding-right: 525px;
+  background-color: black;
+  margin-left: -525px;
+  position: relative;
+  left: 528px;
+}
+.moreButton:active{
+  background-color: rgb(237, 237, 237);
+  color: black;
 }
