@@ -216,7 +216,7 @@ return(
   <div className="returnALL">
   <div className="cars-map">
     {car.map((cars) => (
-      <div className="swirl">
+      <div>
         {BeforeShowReturn(cars.newCar,cars.mietmodell,cars.kaufmodell,cars.pic,cars.class,cars.moreCars,cars.id,cars.superiorClass)}
       </div>
     ))}

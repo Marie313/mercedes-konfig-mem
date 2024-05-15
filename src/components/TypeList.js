@@ -10,7 +10,6 @@ const TypeList = ({ selectedModell }) => {
   const [buttonValues, setButtonValues] = useState({});
   const [backgroundcolor, setBackgroundcolor] = useState('white');
   const [NewTypeDiv, setNewTypeDiv] = useState("NewTypeDiv");
-  const [showReturnFalse, setShowReturnFalse] = useState("showReturnFalse");
 
   useEffect(() => {
     const fetchData = async () => {
@@ -61,11 +60,10 @@ const TypeList = ({ selectedModell }) => {
         );
       }
       return (
-        <div className={showReturnFalse}>
+        <div className='showReturnFalse'>
           <img src={typespic} className="carsPic" />
           <div className={backgroundcolor}>
             <p className="carClass">{typesclass}</p>
-            {moreCars(carsmoreCars, typesid, typesclass)}
           </div>
         </div>
       );
@@ -99,7 +97,6 @@ const TypeList = ({ selectedModell }) => {
           <img src={typespic} className="carsPic" />
           <div className={backgroundcolor}>
             <p className="carClass">{typesclass}</p>
-            {moreCars(carsmoreCars, typesid, typesclass)}
           </div>
         </div>
       );
@@ -151,7 +148,6 @@ const TypeList = ({ selectedModell }) => {
                 ...carMoreData.map((type) => ({ ...type, newCar: true }) ),
                 ...type.slice(typesid + addition(typesid) -2 ),
               ]);
-              setShowReturnFalse("showReturnFalseOpa");
             }
             if((carMoreDataLength % 3 === 0) && (carMoreDataLength <= 3)){
               console.log("hi");
@@ -189,7 +185,6 @@ const TypeList = ({ selectedModell }) => {
         toggleShowMoreCars();
         toggleButtonValue();
         setBackgroundcolor('white');
-        setShowReturnFalse('showReturnFalse');
       }
     };
     if (typesmoreCars) {
