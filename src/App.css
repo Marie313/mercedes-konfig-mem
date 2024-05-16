@@ -7,6 +7,19 @@ h1{
   margin-bottom: 80px;
   margin-top: 50px;
 }
+.ribbel{
+  background-color: rgb(237, 237, 237);
+  padding: 0px;
+  width: 260px;
+  height: 160px;
+}
+.clickred{
+  background-color: black;
+  color: #ffffff;
+  padding: 0px;
+  width: 260px;
+  height: 163px;
+}
 h2{
   margin-top: 0px;
   cursor: default;
@@ -15,7 +28,7 @@ p{
   cursor: default;
 }
 .App {
-  padding-left: 100px;
+  padding-left: 130px;
   padding-top: 20px;
 }
 .cars-prview{
@@ -24,25 +37,24 @@ p{
   height: 160px;
   padding: 3px;
 }
-.white{
+.backgroundcolor{
   background-color: rgb(237, 237, 237);
   display: flex;
   width: 260px;
   height: 35px;
   justify-content: space-between;
 }
-.black{
-  background-color: rgb(237, 237, 237);
+.backgroundcolor1{
   display: flex;
   width: 260px;
-  height: 38px;
+  height: 35px;
   justify-content: space-between;
 }
 .moreButton{
   font-size: 10px;
   size: 100px;
 }
-.white:hover{
+.backgroundcolor:hover{
   background-color: rgb(224, 224, 224);
 }
 .carClass {

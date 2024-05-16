@@ -8,7 +8,7 @@ const CarList = ({ selectedModell }) => {
   const [showMoreCars, setShowMoreCars] = useState(false);
   const [carback, setCarback] = useState([]);
   const [buttonValues, setButtonValues] = useState({});
-  const [backgroundcolor, setBackgroundcolor] = useState('white');
+  const [backgroundcolor, setBackgroundcolor] = useState({});
 
   useEffect(() => {
     const fetchData = async () => {
@@ -32,6 +32,13 @@ const CarList = ({ selectedModell }) => {
         [carsid]: prevState[carsid] === 'down' ? 'up' : 'down',
       }));
     };
+
+    const toggleButtonColor = () => {
+      setBackgroundcolor((prevColor) => ({
+        ...prevColor,
+        [carsid]: prevColor[carsid] === 'white' ? 'black' : 'white',
+      }))
+    }
 
     const toggleShowMoreCars = () => {
       setShowMoreCars(!showMoreCars);
@@ -66,13 +73,15 @@ const CarList = ({ selectedModell }) => {
           ...car.slice(carsid + addition(carsid) -1 ),
         ]);
         toggleButtonValue();
+        toggleButtonColor();
         toggleShowMoreCars();
         setBackgroundcolor('black');
       } else {
         setCar(carback);
         toggleButtonValue();
+        toggleButtonColor();
         toggleShowMoreCars();
-        setBackgroundcolor('white')
+        setBackgroundcolor('white');
       }
     };
 
