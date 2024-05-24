@@ -19,6 +19,7 @@ h1{
   padding: 0px;
   width: 260px;
   height: 163px;
+  margin: 0px;
 }
 h2{
   margin-top: 0px;
@@ -47,7 +48,7 @@ p{
 .backgroundcolor1{
   display: flex;
   width: 260px;
-  height: 35px;
+  height: 38px;
   justify-content: space-between;
 }
 .moreButton{
@@ -128,6 +129,12 @@ input{
 .returnALL{
   margin-left: 70px;
 }
+.returnALLtype{
+  overflow: hidden; /* Verhindert das Scrollen */
+  height: 100%;
+  margin-left: 70px;
+  margin-right: 72px;
+}
 .moreButton{
   height: 30px;
   width: 30px;
@@ -186,4 +193,10 @@ input{
 .moreButton:active{
   background-color: rgb(237, 237, 237);
   color: black;
+}
+.OldTypeDiv{
+  margin-right: 0px;
+}
+.margin-8{
+  margin-right: 50px;
 }

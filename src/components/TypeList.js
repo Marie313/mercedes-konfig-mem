@@ -174,21 +174,12 @@ const TypeList = ({ selectedModell }) => {
               ...type.slice(typesid + addition(typesid) -2 ),
             ]);
           }
-          if((carMoreDataLength % 3 === 0) && (carMoreDataLength <= 3)){
-            console.log("hi");
+          else if((carMoreDataLength % 3 === 0)) {
             setNewTypeDiv("NewTypeDiv1");
             setType([
               ...type.slice(0, typesid + addition(typesid)),
               ...carMoreData.map((type) => ({ ...type, newCar: true }) ),
               ...type.slice(typesid + addition(typesid) -1),
-            ]);
-          }
-          else if((carMoreDataLength % 3 === 0)) {
-            setNewTypeDiv("NewTypeDiv");
-            setType([
-              ...type.slice(0, typesid + addition(typesid)),
-              ...carMoreData.map((type) => ({ ...type, newCar: true }) ),
-              ...type.slice(typesid + addition(typesid) ),
             ]);
           }
         }
@@ -231,6 +222,7 @@ const TypeList = ({ selectedModell }) => {
     if(!typesNewCar){
       return(
       <div className="OldTypeDiv">
+        <div className={`margin-${typesid}`}>
           <div className={`cars-prview ${typesNewCar ? 'new-cars-row' : ''}`} key={typesid}>
           {showReturn(
               typesmietmodell,
@@ -241,13 +233,14 @@ const TypeList = ({ selectedModell }) => {
               typesmoreCars
           )}
           </div>
+        </div>
       </div>
       );
     }
   }
 
   return (
-    <div className="returnALL">
+    <div className="returnALLtype">
       <div className="cars-map">
         {type.map((types) => (
           <div>
