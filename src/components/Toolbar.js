@@ -1,5 +1,5 @@
 import { useState } from "react";
-import CarList2 from "./CarList2";
+import CarList3 from "./CarList3";
 import TypeList from "./TypeList";
 
 const Toolbar = () => {
@@ -58,7 +58,7 @@ const Toolbar = () => {
                 <p>nach Karosserie</p>
             </div>
         </div>
-        {checkbox1Checked && <CarList2 selectedModell={selectedModell}/>}
+        {checkbox1Checked && <CarList3 selectedModell={selectedModell}/>}
         {checkbox2Checked && <TypeList selectedModell={selectedModell}/>}
         </div>
     );

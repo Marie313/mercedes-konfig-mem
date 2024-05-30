@@ -177,18 +177,18 @@ input{
   left: 264px;
 }
 .NewTypeDiv1{
-  padding-right: 262.5px;
+  padding-right: 270px;
   background-color: black;
   position: relative;
-  margin-left: -262.5px;
-  left: 265px;
+  margin-left: -270px;
+  left: 271px;
 }
 .NewTypeDiv2{
-  padding-right: 525px;
+  padding-right: 527px;
   background-color: black;
-  margin-left: -525px;
+  margin-left: -527px;
   position: relative;
-  left: 528px;
+  left: 530px;
 }
 .moreButton:active{
   background-color: rgb(237, 237, 237);

@@ -7,7 +7,6 @@ const TypeList = ({ selectedModell }) => {
   const [type, setType] = useState([]);
   const [showMoreCars, setShowMoreCars] = useState(false);
   const [typeback, setTypeback] = useState([]);
-  const [buttonValues, setButtonValues] = useState({});
   const [NewTypeDiv, setNewTypeDiv] = useState("NewTypeDiv");
   const [focusedButton, setFocusedButton] = useState(null);
 
@@ -40,11 +39,11 @@ const TypeList = ({ selectedModell }) => {
           return (
             <div className="showReturn">
               <div className={`showReturni${typesid}`}>
-              <button className={focusedButton === typesid ? "clickred" : "ribbel" } onClick={() => {ShowCars(carsmoreCars, typesid, typesclass)}}>
+              <button className={focusedButton === typesid ? "clickred" : "ribbel" } onClick={() => {ShowCars(typesid, typesclass)}}>
                   <img src={typespic} className="carsPic" />
                   <div className="backgroundcolor1">
                     <p className="carClass">{typesclass}</p>
-                    {moreCars(carsmoreCars, typesid, typesclass)}
+                    {moreCars(typesid)}
                   </div>
               </button>
               </div>
@@ -76,11 +75,11 @@ const TypeList = ({ selectedModell }) => {
           return (
             <div className="showReturn">
               <div className={`showReturni${typesid}`}>
-              <button className={focusedButton === typesid ? "clickred" : "ribbel" } onClick={() => {ShowCars(carsmoreCars, typesid, typesclass)}}>
+              <button className={focusedButton === typesid ? "clickred" : "ribbel" } onClick={() => {ShowCars(typesid, typesclass)}}>
                   <img src={typespic} className="carsPic" />
                   <div className="backgroundcolor1">
                     <p className="carClass">{typesclass}</p>
-                    {moreCars(carsmoreCars, typesid, typesclass)}
+                    {moreCars(typesid)}
                   </div>
               </button>
               </div>
@@ -92,7 +91,6 @@ const TypeList = ({ selectedModell }) => {
               <img src={typespic} className="carsPic" />
               <div className="backgroundcolor">
                 <p className="carClass">{typesclass}</p>
-                {moreCars(carsmoreCars, typesid, typesclass)}
               </div>
             </div>
           </Link>
@@ -109,19 +107,23 @@ const TypeList = ({ selectedModell }) => {
     }
   };
 
-  const moreCars = (typesmoreCars, typesid, typeskarosserie) => {
+  const moreCars = (typesid) => {
     
-    if (typesmoreCars) {
+    if (focusedButton === typesid) {
       return (
-        <button className="moreButton" onClick={ShowCars}>
-          {buttonValues[typesid] === "down" ? <SlArrowUp /> : <SlArrowDown />}
+        <button className="moreButton">
+            <SlArrowUp />  
         </button>
       );
     }
-    return null;
+    return ( 
+        <button className="moreButton">
+            <SlArrowDown />
+        </button>
+    );
   };
 
-  const ShowCars = async (typesmoreCars, typesid, typeskarosserie) => {
+  const ShowCars = async (typesid, typeskarosserie) => {
  
     if (focusedButton){
       setFocusedButton(null);
@@ -129,13 +131,6 @@ const TypeList = ({ selectedModell }) => {
     else{
     setFocusedButton(typesid);
     }
- 
-    const toggleButtonValue = () => {
-    setButtonValues((prevState) => ({
-      ...prevState,
-      [typesid]: prevState[typesid] === "down" ? "up" : "down",
-    }));
-  };
 
   const toggleShowMoreCars = () => {
     setShowMoreCars(!showMoreCars);
@@ -193,12 +188,10 @@ const TypeList = ({ selectedModell }) => {
         }
       }
       toggleShowMoreCars();
-      toggleButtonValue();
       typeDiv(carMoreData.length);
     } else {
       setType(typeback);
       toggleShowMoreCars();
-      toggleButtonValue();
     }
   };
 
