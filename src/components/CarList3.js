@@ -143,7 +143,7 @@ const CarList = ({ selectedModell }) => {
             <div className="showReturnFalse">
               <div className={`showReturn${carsid}`}>
               <img src={carspic} className="carsPic" />
-                <div className="backgroundcolor">
+                <div className="backgroundcolor2">
                   <p className="carClass">{carsClass}</p>
                 </div>
               </div>
