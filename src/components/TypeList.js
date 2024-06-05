@@ -39,7 +39,7 @@ const TypeList = ({ selectedModell }) => {
           return (
             <div className="showReturn">
               <div className={`showReturni${typesid}`}>
-              <button className={focusedButton === typesid ? "clickred" : "ribbel" } onClick={() => {ShowCars(typesid, typesclass)}}>
+              <button className={focusedButton === typesid ? "clickred" : "notclickred" } onClick={() => {ShowCars(typesid, typesclass)}}>
                   <img src={typespic} className="carsPic" />
                   <div className="backgroundcolor1">
                     <p className="carClass">{typesclass}</p>
@@ -75,7 +75,7 @@ const TypeList = ({ selectedModell }) => {
           return (
             <div className="showReturn">
               <div className={`showReturni${typesid}`}>
-              <button className={focusedButton === typesid ? "clickred" : "ribbel" } onClick={() => {ShowCars(typesid, typesclass)}}>
+              <button className={focusedButton === typesid ? "clickred" : "notclickred" } onClick={() => {ShowCars(typesid, typesclass)}}>
                   <img src={typespic} className="carsPic" />
                   <div className="backgroundcolor1">
                     <p className="carClass">{typesclass}</p>

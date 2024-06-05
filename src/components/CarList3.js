@@ -38,6 +38,7 @@ const CarList = ({ selectedModell }) => {
             <SlArrowDown />
         </button>
     );
+
   };
 
   const ShowCars = async (carsSuperiorClass, carsid) => {
@@ -101,7 +102,7 @@ const CarList = ({ selectedModell }) => {
           return (
             <div className="showReturn">
                 <div className={`showReturn${carsid}`}>
-                  <button className={focusedButton === carsid ? "clickred" : "ribbel" } onClick={() => {ShowCars(carsSuperiorClass, carsid)}}>
+                  <button className={focusedButton === carsid ? "clickred" : "notclickred" } onClick={() => {ShowCars(carsSuperiorClass, carsid)}}>
                   <img src={carspic} className="carsPic" />
                     <div className="backgroundcolor1">
                       <p className="carClass">{carsClass}</p>
@@ -128,7 +129,7 @@ const CarList = ({ selectedModell }) => {
         return (
           <div className="showReturnFalse">
             <div className={`showReturn${carsid}`}>
-            <button className={focusedButton === carsid ? "clickred" : "ribbel" } onClick={() => {ShowCars(carsSuperiorClass, carsid)}}>
+            <button className={focusedButton === carsid ? "clickred" : "notclickred" } onClick={() => {ShowCars(carsSuperiorClass, carsid)}}>
               <img src={carspic} className="carsPic" />
               <div className="backgroundcolor1">
                 <p className="carClass">{carsClass}</p>
@@ -155,7 +156,7 @@ const CarList = ({ selectedModell }) => {
           return (
             <div className="showReturn">
                 <div className={`showReturn${carsid}`}>
-                  <button className={focusedButton === carsid ? "clickred" : "ribbel" } onClick={() => {ShowCars(carsSuperiorClass, carsid)}}>
+                  <button className={focusedButton === carsid ? "clickred" : "notclickred" } onClick={() => {ShowCars(carsSuperiorClass, carsid)}}>
                   <img src={carspic} className="carsPic" />
                     <div className="backgroundcolor1">
                       <p className="carClass">{carsClass}</p>
@@ -182,7 +183,7 @@ const CarList = ({ selectedModell }) => {
         return (
           <div className="showReturnFalse">
             <div className={`showReturn${carsid}`}>
-            <button className={focusedButton === carsid ? "clickred" : "ribbel" } onClick={() => {ShowCars(carsSuperiorClass, carsid)}}>
+            <button className={focusedButton === carsid ? "clickred" : "notclickred" } onClick={() => {ShowCars(carsSuperiorClass, carsid)}}>
               <img src={carspic} className="carsPic" />
               <div className="backgroundcolor1">
                 <p className="carClass">{carsClass}</p>
