@@ -1,0 +1,551 @@
+[
+    {
+        "code": "1",
+        "name": "Entry Pakete",
+        "equipmentList": [
+            {
+                "equipmentCode": "00U",
+                "name": "Remote Services",
+                "description": ""
+            },
+            {
+                "equipmentCode": "B51",
+                "name": "TIREFIT",
+                "description": "Dichten Sie kleinere Reifenschäden durch eingefahrene Scherben oder Nägel ab. Ein Luftkompressor bläst Dichtmittel in den defekten Reifen. Dank dieser schnellen Übergangslösung können Sie mit bis zu 80 km/h zur nächsten Werkstatt weiterfahren."
+            },
+            {
+                "equipmentCode": "873",
+                "name": "Sitzheizung für Fahrer und Beifahrer",
+                "description": "Die Sitzheizung bringt die Sitzflächen und -lehnen bei kühlerem Wetter oder nach Ihrem persönlichen Wunsch schnell auf angenehme Temperatur. Die Intensität wählen Sie in 3 Stufen aus. Nach einiger Zeit schaltet sich die Sitzheizung automatisch zurück."
+            },
+            {
+                "equipmentCode": "70B",
+                "name": "Warnweste für Fahrer",
+                "description": ""
+            },
+            {
+                "equipmentCode": "677",
+                "name": "Komfortfahrwerk mit Tieferlegung",
+                "description": "Die spezielle Abstimmung der Federn und Dämpfer unterstützt sportliches Fahren – ohne, dass Sie auf den gewohnten Komfort verzichten müssen. Durch die Tieferlegung um 15 Millimeter liegt Ihr Fahrzeug gleichzeitig auch optisch satter auf der Straße."
+            },
+            {
+                "equipmentCode": "PBG",
+                "name": "MBUX Navigation Premium",
+                "description": "Mit der MBUX Navigation Premium erreichen Sie Ihr Ziel schnell und bestens informiert. Dabei können Sie sich u. a. auf aktuelle Kartendaten inklusive Satellitenansicht, präzise Echtzeit-Verkehrsinformationen und eine schnelle Online-Routenführung verlassen. Intelligent vernetzte Funktionen machen Ihre Fahrt nicht zuletzt auch sicherer."
+            },
+            {
+                "equipmentCode": "632",
+                "name": "LED High Performance-Scheinwerfer",
+                "description": "Die LED High Performance-Scheinwerfer leuchten die Fahrbahn mit breitem Lichtkegel und angenehm warmweißem  Licht wesentlich präziser und großzügiger aus als herkömmliche Halogen- oder Bi-Xenon-Scheinwerfer. Das bedeutet für Sie: bessere Sicht und damit mehr Sicherheit."
+            },
+            {
+                "equipmentCode": "P49",
+                "name": "Spiegel-Paket",
+                "description": "Die Außenspiegel können Sie elektrisch anklappen und machen so Ihr Fahrzeug auf Tastendruck schlanker. So werden kleine Parkplätze auf einmal groß genug. Zudem kann der Innenspiegel störendes Scheinwerferlicht von hinten registrieren und automatisch abblenden."
+            },
+            {
+                "equipmentCode": "P44",
+                "name": "Park-Paket mit Rückfahrkamera",
+                "description": "Der Aktive Park-Assistent unterstützt Sie sowohl bei der Parkplatzsuche als auch beim Rückwärtseinparken, sobald eine passende Lücke erkannt ist. Sie haben die Wahl: dank Rückfahrkamera souverän selbst manövrieren – oder einfach einparken lassen."
+            },
+            {
+                "equipmentCode": "608",
+                "name": "Adaptiver Fernlicht-Assistent",
+                "description": "Der adaptive Fernlicht-Assistent schaltet automatisch das Fernlicht zu, wenn er keine beleuchteten Fahrzeuge voraus oder im Gegenverkehr registriert. Durch die hohe Leuchtweite können Sie die Fahrbahn und Gefahren besser erkennen. Drücken Sie den Lenkradbedienhebel auf die Fernlichtstellung, um die Funktion zu aktivieren."
+            },
+            {
+                "equipmentCode": "U22",
+                "name": "4-Wege-Lordosenstütze",
+                "description": "Die 4-Wege-Lordosenstütze passt die Sitzkontur an Ihre Lendenwirbelsäule an und gibt ihr Halt. 4 Einstellungen sind möglich: höher, tiefer, schwächer oder stärker. Ihre Sitzhaltung wird ergonomischer und ihre Rückenmuskulatur entspannter."
+            }
+        ],
+        "packages": [
+            {
+                "packageCode": "PSA",
+                "name": "Entry",
+                "price": 0.0,
+                "equipments": [
+                    "00U",
+                    "B51",
+                    "873",
+                    "70B",
+                    "677",
+                    "PBG"
+                ]
+            },
+            {
+                "packageCode": "PSD",
+                "name": "Entry Advanced",
+                "price": 1915.0,
+                "equipments": [
+                    "00U",
+                    "632",
+                    "P49",
+                    "B51",
+                    "P44",
+                    "873",
+                    "608",
+                    "70B",
+                    "677",
+                    "U22",
+                    "PBG"
+                ]
+            }
+        ]
+    },
+    {
+        "code": "2",
+        "name": "Progressive Line Pakete",
+        "equipmentList": [
+            {
+                "equipmentCode": "00U",
+                "name": "Remote Services",
+                "description": ""
+            },
+            {
+                "equipmentCode": "632",
+                "name": "LED High Performance-Scheinwerfer",
+                "description": "Die LED High Performance-Scheinwerfer leuchten die Fahrbahn mit breitem Lichtkegel und angenehm warmweißem  Licht wesentlich präziser und großzügiger aus als herkömmliche Halogen- oder Bi-Xenon-Scheinwerfer. Das bedeutet für Sie: bessere Sicht und damit mehr Sicherheit."
+            },
+            {
+                "equipmentCode": "P59",
+                "name": "Progressive",
+                "description": "Mit der Ausstattungslinie Progressive setzen Sie gezielt Highlights: Die sichtbaren Endrohrblenden unterstreichen den dynamischen Anspruch Ihres Fahrzeugs. Im Innenraum setzen Zierelemente in dunkler Carbonoptik stilsichere Akzente. Außerdem stehen Sitzbezüge in verschiedener Farbe und Materialität zur Wahl."
+            },
+            {
+                "equipmentCode": "B51",
+                "name": "TIREFIT",
+                "description": "Dichten Sie kleinere Reifenschäden durch eingefahrene Scherben oder Nägel ab. Ein Luftkompressor bläst Dichtmittel in den defekten Reifen. Dank dieser schnellen Übergangslösung können Sie mit bis zu 80 km/h zur nächsten Werkstatt weiterfahren."
+            },
+            {
+                "equipmentCode": "P49",
+                "name": "Spiegel-Paket",
+                "description": "Die Außenspiegel können Sie elektrisch anklappen und machen so Ihr Fahrzeug auf Tastendruck schlanker. So werden kleine Parkplätze auf einmal groß genug. Zudem kann der Innenspiegel störendes Scheinwerferlicht von hinten registrieren und automatisch abblenden."
+            },
+            {
+                "equipmentCode": "P44",
+                "name": "Park-Paket mit Rückfahrkamera",
+                "description": "Der Aktive Park-Assistent unterstützt Sie sowohl bei der Parkplatzsuche als auch beim Rückwärtseinparken, sobald eine passende Lücke erkannt ist. Sie haben die Wahl: dank Rückfahrkamera souverän selbst manövrieren – oder einfach einparken lassen."
+            },
+            {
+                "equipmentCode": "873",
+                "name": "Sitzheizung für Fahrer und Beifahrer",
+                "description": "Die Sitzheizung bringt die Sitzflächen und -lehnen bei kühlerem Wetter oder nach Ihrem persönlichen Wunsch schnell auf angenehme Temperatur. Die Intensität wählen Sie in 3 Stufen aus. Nach einiger Zeit schaltet sich die Sitzheizung automatisch zurück."
+            },
+            {
+                "equipmentCode": "608",
+                "name": "Adaptiver Fernlicht-Assistent",
+                "description": "Der adaptive Fernlicht-Assistent schaltet automatisch das Fernlicht zu, wenn er keine beleuchteten Fahrzeuge voraus oder im Gegenverkehr registriert. Durch die hohe Leuchtweite können Sie die Fahrbahn und Gefahren besser erkennen. Drücken Sie den Lenkradbedienhebel auf die Fernlichtstellung, um die Funktion zu aktivieren."
+            },
+            {
+                "equipmentCode": "70B",
+                "name": "Warnweste für Fahrer",
+                "description": ""
+            },
+            {
+                "equipmentCode": "677",
+                "name": "Komfortfahrwerk mit Tieferlegung",
+                "description": "Die spezielle Abstimmung der Federn und Dämpfer unterstützt sportliches Fahren – ohne, dass Sie auf den gewohnten Komfort verzichten müssen. Durch die Tieferlegung um 15 Millimeter liegt Ihr Fahrzeug gleichzeitig auch optisch satter auf der Straße."
+            },
+            {
+                "equipmentCode": "U22",
+                "name": "4-Wege-Lordosenstütze",
+                "description": "Die 4-Wege-Lordosenstütze passt die Sitzkontur an Ihre Lendenwirbelsäule an und gibt ihr Halt. 4 Einstellungen sind möglich: höher, tiefer, schwächer oder stärker. Ihre Sitzhaltung wird ergonomischer und ihre Rückenmuskulatur entspannter."
+            },
+            {
+                "equipmentCode": "PBG",
+                "name": "MBUX Navigation Premium",
+                "description": "Mit der MBUX Navigation Premium erreichen Sie Ihr Ziel schnell und bestens informiert. Dabei können Sie sich u. a. auf aktuelle Kartendaten inklusive Satellitenansicht, präzise Echtzeit-Verkehrsinformationen und eine schnelle Online-Routenführung verlassen. Intelligent vernetzte Funktionen machen Ihre Fahrt nicht zuletzt auch sicherer."
+            },
+            {
+                "equipmentCode": "458",
+                "name": "Volldigitales Instrumenten-Display",
+                "description": "Erweitern Sie Ihr Cockpit um ein digitales Instrumenten-Display im 10,25\"-Format. Hier entscheiden Sie selbst, welche Informationen Ihnen besonders wichtig sind, denn die Anzeigeinhalte lassen sich mit verschiedenen Kontexten individuell konfigurieren. Außerdem wählen Sie aus 3 attraktiven Anzeigestilen."
+            },
+            {
+                "equipmentCode": "877",
+                "name": "Ambientebeleuchtung",
+                "description": "Die Ambientebeleuchtung hält mit insgesamt 64 Farben eine passende Lichtinszenierung für Sie bereit – ganz nach Ihrer persönlichen Vorliebe. 10 faszinierende Farbwelten setzen beispielsweise die Lüftungsdüsen, Türen oder die Instrumententafel emotional in Szene."
+            },
+            {
+                "equipmentCode": "400",
+                "name": "Armlehne im Fond",
+                "description": "Mit der Armlehne im Fond genießen Ihre Fondpassagiere eine besonders entspannte Sitzposition. Den Reisekomfort steigern auch die 2 integrierten Cupholder für Getränke."
+            },
+            {
+                "equipmentCode": "321",
+                "name": "Fingerabdruck Scanner",
+                "description": "Mit dem Fingerabdruck Scanner schalten Sie den Zugang zu Ihren persönlichen Daten frei. Dazu gehören Profile oder auch Büro- und Zahlungsfunktionen. Wenn Sie die farbig beleuchtete Taste berühren, identifizieren Sie sich schnell und komfortabel. Das ist sicher und zudem ablenkungsfreier als eine PIN-Eingabe."
+            },
+            {
+                "equipmentCode": "P17",
+                "name": "KEYLESS-GO Komfort-Paket",
+                "description": "Entriegeln oder verriegeln Sie Ihr Fahrzeug, indem Sie einfach den Türgriff berühren. HANDS-FREE ACCESS öffnet außerdem den Kofferraumdeckel mit einer Kickbewegung unter den Stoßfänger. Das ist besonders hilfreich, wenn Sie schwer bepackt vom Einkaufen kommen."
+            },
+            {
+                "equipmentCode": "897",
+                "name": "Kabelloses Ladesystem für mobile Endgeräte vorn",
+                "description": "Ihr Smartphone ist mit nur einer Handbewegung an seinem festen Platz in der Spontanablage und wird dort kabellos geladen. Unabhängig von Modell und Marke laden sich Qi-kompatible mobile Endgeräte kabellos auf."
+            },
+            {
+                "equipmentCode": "U45",
+                "name": "Einstiegsleisten mit \"Mercedes-Benz\" Schriftzug, beleuchtet und mit Wechselcover",
+                "description": "Die hochwertigen Einstiegsleisten aus Edelstahl sind mit einem „Mercedes-Benz“ Schriftzug beleuchtet. Dank der auswechselbaren Abdeckung können Sie die Einstiegsleisten gegen weitere attraktive Original-Teile von Mercedes-Benz oder Mercedes-AMG tauschen."
+            },
+            {
+                "equipmentCode": "234",
+                "name": "Totwinkel-Assistent",
+                "description": "Der Totwinkel-Assistent kann Sie optisch und akustisch vor Seitenkollisionen mit anderen Verkehrsteilnehmern warnen – insbesondere, wenn Sie den Blinker zum Spurwechsel betätigen. Nach der Fahrt unterstützt Sie die Ausstiegswarnfunktion beim Türöffnen. Ein wichtiger Schutz, vor allem für Fahrradfahrer."
+            },
+            {
+                "equipmentCode": "581",
+                "name": "Klimatisierungsautomatik THERMOTRONIC",
+                "description": "Die THERMOTRONIC regelt die individuelle Temperatur in 2 Zonen. So können Sie und Ihr Beifahrer getrennt voneinander das Wunschklima einstellen. Sie müssen dabei nie nachregulieren, denn die feinfühligen Sensoren registrieren auch veränderte Bedingungen wie die Sonneneinstrahlung."
+            },
+            {
+                "equipmentCode": "853",
+                "name": "Advanced Soundsystem",
+                "description": "Mit 10 Lautsprechern und 225 Watt Systemleistung steigern Sie Ihren Fahrspaß auch akustisch. Das exakt auf den Innenraum abgestimmte Lautsprechersystem bietet Ihnen eine dynamische Musikwiedergabe."
+            }
+        ],
+        "packages": [
+            {
+                "packageCode": "PSE",
+                "name": "Progressive Line Advanced",
+                "price": 2840.0,
+                "equipments": [
+                    "00U",
+                    "632",
+                    "P59",
+                    "B51",
+                    "P49",
+                    "P44",
+                    "873",
+                    "608",
+                    "70B",
+                    "677",
+                    "U22",
+                    "PBG"
+                ]
+            },
+            {
+                "packageCode": "PSI",
+                "name": "Progressive Line Advanced Plus",
+                "price": 4195.0,
+                "equipments": [
+                    "458",
+                    "P59",
+                    "877",
+                    "70B",
+                    "677",
+                    "PBG",
+                    "00U",
+                    "632",
+                    "400",
+                    "P49",
+                    "B51",
+                    "P44",
+                    "873",
+                    "608",
+                    "321",
+                    "P17",
+                    "U22",
+                    "897"
+                ]
+            },
+            {
+                "packageCode": "PSM",
+                "name": "Progressive Line Premium",
+                "price": 5420.0,
+                "equipments": [
+                    "U45",
+                    "458",
+                    "P59",
+                    "70B",
+                    "877",
+                    "677",
+                    "234",
+                    "PBG",
+                    "581",
+                    "00U",
+                    "632",
+                    "P49",
+                    "400",
+                    "B51",
+                    "P44",
+                    "873",
+                    "608",
+                    "321",
+                    "P17",
+                    "U22",
+                    "853",
+                    "897"
+                ]
+            }
+        ]
+    },
+    {
+        "code": "3",
+        "name": "AMG Line Pakete",
+        "equipmentList": [
+            {
+                "equipmentCode": "00U",
+                "name": "Remote Services",
+                "description": ""
+            },
+            {
+                "equipmentCode": "632",
+                "name": "LED High Performance-Scheinwerfer",
+                "description": "Die LED High Performance-Scheinwerfer leuchten die Fahrbahn mit breitem Lichtkegel und angenehm warmweißem  Licht wesentlich präziser und großzügiger aus als herkömmliche Halogen- oder Bi-Xenon-Scheinwerfer. Das bedeutet für Sie: bessere Sicht und damit mehr Sicherheit."
+            },
+            {
+                "equipmentCode": "950",
+                "name": "AMG Line",
+                "description": "Das eigenständige AMG Styling rückt Ihr Fahrzeug optisch in die Nähe der Modelle von Mercedes-AMG. Weitere Elemente im Interieur wie die Sportsitze und das Multifunktions-Sportlenkrad in Leder Nappa verstärken den expressiven Gesamteindruck. Der sportliche Motorsound bietet jede Menge zusätzlichen Fahrspaß."
+            },
+            {
+                "equipmentCode": "P49",
+                "name": "Spiegel-Paket",
+                "description": "Die Außenspiegel können Sie elektrisch anklappen und machen so Ihr Fahrzeug auf Tastendruck schlanker. So werden kleine Parkplätze auf einmal groß genug. Zudem kann der Innenspiegel störendes Scheinwerferlicht von hinten registrieren und automatisch abblenden."
+            },
+            {
+                "equipmentCode": "B51",
+                "name": "TIREFIT",
+                "description": "Dichten Sie kleinere Reifenschäden durch eingefahrene Scherben oder Nägel ab. Ein Luftkompressor bläst Dichtmittel in den defekten Reifen. Dank dieser schnellen Übergangslösung können Sie mit bis zu 80 km/h zur nächsten Werkstatt weiterfahren."
+            },
+            {
+                "equipmentCode": "P44",
+                "name": "Park-Paket mit Rückfahrkamera",
+                "description": "Der Aktive Park-Assistent unterstützt Sie sowohl bei der Parkplatzsuche als auch beim Rückwärtseinparken, sobald eine passende Lücke erkannt ist. Sie haben die Wahl: dank Rückfahrkamera souverän selbst manövrieren – oder einfach einparken lassen."
+            },
+            {
+                "equipmentCode": "873",
+                "name": "Sitzheizung für Fahrer und Beifahrer",
+                "description": "Die Sitzheizung bringt die Sitzflächen und -lehnen bei kühlerem Wetter oder nach Ihrem persönlichen Wunsch schnell auf angenehme Temperatur. Die Intensität wählen Sie in 3 Stufen aus. Nach einiger Zeit schaltet sich die Sitzheizung automatisch zurück."
+            },
+            {
+                "equipmentCode": "70B",
+                "name": "Warnweste für Fahrer",
+                "description": ""
+            },
+            {
+                "equipmentCode": "677",
+                "name": "Komfortfahrwerk mit Tieferlegung",
+                "description": "Die spezielle Abstimmung der Federn und Dämpfer unterstützt sportliches Fahren – ohne, dass Sie auf den gewohnten Komfort verzichten müssen. Durch die Tieferlegung um 15 Millimeter liegt Ihr Fahrzeug gleichzeitig auch optisch satter auf der Straße."
+            },
+            {
+                "equipmentCode": "608",
+                "name": "Adaptiver Fernlicht-Assistent",
+                "description": "Der adaptive Fernlicht-Assistent schaltet automatisch das Fernlicht zu, wenn er keine beleuchteten Fahrzeuge voraus oder im Gegenverkehr registriert. Durch die hohe Leuchtweite können Sie die Fahrbahn und Gefahren besser erkennen. Drücken Sie den Lenkradbedienhebel auf die Fernlichtstellung, um die Funktion zu aktivieren."
+            },
+            {
+                "equipmentCode": "U22",
+                "name": "4-Wege-Lordosenstütze",
+                "description": "Die 4-Wege-Lordosenstütze passt die Sitzkontur an Ihre Lendenwirbelsäule an und gibt ihr Halt. 4 Einstellungen sind möglich: höher, tiefer, schwächer oder stärker. Ihre Sitzhaltung wird ergonomischer und ihre Rückenmuskulatur entspannter."
+            },
+            {
+                "equipmentCode": "PBG",
+                "name": "MBUX Navigation Premium",
+                "description": "Mit der MBUX Navigation Premium erreichen Sie Ihr Ziel schnell und bestens informiert. Dabei können Sie sich u. a. auf aktuelle Kartendaten inklusive Satellitenansicht, präzise Echtzeit-Verkehrsinformationen und eine schnelle Online-Routenführung verlassen. Intelligent vernetzte Funktionen machen Ihre Fahrt nicht zuletzt auch sicherer."
+            },
+            {
+                "equipmentCode": "458",
+                "name": "Volldigitales Instrumenten-Display",
+                "description": "Erweitern Sie Ihr Cockpit um ein digitales Instrumenten-Display im 10,25\"-Format. Hier entscheiden Sie selbst, welche Informationen Ihnen besonders wichtig sind, denn die Anzeigeinhalte lassen sich mit verschiedenen Kontexten individuell konfigurieren. Außerdem wählen Sie aus 3 attraktiven Anzeigestilen."
+            },
+            {
+                "equipmentCode": "877",
+                "name": "Ambientebeleuchtung",
+                "description": "Die Ambientebeleuchtung hält mit insgesamt 64 Farben eine passende Lichtinszenierung für Sie bereit – ganz nach Ihrer persönlichen Vorliebe. 10 faszinierende Farbwelten setzen beispielsweise die Lüftungsdüsen, Türen oder die Instrumententafel emotional in Szene."
+            },
+            {
+                "equipmentCode": "400",
+                "name": "Armlehne im Fond",
+                "description": "Mit der Armlehne im Fond genießen Ihre Fondpassagiere eine besonders entspannte Sitzposition. Den Reisekomfort steigern auch die 2 integrierten Cupholder für Getränke."
+            },
+            {
+                "equipmentCode": "321",
+                "name": "Fingerabdruck Scanner",
+                "description": "Mit dem Fingerabdruck Scanner schalten Sie den Zugang zu Ihren persönlichen Daten frei. Dazu gehören Profile oder auch Büro- und Zahlungsfunktionen. Wenn Sie die farbig beleuchtete Taste berühren, identifizieren Sie sich schnell und komfortabel. Das ist sicher und zudem ablenkungsfreier als eine PIN-Eingabe."
+            },
+            {
+                "equipmentCode": "P17",
+                "name": "KEYLESS-GO Komfort-Paket",
+                "description": "Entriegeln oder verriegeln Sie Ihr Fahrzeug, indem Sie einfach den Türgriff berühren. HANDS-FREE ACCESS öffnet außerdem den Kofferraumdeckel mit einer Kickbewegung unter den Stoßfänger. Das ist besonders hilfreich, wenn Sie schwer bepackt vom Einkaufen kommen."
+            },
+            {
+                "equipmentCode": "897",
+                "name": "Kabelloses Ladesystem für mobile Endgeräte vorn",
+                "description": "Ihr Smartphone ist mit nur einer Handbewegung an seinem festen Platz in der Spontanablage und wird dort kabellos geladen. Unabhängig von Modell und Marke laden sich Qi-kompatible mobile Endgeräte kabellos auf."
+            },
+            {
+                "equipmentCode": "U45",
+                "name": "Einstiegsleisten mit \"Mercedes-Benz\" Schriftzug, beleuchtet und mit Wechselcover",
+                "description": "Die hochwertigen Einstiegsleisten aus Edelstahl sind mit einem „Mercedes-Benz“ Schriftzug beleuchtet. Dank der auswechselbaren Abdeckung können Sie die Einstiegsleisten gegen weitere attraktive Original-Teile von Mercedes-Benz oder Mercedes-AMG tauschen."
+            },
+            {
+                "equipmentCode": "234",
+                "name": "Totwinkel-Assistent",
+                "description": "Der Totwinkel-Assistent kann Sie optisch und akustisch vor Seitenkollisionen mit anderen Verkehrsteilnehmern warnen – insbesondere, wenn Sie den Blinker zum Spurwechsel betätigen. Nach der Fahrt unterstützt Sie die Ausstiegswarnfunktion beim Türöffnen. Ein wichtiger Schutz, vor allem für Fahrradfahrer."
+            },
+            {
+                "equipmentCode": "581",
+                "name": "Klimatisierungsautomatik THERMOTRONIC",
+                "description": "Die THERMOTRONIC regelt die individuelle Temperatur in 2 Zonen. So können Sie und Ihr Beifahrer getrennt voneinander das Wunschklima einstellen. Sie müssen dabei nie nachregulieren, denn die feinfühligen Sensoren registrieren auch veränderte Bedingungen wie die Sonneneinstrahlung."
+            },
+            {
+                "equipmentCode": "853",
+                "name": "Advanced Soundsystem",
+                "description": "Mit 10 Lautsprechern und 225 Watt Systemleistung steigern Sie Ihren Fahrspaß auch akustisch. Das exakt auf den Innenraum abgestimmte Lautsprechersystem bietet Ihnen eine dynamische Musikwiedergabe."
+            },
+            {
+                "equipmentCode": "586",
+                "name": "Umfeldbeleuchtung mit Projektion des Markenlogos",
+                "description": "Die Umfeldbeleuchtung projiziert bei geöffneten Türen das Markenlogo auf den Boden im vorderen Einstiegsbereich. So steigen Sie noch komfortabler ein und aus. Die Inszenierung des Markenlogos ist zudem ein echter Hingucker."
+            },
+            {
+                "equipmentCode": "275",
+                "name": "Fahrersitz elektrisch einstellbar mit Memory-Funktion",
+                "description": "Mit der Memory-Funktion können Sie bis zu 3 verschiedene Sitzpositionen speichern und komfortabel auswählen. Dabei können Sie den Sitz ganz einfach elektrisch und stufenlos nachjustieren. Die ENERGIZING-Sitzkinetik ist eine Wohltat für die Rückenmuskulatur, die weniger schnell ermüdet."
+            },
+            {
+                "equipmentCode": "77B",
+                "name": "MBUX Interieur-Assistent",
+                "description": "Der MBUX Interieur-Assistent unterstützt die Bedienung, indem er auf Körpersprache reagiert. Er erfasst und interpretiert Ihre Hand- und Armbewegungen. Ausgewählte Funktionen, bspw. die Aktivierung des Such- oder Leselichts, können Sie somit sprichwörtlich im Handumdrehen aktivieren. Das System kann zwischen Fahrer und Beifahrer unterscheiden."
+            },
+            {
+                "equipmentCode": "463",
+                "name": "Head-up-Display",
+                "description": "Das Head-up-Display verwandelt Ihre Frontscheibe in ein digitales Cockpit. Mit dem virtuellen vollfarbigen Bild haben Sie wichtige Informationen immer direkt im Blick. Ihre volle Aufmerksamkeit gehört der Straße und dem Verkehrsgeschehen vor Ihnen."
+            },
+            {
+                "equipmentCode": "628",
+                "name": "Adaptiver Fernlicht-Assistent Plus",
+                "description": "Mit dem adaptiven Fernlicht-Assistent Plus fahren Sie mit Dauerfernlicht, ohne andere zu blenden. Gegenverkehr oder vorausfahrende Fahrzeuge spart das intelligente System über hochpräzise LEDs aus. So müssen Sie nicht ständig zum Abblendlicht wechseln und können durch die hohe Leuchtweite die Fahrbahn sowie Gefahren besser erkennen."
+            },
+            {
+                "equipmentCode": "642",
+                "name": "MULTIBEAM LED",
+                "description": "Die adaptiven MULTIBEAM LED Scheinwerfer leuchten dank intelligenter Lichtfunktionen die Fahrbahn für Sie situationsgerecht aus. Die Scheinwerfer reagieren mithilfe der einzeln steuerbaren LEDs auf die aktuelle Verkehrssituation. Sie genießen so eine hervorragende Sicht."
+            },
+            {
+                "equipmentCode": "P47",
+                "name": "Park-Paket mit 360°-Kamera",
+                "description": "Der Aktive Park-Assistent mit 360°-Kamera erleichtert Ihnen sowohl die Parkplatzsuche als auch das Ein- und Ausparken. Sie haben die Wahl: dank Rundumsicht souverän selbst parken – oder einfach parken lassen."
+            },
+            {
+                "equipmentCode": "413",
+                "name": "Panorama-Schiebedach",
+                "description": "Mit dem großzügigen Panorama-Schiebedach erleben Sie ein faszinierendes Freiheitsgefühl und ein angenehm helles Ambiente im Innenraum. Von außen betrachtet wirkt Ihr Fahrzeug besonders exklusiv."
+            }
+        ],
+        "packages": [
+            {
+                "packageCode": "PSF",
+                "name": "AMG Line Advanced",
+                "price": 4535.0,
+                "equipments": [
+                    "00U",
+                    "632",
+                    "950",
+                    "P49",
+                    "B51",
+                    "P44",
+                    "873",
+                    "70B",
+                    "677",
+                    "608",
+                    "U22",
+                    "PBG"
+                ]
+            },
+            {
+                "packageCode": "PSJ",
+                "name": "AMG Line Advanced Plus",
+                "price": 5890.0,
+                "equipments": [
+                    "458",
+                    "877",
+                    "70B",
+                    "677",
+                    "PBG",
+                    "00U",
+                    "632",
+                    "950",
+                    "B51",
+                    "400",
+                    "P49",
+                    "P44",
+                    "873",
+                    "608",
+                    "321",
+                    "P17",
+                    "U22",
+                    "897"
+                ]
+            },
+            {
+                "packageCode": "PSN",
+                "name": "AMG Line Premium",
+                "price": 7115.0,
+                "equipments": [
+                    "U45",
+                    "458",
+                    "70B",
+                    "877",
+                    "677",
+                    "234",
+                    "PBG",
+                    "581",
+                    "00U",
+                    "632",
+                    "950",
+                    "B51",
+                    "P49",
+                    "400",
+                    "P44",
+                    "873",
+                    "608",
+                    "321",
+                    "P17",
+                    "U22",
+                    "853",
+                    "897"
+                ]
+            },
+            {
+                "packageCode": "PSQ",
+                "name": "AMG Line Premium Plus",
+                "price": 10305.0,
+                "equipments": [
+                    "586",
+                    "458",
+                    "677",
+                    "70B",
+                    "581",
+                    "00U",
+                    "275",
+                    "77B",
+                    "463",
+                    "950",
+                    "400",
+                    "628",
+                    "642",
+                    "P17",
+                    "853",
+                    "897",
+                    "P47",
+                    "U45",
+                    "877",
+                    "234",
+                    "413",
+                    "PBG",
+                    "P49",
+                    "B51",
+                    "873",
+                    "U22"
+                ]
+            }
+        ]
+    }
+]

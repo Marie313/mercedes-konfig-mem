@@ -16,6 +16,7 @@ const Toolbar = () => {
         setCheckbox1Checked(false);
         setCheckbox2Checked(true);
     }
+
     const handleModellChange = (event) => {
         setSelectedModell(event.target.value);
     }
@@ -23,9 +24,9 @@ const Toolbar = () => {
     const generateOptions = () => {
         const options = [];
         const currentDate = new Date();
-        const startDate = new Date(currentDate.getFullYear(), currentDate.getMonth() + 2, 1);
+        const startDate = new Date(currentDate.getFullYear(), currentDate.getMonth() + 2);
         for (let i = 0; i < 24; i++) {
-            const date = new Date(startDate.getFullYear(), startDate.getMonth() + i, 1);
+            const date = new Date(startDate.getFullYear(), startDate.getMonth() + i);
             const formattedDate = `${date.getMonth() + 1}/${date.getFullYear()}`;
             options.push(
                 <option key={formattedDate} value={formattedDate}>{formattedDate}</option>
@@ -44,8 +45,8 @@ const Toolbar = () => {
             </select > 
             <h2 className="h2">Wählen Sie Ihren gewünschten Liefretermin</h2>
             <div className="selct">
-                <select >
-                        {generateOptions()}
+                <select>
+                    {generateOptions()}
                 </select>
             </div>
             <h2 className="h2">Wonach sollen die Fahrzeuge sortiert werden?</h2>

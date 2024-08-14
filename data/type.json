@@ -10,7 +10,7 @@
     {
         "id":2,
         "class": "Tourer",
-        "mietmodell": false,
+        "mietmodell": true,
         "kaufmodell": true,
         "pic": "/images/karosserie_tourer.jpg",
         "moreCars": true

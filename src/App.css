@@ -24,6 +24,8 @@ h1{
 h2{
   margin-top: 0px;
   cursor: default;
+  font-size: 16px;
+  font-weight: 700;
 }
 p{
   cursor: default;
@@ -84,6 +86,7 @@ p{
 }
 .showReturnFalse{
   opacity: 0.5;
+  position: relative;
 }
 .h2{
   font-size: 18px;
@@ -100,7 +103,6 @@ select{
   border-color: #5f5f5f;
   margin-bottom: 50px;
   cursor: pointer;
-
   appearance: none;
   background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23131313%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
   background-repeat: no-repeat;
@@ -138,6 +140,7 @@ input{
 }
 .returnALLtype{
   overflow: hidden; /* Verhindert das Scrollen */
+  width: 800px;
   height: 100%;
   margin-left: 70px;
   margin-right: 72px;
@@ -153,13 +156,6 @@ input{
 .linkSpecificCar{
   text-decoration: none;
   color: black;
-}
-.specific-preview{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  font-size: 30px;
 }
 .moreButton{
   display: flex;
@@ -207,18 +203,603 @@ input{
 .margin-8{
   margin-right: 50px;
 }
-.infoShowReturnFalse{
+.info{
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  text-align: center;
+  justify-self: center;
+  justify-content: center;
+  border-radius: 20px;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  margin: 2px;
+}
+.specific-preview{
+  align-items: center;
+  width: 1215px;
+}
+.specific-item {
+  display: flex;
+  flex-direction: column;
+}
+.specificsPic {
+  width: 1215px;
+  height: 450px;
+  object-fit: cover;
+}
+.specificsPicIn{
+  width: 1215px;
+  height: 450px;
+  object-fit: cover;
+  object-position: 0% 70%;
+}
+.navButtonContainer {
+  display: flex;
+  width: 1217px;
+  margin-top: 3px;
+  align-self: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navButton {
+  width: 170px;
+  height: 40px;
+  margin-right: 2px;
+  background-color: #cecece;
+  cursor: pointer;
+  transition: 0.05s;
+}
+.navButton:hover {
+  background-color: #f4f4f4;
+}
+.navButton:active{
+  background-color: black;
   color: white;
 }
-.infobox{
+.navButtonActive{
+  width: 170px;
+  height: 40px;
+  margin-right: 2px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.headlineSpecific {
+  margin-top: 80px;
+  margin-left: 30px;
+}
+.specificBody{
+  margin-left: 30px;
+}
+.selctm{
+  width: 650px;
+}
+.mbuttons button{
+  width: 900px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #292929;
+}
+.mbuttons button:hover{
+  background-color: #e8e8e88e;
+}
+.mbuttons button:hover .moreButtonm {
+  background-color: white;
+}
+.mbuttonsclicked button{
+  width: 900px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e8e8e88e;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #292929;
+}
+.mbuttonsclicked button .moreButtonm {
+  background-color: white;
+}
+.moreButtonm{
+  background-color: #e8e8e88e;
+  color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 2000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+hr{
+  margin: 0px;
+  width: 900px;
+}
+.motorisierung{
+  margin-bottom: 50px;
+}
+.overall{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding-bottom: 20px;
+  float: right;
+  margin-top: 70px;
+  position: sticky;
+  top: 48px;
+  margin-right: 20px;
+}
+.smselect{
+  width: 230px;
+  margin-bottom: 30px;
+}
+.price{
+  margin-bottom: 2px;
+  background-color: rgb(228, 228, 228);
+  width: 250px ;
+  padding-left: 20px;
+}
+.price p{
+  font-size: 13px;
+}
+.driveGet{
+  background-color: rgb(228, 228, 228);
+  width: 250px;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.driveGet p{
+  font-size: 12px;
+}
+.buttonssp{
+  background-color: rgb(195, 195, 195);
+  width: 250px;
+  height: 120px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.spweiter{
+  width: 230px;
+  height: 60px;
+  margin-top: 30px;
+  color: white;
+  background-color: #00adef;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 15px;
+  font-stretch: extra-expanded;
+  transition: 0.5s;
+}
+.spweiter:hover{
+  background-color: #018ac1;
+}
+.spnewkonfig{
+  background-color: rgba(195, 195, 195, 0);
+  margin-top: 10px;
+  transition: 0.5s;
+}
+.spnewkonfig:hover{
+  border-bottom: 2px solid #00adef;
+}
+.mietrate{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+.listprice{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+.buttretmotor{
+  background-color: #e8e8e88e;
+  width: 860px;
+  padding: 20px;
+  margin-top: 1px;
+}
+.buttretlines{
+  background-color: #e8e8e88e;
+  width: 860px;
+  padding: 20px;
+  margin-top: 1px;
+}
+.buttretfarbe{
+  background-color: #e8e8e88e;
+  width: 860px;
+  padding: 20px;
+  margin-top: 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.buttretaus{
+  width: 900px;
+  padding: 0px;
+}
+.selctmp{
+  margin: 20px;
+  width: 650px;
+}
+.stepsheadline{
+  height: 80px;
+  width: 878px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: #292929;
+  border: 1.5px solid #e8e8e88e;
+  margin: 0.5px;
+}
+.summaryMotor{
+  height: 80px;
+  width: 878px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  color: #292929;
+  border: 1.5px solid #e8e8e88e;
+  background-color: #e8e8e88e;
+  margin: 0.5px;
+}
+.inline{
+  display: flex;
+  justify-content: space-between;
+}
+.motorCheck{
   height: 20px;
   width: 20px;
-  background-color: #353535;
-  border-radius: 10px;
-  position: relative;
-  left: 235px;
-  bottom: 120px;
+  margin-right: 10px;
+}
+.motorChecknotavai{
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  cursor: auto;
+}
+.pmotorstrong{
+  padding-left: 35px;
+  padding-right: 5px;
+  font-weight: 650;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.pmotorflex{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.blocks{
+  display: flex;
+}
+.blockone{
+  padding-right: 5px;
+  margin-top: 5px;
+}
+.blocktwo{
+  margin-top: 5px;
+}
+.motorname{
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.motornamena{
+  opacity: 0.5;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.left {
+  display: flex;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.rightna{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  opacity: 0.5;
+}
+.detailsbutton{
+  background-color: rgba(195, 195, 195, 0);
+  transition: 0.3s;
+  height: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+  border-bottom: 2px solid #cecece;
+  margin-left: 5px;
+}
+.detailsbutton:hover{
+  border-bottom: 2px solid #00adef;
+}
+.pencil{
+  color:#00adef;
+  margin-right: 20px;
+  height: 30px;
+  width: 30px;
+  border: 1.5px solid #cfcfcf8e;
+  background-color: #e8e8e800;
+}
+.picpl{
+  margin-top: 4px;
+  height: 130px;
+}
+.picplna{
+  margin-top: 4px;
+  height: 130px;
+  opacity: 0.5;
+}
+.flexc{
+  display: flex;
+  margin-left: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.detailstext{
+  font-size: 15px;
+  margin: 5px;
+}
+.details{
+  display: flex;
   align-items: center;
+  margin-left: 10px;
+}
+.point{
+  height: 10px;
+  width: auto;
+  color: #878787;
+}
+.frpic{
+  height: 90px;
+  width: 270px;
+  object-fit: cover;
+}
+.frbox{
+  height: 290px;
+  background-color: #d8d8d88e;
+  width: 270px;
+  margin: 8px;
+}
+.frboxnotavai{
+  height: 290px;
+  background-color: #d8d8d88e;
+  width: 270px;
+  margin: 8px;
+}
+.frpicna{
+  opacity: 0.65;
+  height: 90px;
+  width: 270px;
+  object-fit: cover;
+}
+.notavaicodefr{
+  opacity: 0.65;
+}
+.frinline{
+  display: flex;
+  justify-content: space-between;
+}
+.farbenCheck{
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.frcodename{
+  margin-top: -6px;
+  width: 170px;
+  font-size: 14px; 
+  line-height: 1.7;
+}
+.frprice{
+  font-size: 18px;
+  font-weight: 700;
+}
+.auselement{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1px;
+  background-color: #e8e8e88e;
+  width: 860px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+.auselementnotavai{
+  margin-bottom: 1px;
+  background-color: #e8e8e88e;
+  width: 860px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+.auselementnotavai .notavaitextaus{
+  opacity: 1;
+}
+.auselementnotavaijusty{
+  opacity: 0.5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ausstattungcheck{
+  height: 20px;
+  width: 20px;
+  margin-top: 19px;
+}
+.ausstattungchecknotavai{
+  height: 20px;
+  width: 20px;
+  margin-top: 19px;
+  cursor: auto;
+}
+.austext{
+  font-size: 17px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+.leftaus{
+  display: flex;
+}
+.priceaus{
+  font-size: 17px;
+  font-weight: 700;
+}
+.searchdiv{
+  margin-bottom: 20px;
+  width: 790px;
+  background-color: #e8e8e88e;
+  padding: 25px;
+  height: 150px;
+}
+.searchbar{
+  width: 690px;
+  height: 50px;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.emaildiv{
+  margin-top: 30px;
+  width: 790px;
+  background-color: #e8e8e88e;
+  padding: 25px;
+}
+.emailinput{
+  width: 500px;
+  height: 50px;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.emailbutton{
+  height: 55px;
+  width: 150px;
+  margin-left: 20px;
+  color: white;
+  background-color: #00adef;
+  font-weight: 600;
+  font-size: 15px;
+  font-stretch: extra-expanded;
+  transition: 0.5s;
+  border-radius: 2px;
+}
+.emailbutton:hover{
+  background-color: #018ac1;
+}
+.linkpricelist{
+  color: #00adef;
+  margin: 0px;
+}
+.ppricelist{
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.mietumfangimg{
+  height: 25px;
+  width: auto;
+  margin-top: 25px;
+  margin-right: 5px;
+}
+.mietumfang{
+  display: flex;
+  align-items: baseline;
+}
+.mietumfangp{
+  font-size: 12px;
+  font-weight: 600;
+}
+.mietumfangimgint{
+  height: 25px;
+  width: auto;
+  margin-top: 5px;
+}
+.rightfr{
+  display: flex;
+  margin-top: 10px;
+  justify-content: end;
+  margin-right: 10px;
+}
+.notavailable{
+  cursor: auto;
+}
+.notavaitext{
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  height: 30px;
+  margin-left: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.notavaitextfr{
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  height: 30px;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.notavaitextaus{
+  display: flex;
   justify-content: center;
-  margin-bottom: 0;
+  align-items: center;
+  border: 1px solid black;
+  height: 30px;
+  width: 150px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 30px;
+}
+.notavaicodefr{
+  margin-left: 10px;
+}
+.elementssummary{
+  margin-bottom: 40px;
+}
+.summary{
+  margin-bottom: 40px;
+}
+.divleistungsdaten{
+  background-color: #e8e8e88e;
+  width: 850px;
+  margin-top: 1px;
+  padding: 20px;
+  padding-left: 30px;
+}
+.leistungsdaten{
+  width: 50%;
+  background-color: #ffffff;
+}
+.daten{
+  display: flex;
+  justify-content: space-between;
+  background-color: #e8e8e88e;
+  margin-bottom: 1px;
+  font-size: 14px;
 }
