@@ -11,6 +11,30 @@ import withReactContent from 'sweetalert2-react-content';
 import { useHistory } from 'react-router-dom';
 import { GrConsole } from "react-icons/gr";
 
+// 1.
+// Consider grouping related state variables into objects to reduce redundancy and improve readability.
+// This will also make state management more efficient.
+// For example you can group variables like motorName, motorSteps into a motor object.
+// Similarly, lederPaket, lederPaketName, zusatzPaket etc. can be combined into a package object.
+// The most logical approach is probably to have one large configuration object (could be split into steps)
+// that handles and stores state changes
+//
+// 2.
+// variable names in english
+//
+// 3.
+// The use of different ports for each endpoint is unnecessary and leads to poor maintainability.
+// The API should be consolidated to use a single port with distinct routes for different resources,
+// this will simplify the codebase and make future changes much easier to manage.
+// The current approach of handling motorSteps results in repetitive and redundant code.
+// --> see https://x.com/ctrlshifti/status/1288745146759000064
+// more code != more capability. very often: more code = more headache
+//
+//
+
+
+
+
 const SpecificCar = () => {
   const MySwal = withReactContent(Swal);
   const history = useHistory();
@@ -85,7 +109,7 @@ const SpecificCar = () => {
     setAusstattung(false);
     setMMercedes(false);
   }
-  
+
   const handleFarben = () => {
     setBau(false);
     setMotor(false);
@@ -469,7 +493,7 @@ const SpecificCar = () => {
     const mietrate = (rentrate * zinssatz - 52.31) + farbe + raeder + polsterprice + zierelemente + line + paketline + winterPaketplus + lederPaket + zusatzPaket;
     return (mietrate.toFixed(2));
   }
-  
+
   const tryid = (stepsid, stepstitle) => {
     if(stepsid == 2){
       return (<button className={motor ? "navButtonActive" : "navButton"} onClick={handleMotor}>{stepstitle}</button>);
