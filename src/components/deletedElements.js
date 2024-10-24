@@ -42,25 +42,136 @@
 
     /*
     npm run start
-    npx json-server --watch data/A_180_Limousine.json --port 8012
-    npx json-server --watch data/A_200_Limousine.json --port 8011
-    npx json-server --watch data/A_220_4MATIC_Limousine.json --port 8010
-    npx json-server --watch data/A_250_4MATIC_Limousine.json --port 8009
-    npx json-server --watch data/Mercedes-AMG_A_35_4MATIC_Limousine.json --port 8008
-    npx json-server --watch data/A_180_d_Limousine.json --port 8007
-    npx json-server --watch data/A_200_d_Limousine.json --port 8006
-    npx json-server --watch data/A_220_d_Limousine.json --port 8005
-    npx json-server --watch data/A_250_e_Limousine.json --port 8004
-    npx json-server --watch data/steps250e.json --port 8003
-    npx json-server --watch data/type.json --port 8002
-    npx json-server --watch data/cars.json --port 8001
-    npx json-server --watch data/stepsAMG.json --port 8013
-    npx json-server --watch data/steps2504MATIC.json --port 8014
-    npx json-server --watch data/steps2204MATIC.json --port 8015
-    npx json-server --watch data/steps250e.json --port 8016
-    npx json-server --watch data/steps220d.json --port 8017
-    npx json-server --watch data/steps200d.json --port 8018
-    npx json-server --watch data/steps200.json --port 8019
-    npx json-server --watch data/steps180.json --port 8020
-    npx json-server --watch data/steps180d.json --port 8021
+    node src/expressApp.js
     */
+
+    /* 
+    App.js
+        Toolbar.js
+            CarList3.js
+            TypeList.js
+                SpecificCar.js
+                    SpPic.js
+                    SpNav.js
+                        SpMenu.js
+                        SpMotorisierung.js
+                            MotorisierungInfos.js
+                        SpLinesPakete.js
+                            Mietumfang.js
+                        SpFarbenRaeder.js
+                            Mietumfang.js
+                        SpPolsterZierelemente.js
+                            Mietumfang.js
+                        SpAusstattung.js
+                            ElementSearch.js
+                            Mietumfang.js
+                        SpMeinMercedes.js
+                            SummarySerie.js
+                            SummarySonder.js
+                            SummaryKonditionen.js
+                            SummaryLeistungsdaten.js
+                            SummaryReifenlabel.js
+                            SummaryVerbrauchsdaten.js
+                            ElementSearch.js
+                            EmailSummary.js
+                            Mietumfang.js
+    */
+
+    /*
+    {
+        "A_180_Limousine": [],
+        "A_200_Limousine": [],
+        "A_220_4MATIC_Limousine": [],
+        "A_250_4MATIC_Limousine": [],
+        "Mercedes-AMG_A_35_4MATIC_Limousine": [],
+        "A_180_d_Limousine": [],
+        "A_200_d_Limousine": [],
+        "A_220_d_Limousine": [],
+        "A_250_e_Limousine": [],
+        "step250e": [],
+        "type": [],
+        "cars": [],
+        "stepsAMG": [],
+        "steps2504MATIC": [],
+        "steps2204MATIC": [],
+        "steps250e": [],
+        "steps220d": [],
+        "steps200d": [],
+        "steps200": [],
+        "steps180": [],
+        "steps180d": []
+    }
+    */
+
+    /*
+        {
+            "/A_180_Limousine": "/A_180_Limousine",
+            "/A_200_Limousine": "/A_200_Limousine",
+            "/A_220_4MATIC_Limousine": "/A_220_4MATIC_Limousine",
+            "/A_250_4MATIC_Limousine": "/A_250_4MATIC_Limousine",
+            "/Mercedes-AMG_A_35_4MATIC_Limousine": "/Mercedes-AMG_A_35_4MATIC_Limousine",
+            "/A_180_d_Limousine": "/A_180_d_Limousine",
+            "/A_200_d_Limousine": "/A_200_d_Limousine",
+            "/A_220_d_Limousine": "/A_220_d_Limousine",
+            "/A_250_e_Limousine": "/A_250_e_Limousine",
+            "/step250e": "/steps250e",
+            "/type": "/type",
+            "/cars": "/cars",
+            "/stepsAMG": "/stepsAMG",
+            "/steps2504MATIC": "/steps2504MATIC",
+            "/steps2204MATIC": "/steps2204MATIC",
+            "/steps250e": "/steps250e",
+            "/steps220d": "/steps220d",
+            "/steps200d": "/steps200d",
+            "/steps200": "/steps200",
+            "/steps180": "/steps180",
+            "/steps180d": "/steps180d"
+        }
+    */
+
+collectzusatzpaket(selectedZusatzPaket.includes(lpcode) ? -lpprice : lpprice);
+        collectnamezusatzpaket(!selectedZusatzPaket.includes(lpcode) && `${lpcode} ${lpname}`);
+
+
+        <div>
+                    <div className="stepsheadline">
+                        <b>{stepstitle}</b>
+                    </div>
+                    {linename && <div className="summaryMotor">
+                        <h2>{linename}</h2>
+                        <div>
+                            <button className="pencil" onClick={() => showLine()}><FaPencilAlt /></button>
+                            <button className="garbage" onClick={() => showLine()}><BsFillTrashFill /></button>
+                        </div>
+                    </div>}
+                    {paketlinename && <div className="summaryMotor">
+                        <h2>{paketlinename}</h2>
+                        <div>
+                            <button className="pencil" onClick={() => showLine()}><FaPencilAlt /></button>
+                            <button className="garbage" onClick={() => showLine()}><BsFillTrashFill /></button>
+                        </div>
+                    </div>}
+                    {winterPaketplusname && <div className="summaryMotor">
+                        <h2>{winterPaketplusname}</h2>
+                        <div>
+                            <button className="pencil" onClick={() => showLine()}><FaPencilAlt /></button>
+                            <button className="garbage" onClick={() => showLine()}><BsFillTrashFill /></button>
+                        </div>
+                    </div>}
+                    {lederPaketname && <div className="summaryMotor">
+                        <h2>{lederPaketname}</h2>
+                        <div>
+                            <button className="pencil" onClick={() => showLine()}><FaPencilAlt /></button>
+                            <button className="garbage" onClick={() => showLine()}><BsFillTrashFill /></button>
+                        </div>
+                    </div>}
+                    {zusatzPaketname && zusatzPaketname.map((zpname)=>(
+                        <div className="summaryMotor">
+                            <h2>{zpname}</h2>
+                            <div>
+                                <button className="pencil" onClick={() => showLine()}><FaPencilAlt /></button>
+                                <button className="garbage" onClick={() => showLine()}><BsFillTrashFill /></button>
+                            </div>
+                        </div>
+                    ))}
+                </div>

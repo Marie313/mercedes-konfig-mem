@@ -4,8 +4,17 @@ h1{
   transform: scaleY(1.5);
   font-size: 32px;
   color: #404040;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   margin-top: 50px;
+}
+h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  transform: scaleY(1.2);
+  font-size: 25px;
+  color: #404040;
+  margin-bottom: -5px;
+  margin-top: 0px;
 }
 .notclickred{
   background-color: rgb(237, 237, 237);
@@ -230,6 +239,7 @@ input{
   width: 1215px;
   height: 450px;
   object-fit: cover;
+  object-position: 0% 70%;
 }
 .specificsPicIn{
   width: 1215px;
@@ -243,9 +253,22 @@ input{
   margin-top: 3px;
   align-self: center;
   justify-content: space-between;
+  background-color: white;
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 10;
+}
+.overall{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  text-align: left;
+  padding-bottom: 20px;
+  margin-top: 110px;
+  position: sticky;
+  top: 43px;
+  margin-left: 15px;
+  align-self: flex-start;
 }
 .navButton {
   width: 170px;
@@ -255,10 +278,17 @@ input{
   cursor: pointer;
   transition: 0.05s;
 }
-.navButton:hover {
+.navButtonBau {
+  width: 170px;
+  height: 40px;
+  background-color: #cecece;
+  cursor: pointer;
+  transition: 0.05s;
+}
+.navButton:hover, .navButtonBau:hover{
   background-color: #f4f4f4;
 }
-.navButton:active{
+.navButton:active, .navButtonBau:active{
   background-color: black;
   color: white;
 }
@@ -333,19 +363,6 @@ hr{
 }
 .motorisierung{
   margin-bottom: 50px;
-}
-.overall{
-  width: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-  padding-bottom: 20px;
-  float: right;
-  margin-top: 70px;
-  position: sticky;
-  top: 48px;
-  margin-right: 20px;
 }
 .smselect{
   width: 230px;
@@ -459,6 +476,28 @@ hr{
   background-color: #e8e8e88e;
   margin: 0.5px;
 }
+.summaryLines{
+  width: 878px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-bottom: 25px;
+  color: #292929;
+  border: 1.5px solid #e8e8e88e;
+  background-color: #e8e8e88e;
+  margin: 0.5px;
+  margin-bottom: 1.5px;
+}
+.h2Summary{
+  margin-top: 20px;
+}
+.summaryRight{
+  margin-top: 5px;
+}
+.buttonssmry{
+  display: flex;
+  justify-content: right;
+}
 .inline{
   display: flex;
   justify-content: space-between;
@@ -534,11 +573,63 @@ hr{
 }
 .pencil{
   color:#00adef;
-  margin-right: 20px;
+  margin-right: 15px;
+  padding: 0px;
+  padding-top: 2px;
   height: 30px;
   width: 30px;
   border: 1.5px solid #cfcfcf8e;
   background-color: #e8e8e800;
+}
+.pencilIcon{
+  width: 24px;
+  height: 24px;
+}
+.garbage{
+  color:#00adef;
+  margin-right: 15px;
+  padding: 0px;
+  padding-top: 2px;
+  height: 30px;
+  width: 30px;
+  border: 1.5px solid #cfcfcf8e;
+  background-color: #e8e8e800;
+}
+.garbageIcon{
+  width: 24px;
+  height: 24px;
+}
+.infoIcon{
+  height: 21px;
+  width: auto;
+  vertical-align: bottom;
+}
+.infoIconButton{
+  background-color: #cecece00;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.infoIconButtonAus{
+  background-color: #cecece00;
+  margin-left: 5px;
+  padding-left: 0px;
+}
+.infoIconButtonMotor{
+  height: 21px;
+  width: auto;
+  vertical-align: bottom;
+  background-color: #cecece00;
+  margin-left: 5px;
+  padding-left: 0px;
+}
+.infoIconButtonFarben{
+  height: 21px;
+  width: auto;
+  vertical-align: bottom;
+  background-color: #cecece00;
+  margin-left: 5px;
+  margin-top: 3px;
+  padding-left: 0px;
 }
 .picpl{
   margin-top: 4px;
@@ -667,7 +758,8 @@ hr{
   font-size: 17px;
   font-weight: 700;
 }
-.searchdiv{
+.searchdiv{ 
+  position: relative;
   margin-bottom: 20px;
   width: 790px;
   background-color: #e8e8e88e;
@@ -679,6 +771,24 @@ hr{
   height: 50px;
   padding-left: 20px;
   font-size: 14px;
+}
+.ergebnisinput{
+  position: absolute; 
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  width: 715px;
+  height: 55px;
+  top: 114px; 
+  background-color: rgb(182, 182, 182); 
+  border: 1px solid #000000; 
+  z-index: 11; 
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.ergebnisinput:hover{
+  background-color: #00adef;
+  color: white;
 }
 .emaildiv{
   margin-top: 30px;
@@ -802,4 +912,203 @@ hr{
   background-color: #e8e8e88e;
   margin-bottom: 1px;
   font-size: 14px;
+}
+.loaderdiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(195, 195, 195);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.menuandnav{
+  display: flex;
+}
+.spbodyheadline{
+  width: 930px;
+}
+.sonderauspreis{
+  margin-right: 20px;
+}
+.konditionenInline{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.konditionenInc{
+  font-size: 14px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.konditionensmall{
+  font-size: 11px;
+  font-stretch: expanded;
+}
+.Incp{
+  margin: 3px;
+  margin-left: 5px;
+  color:#404040;
+}
+.pointkond{
+  height: 10px;
+  width: auto;
+  color: #878787;
+  margin-left: 5px;
+}
+.fahrleistung{
+  font-size: 15px;
+  font-weight: 500;
+  color: #3b3b3b;
+}
+.hrkon{
+  width: 830px;
+  color: white;
+  border: 1px white solid;
+}
+.detailBox{
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  height: max-content;
+  width: 780px;
+  background-color: white;
+  padding: 20px;
+  position: fixed; 
+  z-index: 11; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+.detailBoxSearch{
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  height: max-content;
+  width: 780px;
+  background-color: white;
+  padding: 40px;
+  padding-top: 20px;
+  position: fixed; 
+  z-index: 11; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+.linesside{
+  display: flex;
+  justify-content: center;
+}
+.thumbnail{
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+.thumbnailmulti{
+  margin-top: -40px;
+  width: 100%;
+  height: auto;
+}
+.thumbnailColor{
+  margin-top: 20px;
+}
+.canceldetailbtn{
+  display: flex;
+  justify-content: right;
+}
+.cancelicon{
+  width: 25px;
+  margin-bottom: 0px;
+}
+.displaydeatils{
+  background-color: #0000007e;
+  width: 100vw;
+  height: 100vh;
+  position: fixed; 
+  z-index: 12; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.imgSearch{
+  margin-top: 20px;
+  width: 350px;
+}
+.thumbSearch{
+  margin-top: 20px;
+}
+.SearchDetailBtn{
+  width: 150px;
+  height: 50px;
+  border: 1px rgb(188, 188, 188) solid;
+  color: #303030;
+  margin-right: 20px;
+  margin-top: 10px;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: 0.5s;
+}
+.SearchDetailBtn:hover{
+  background-color: #eeeeee;
+}
+.goBackBtn{
+  width: 145px;
+  height: 55px;
+  border: 1px rgb(176, 176, 176) solid;
+  color: #494949;
+  margin-right: 20px;
+  margin-top: 10px;
+  border-radius: 0.5px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: 0.5s;
+}
+.goBackBtn:hover{
+  background-color: #dfdfdf;
+}
+.hinweis{
+  margin-top: -20px;
+}
+.swipel{
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 15px;
+  position: relative;
+  top: 205px;
+  left: 20px;
+}
+.swiper{
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 15px;
+  position: relative;
+  top: 205px;
+  left: 660px;
+}
+.swipel:hover{
+  background-color: #f1f1f1;
+}
+.swiper:hover{
+  background-color: #f1f1f1;
+}
+.swipeIcon{
+  height: 20px;
+}
+.flexSearch{
+  display: flex;
+}
+.flexLeft{
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+.detailSearchRate{
+  margin-top: 20px;
 }

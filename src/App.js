@@ -1,4 +1,4 @@
-import "./App.css";
+import "./css/App.css";
 import Toolbar from "./components/Toolbar";
 import SpecificCar from "./components/SpecificCar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -14,7 +14,7 @@ function App() {
             <h1>{title}</h1>
             <Toolbar />
           </Route>
-          <Route path="/specificCar/:classe">
+          <Route path="/configurator/:CarClass">
             <SpecificCar />
           </Route>
         </Switch>

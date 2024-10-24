@@ -11,10 +11,10 @@ const TypeList = ({ selectedModell }) => {
   const [focusedButton, setFocusedButton] = useState(null);
 
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchData = async (fileName) => {
       const typeData = [];
       for (let i = 0; i < 8; i++) {
-        const response = await fetch(`http://localhost:8002/${i}`);
+        const response = await fetch(`http://localhost:3057/${fileName}/${i}`);
         const data = await response.json();
         typeData.push(data);
       }
@@ -22,7 +22,7 @@ const TypeList = ({ selectedModell }) => {
       setType(typeData);
     };
 
-    fetchData();
+    fetchData('type');
   }, []);
 
   const showReturn = (
@@ -50,7 +50,7 @@ const TypeList = ({ selectedModell }) => {
             </div>
           );
         return (
-          <Link className="linkSpecificCar" to={`/specificCar/${typesclass}`}>
+          <Link className="linkSpecificCar" to={{pathname: `/configurator/${typesclass}`, state: { selectedModell }}}>
             <div className="showReturn">
               <img src={typespic} className="carsPic" />
               <div className="backgroundcolor">
@@ -86,7 +86,7 @@ const TypeList = ({ selectedModell }) => {
             </div>
           );
         return (
-          <Link className="linkSpecificCar" to={`/specificCar/${typesclass}`}>
+          <Link className="linkSpecificCar" to={{pathname: `/configurator/${typesclass}`, state: { selectedModell }}}>
             <div className="showReturn">
               <img src={typespic} className="carsPic" />
               <div className="backgroundcolor">
@@ -139,7 +139,7 @@ const TypeList = ({ selectedModell }) => {
     if (!showMoreCars) {
       const carMoreData = [];
       for (let i = 0; i < 41; i++) {
-        const response = await fetch(`http://localhost:8001/${i}`);
+        const response = await fetch(`http://localhost:3057/cars/${i}`);
         const data = await response.json();
         if (data.karosserie === typeskarosserie) {
           carMoreData.push(data);

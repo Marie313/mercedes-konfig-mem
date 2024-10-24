@@ -60,9 +60,7 @@
                                 "P55",
                                 "P79",
                                 "P82",
-                                "PAD",
                                 "PAV",
-                                "PGA",
                                 "PGC",
                                 "PGG",
                                 "PSD",
@@ -119,7 +117,6 @@
                             "id": "Räder",
                             "equipments": [
                                 "25R",
-                                "43R",
                                 "R31",
                                 "R62",
                                 "RQS",
@@ -242,7 +239,6 @@
                             "id": "Exterieur_2",
                             "headline": "Exterieur Sonstiges",
                             "equipments": [
-                                "260",
                                 "413",
                                 "550"
                             ]
@@ -251,6 +247,22 @@
                 },
                 {
                     "id": "11",
+                    "title": "Laden",
+                    "equipmentGroups": [
+                        {
+                            "id": "Laden_1",
+                            "equipments": [
+                                "637",
+                                "82B",
+                                "83B",
+                                "9B3",
+                                "B80"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "12",
                     "title": "Fahrhilfen",
                     "equipmentGroups": [
                         {
@@ -315,14 +327,13 @@
                     ]
                 },
                 {
-                    "id": "12",
+                    "id": "13",
                     "title": "Interieur",
                     "equipmentGroups": [
                         {
                             "id": "Interieur_1",
                             "headline": "Interieur Komfort",
                             "equipments": [
-                                "228",
                                 "51U",
                                 "942"
                             ]
@@ -340,7 +351,7 @@
                     ]
                 },
                 {
-                    "id": "13",
+                    "id": "14",
                     "title": "Räder und Fahrwerk",
                     "equipmentGroups": [
                         {
@@ -349,25 +360,16 @@
                             "equipments": [
                                 "2R8",
                                 "4R9",
-                                "5R9",
                                 "651",
                                 "652",
                                 "R1A",
                                 "R66"
                             ]
-                        },
-                        {
-                            "id": "Räder und Fahrwerk_2",
-                            "headline": "Fahrwerk",
-                            "equipments": [
-                                "459",
-                                "485"
-                            ]
                         }
                     ]
                 },
                 {
-                    "id": "14",
+                    "id": "15",
                     "title": "Radio und Kommunikation",
                     "equipmentGroups": [
                         {
@@ -400,8 +402,8 @@
     "step": 2,
     "brandName": "Mercedes-Benz",
     "series": "A",
-    "model": "A_180_Limousine",
-    "modelName": "A 180 Limousine",
+    "model": "A_250_e_Limousine_mit_EQ_Hybrid_Technologie",
+    "modelName": "A 250 e Limousine mit EQ Hybrid Technologie",
     "orderType": 1,
     "contractType": {
         "id": 1,
@@ -720,7 +722,7 @@
                 "weight": "1.554 kg",
                 "co2Class": "D"
             },
-            "consumptionLabel": "{\n  \"baseData\":[\n    {\n      \"label\":\"Marke\",\n      \"value\":\"Mercedes-Benz\"\n    },\n    {\n      \"label\":\"Handelsbezeichnung\",\n      \"value\":\"A 180 d Limousine\"\n    },\n    {\n      \"label\":\"Antriebsart\",\n      \"value\":\"Verbrennungsmotor\"\n    },\n    {\n      \"label\":\"Kraftstoff\",\n      \"value\":\"Diesel\"\n    },\n    {\n      \"label\":\"andere Energieträger\",\n      \"value\":\"entfällt\"\n    },\n    {\n      \"label\":\"Leistung\",\n      \"value\":\"85+0 kW (116+0 PS)\"\n    },\n    {\n      \"label\":\"Masse\",\n      \"value\":\"1.554 kg\"\n    }\n  ],\n  \"energyConsumption\":[\n    {\n      \"label\":\"Energieverbrauch (kombiniert)\",\n      \"value\":\"5,0 l/100km\"\n    },\n    {\n      \"label\":\"CO2-Emissionen (kombiniert)\",\n      \"value\":\"131,0 g/km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    }\n  ],\n  \"co2LabelContainer\":{\n    \"label\":\"CO2-Klasse\",\n    \"subLabel\":\"Auf Grundlage der CO2-Emissionen (kombiniert)\",\n    \"energyEfficiencyClass\":\"D\"\n  },\n  \"furtherConsumptionData\":[\n    {\n      \"label\":\"Kraftstoffverbrauch kombiniert\",\n      \"value\":\"5,0 l/100km\",\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"6,9 l/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"5,4 l/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"4,2 l/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"4,7 l/100km\"\n        }\n      ]\n    }\n  ],\n  \"costs\":[\n    {\n      \"label\":\"Energiekosten bei 15.000 km Jahresfahrleistung\",\n      \"value\":\"1.293,00 EUR\",\n      \"subvalues\":[\n        {\n          \"label\":\"bei Kraftstoffpreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"1,72 EUR/l\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Mögliche CO2-Kosten über die nächsten 10 Jahre (15.000 km/Jahr)\",\n      \"value\":null,\n      \"footnotes\":[\n        \"2\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"bei einem angenommenen mittleren durchschnittlichen CO2-Preis von 115 EUR/t\",\n          \"value\":\"2.260,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen niedrigen durchschnittlichen CO2-Preis von 55 EUR/t\",\n          \"value\":\"1.081,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen hohen durchschnittlichen CO2-Preis von 190 EUR/t\",\n          \"value\":\"3.733,00 EUR\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftfahrzeugsteuer\",\n      \"value\":\"265,00 EUR/Jahr\"\n    }\n  ],\n  \"footnotes\":{\n    \" \":\"Die Informationen erfolgen gemäß der Pkw-Energieverbrauchskennzeichnungsverordnung. Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren WLTP (Worldwide harmonised Light-duty vehicles Test Procedures) ermittelt. Der Kraftstoffverbrauch und der CO2-Ausstoß eines Pkw sind nicht nur von der effizienten Ausnutzung des Kraftstoffs durch den Pkw, sondern auch vom Fahrstil und anderen nichttechnischen Faktoren abhängig. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Ein Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen aller in Deutschland angebotenen neuen Pkw-Modelle ist unentgeltlich in elektronischer Form einsehbar an jedem Verkaufsort in Deutschland, an dem neue Pkw ausgestellt oder angeboten werden. Der Leitfaden ist auch hier abrufbar: www.dat.de/co2/\",\n    \"1\":\"Es werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\",\n    \"2\":\"Aufgrund der CO2-Bepreisung sind künftig Erhöhungen der Kraftstoffkosten möglich. Die künftige CO2-Preisentwicklung ist unsicher, daher werden die möglichen CO2-Kosten anhand von drei angenommenen CO2-Preisen für den Zeitraum 2025 bis 2034 berechnet. Die tatsächlichen CO2-Preise können sowohl höher als auch niedriger als in den hier zugrundeliegenden Modellrechnungen ausfallen. Die CO2-Kosten sind beim Tanken mit den Kraftstoffkosten zu bezahlen. Weitere Informationen unter www.alternativ-mobil.info\"\n  },\n  \"footer\": {\n    \"\": \"\",\n    \"erstellt am:\": \"05.08.2024\"\n  }\n}\n",
+            "consumptionLabel": "{\n  \"baseData\":[\n    {\n      \"label\":\"Marke\",\n      \"value\":\"Mercedes-Benz\"\n    },\n    {\n      \"label\":\"Handelsbezeichnung\",\n      \"value\":\"A 180 d Limousine\"\n    },\n    {\n      \"label\":\"Antriebsart\",\n      \"value\":\"Verbrennungsmotor\"\n    },\n    {\n      \"label\":\"Kraftstoff\",\n      \"value\":\"Diesel\"\n    },\n    {\n      \"label\":\"andere Energieträger\",\n      \"value\":\"entfällt\"\n    },\n    {\n      \"label\":\"Leistung\",\n      \"value\":\"85+0 kW (116+0 PS)\"\n    },\n    {\n      \"label\":\"Masse\",\n      \"value\":\"1.554 kg\"\n    }\n  ],\n  \"energyConsumption\":[\n    {\n      \"label\":\"Energieverbrauch (kombiniert)\",\n      \"value\":\"5,0 l/100km\"\n    },\n    {\n      \"label\":\"CO2-Emissionen (kombiniert)\",\n      \"value\":\"131,0 g/km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    }\n  ],\n  \"co2LabelContainer\":{\n    \"label\":\"CO2-Klasse\",\n    \"subLabel\":\"Auf Grundlage der CO2-Emissionen (kombiniert)\",\n    \"energyEfficiencyClass\":\"D\"\n  },\n  \"furtherConsumptionData\":[\n    {\n      \"label\":\"Kraftstoffverbrauch kombiniert\",\n      \"value\":\"5,0 l/100km\",\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"6,9 l/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"5,4 l/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"4,2 l/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"4,7 l/100km\"\n        }\n      ]\n    }\n  ],\n  \"costs\":[\n    {\n      \"label\":\"Energiekosten bei 15.000 km Jahresfahrleistung\",\n      \"value\":\"1.293,00 EUR\",\n      \"subvalues\":[\n        {\n          \"label\":\"bei Kraftstoffpreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"1,72 EUR/l\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Mögliche CO2-Kosten über die nächsten 10 Jahre (15.000 km/Jahr)\",\n      \"value\":null,\n      \"footnotes\":[\n        \"2\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"bei einem angenommenen mittleren durchschnittlichen CO2-Preis von 115 EUR/t\",\n          \"value\":\"2.260,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen niedrigen durchschnittlichen CO2-Preis von 55 EUR/t\",\n          \"value\":\"1.081,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen hohen durchschnittlichen CO2-Preis von 190 EUR/t\",\n          \"value\":\"3.733,00 EUR\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftfahrzeugsteuer\",\n      \"value\":\"265,00 EUR/Jahr\"\n    }\n  ],\n  \"footnotes\":{\n    \" \":\"Die Informationen erfolgen gemäß der Pkw-Energieverbrauchskennzeichnungsverordnung. Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren WLTP (Worldwide harmonised Light-duty vehicles Test Procedures) ermittelt. Der Kraftstoffverbrauch und der CO2-Ausstoß eines Pkw sind nicht nur von der effizienten Ausnutzung des Kraftstoffs durch den Pkw, sondern auch vom Fahrstil und anderen nichttechnischen Faktoren abhängig. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Ein Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen aller in Deutschland angebotenen neuen Pkw-Modelle ist unentgeltlich in elektronischer Form einsehbar an jedem Verkaufsort in Deutschland, an dem neue Pkw ausgestellt oder angeboten werden. Der Leitfaden ist auch hier abrufbar: www.dat.de/co2/\",\n    \"1\":\"Es werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\",\n    \"2\":\"Aufgrund der CO2-Bepreisung sind künftig Erhöhungen der Kraftstoffkosten möglich. Die künftige CO2-Preisentwicklung ist unsicher, daher werden die möglichen CO2-Kosten anhand von drei angenommenen CO2-Preisen für den Zeitraum 2025 bis 2034 berechnet. Die tatsächlichen CO2-Preise können sowohl höher als auch niedriger als in den hier zugrundeliegenden Modellrechnungen ausfallen. Die CO2-Kosten sind beim Tanken mit den Kraftstoffkosten zu bezahlen. Weitere Informationen unter www.alternativ-mobil.info\"\n  },\n  \"footer\": {\n    \"\": \"\",\n    \"erstellt am:\": \"06.08.2024\"\n  }\n}\n",
             "deliveryDate": "202411"
         },
         {
@@ -752,7 +754,7 @@
                 "weight": "1.556 kg",
                 "co2Class": "D"
             },
-            "consumptionLabel": "{\n  \"baseData\":[\n    {\n      \"label\":\"Marke\",\n      \"value\":\"Mercedes-Benz\"\n    },\n    {\n      \"label\":\"Handelsbezeichnung\",\n      \"value\":\"A 200 d Limousine\"\n    },\n    {\n      \"label\":\"Antriebsart\",\n      \"value\":\"Verbrennungsmotor\"\n    },\n    {\n      \"label\":\"Kraftstoff\",\n      \"value\":\"Diesel\"\n    },\n    {\n      \"label\":\"andere Energieträger\",\n      \"value\":\"entfällt\"\n    },\n    {\n      \"label\":\"Leistung\",\n      \"value\":\"110+0 kW (150+0 PS)\"\n    },\n    {\n      \"label\":\"Masse\",\n      \"value\":\"1.556 kg\"\n    }\n  ],\n  \"energyConsumption\":[\n    {\n      \"label\":\"Energieverbrauch (kombiniert)\",\n      \"value\":\"4,9 l/100km\"\n    },\n    {\n      \"label\":\"CO2-Emissionen (kombiniert)\",\n      \"value\":\"128,0 g/km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    }\n  ],\n  \"co2LabelContainer\":{\n    \"label\":\"CO2-Klasse\",\n    \"subLabel\":\"Auf Grundlage der CO2-Emissionen (kombiniert)\",\n    \"energyEfficiencyClass\":\"D\"\n  },\n  \"furtherConsumptionData\":[\n    {\n      \"label\":\"Kraftstoffverbrauch kombiniert\",\n      \"value\":\"4,9 l/100km\",\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"6,7 l/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"5,3 l/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"4,1 l/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"4,6 l/100km\"\n        }\n      ]\n    }\n  ],\n  \"costs\":[\n    {\n      \"label\":\"Energiekosten bei 15.000 km Jahresfahrleistung\",\n      \"value\":\"1.267,14 EUR\",\n      \"subvalues\":[\n        {\n          \"label\":\"bei Kraftstoffpreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"1,72 EUR/l\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Mögliche CO2-Kosten über die nächsten 10 Jahre (15.000 km/Jahr)\",\n      \"value\":null,\n      \"footnotes\":[\n        \"2\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"bei einem angenommenen mittleren durchschnittlichen CO2-Preis von 115 EUR/t\",\n          \"value\":\"2.208,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen niedrigen durchschnittlichen CO2-Preis von 55 EUR/t\",\n          \"value\":\"1.056,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen hohen durchschnittlichen CO2-Preis von 190 EUR/t\",\n          \"value\":\"3.648,00 EUR\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftfahrzeugsteuer\",\n      \"value\":\"258,00 EUR/Jahr\"\n    }\n  ],\n  \"footnotes\":{\n    \" \":\"Die Informationen erfolgen gemäß der Pkw-Energieverbrauchskennzeichnungsverordnung. Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren WLTP (Worldwide harmonised Light-duty vehicles Test Procedures) ermittelt. Der Kraftstoffverbrauch und der CO2-Ausstoß eines Pkw sind nicht nur von der effizienten Ausnutzung des Kraftstoffs durch den Pkw, sondern auch vom Fahrstil und anderen nichttechnischen Faktoren abhängig. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Ein Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen aller in Deutschland angebotenen neuen Pkw-Modelle ist unentgeltlich in elektronischer Form einsehbar an jedem Verkaufsort in Deutschland, an dem neue Pkw ausgestellt oder angeboten werden. Der Leitfaden ist auch hier abrufbar: www.dat.de/co2/\",\n    \"1\":\"Es werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\",\n    \"2\":\"Aufgrund der CO2-Bepreisung sind künftig Erhöhungen der Kraftstoffkosten möglich. Die künftige CO2-Preisentwicklung ist unsicher, daher werden die möglichen CO2-Kosten anhand von drei angenommenen CO2-Preisen für den Zeitraum 2025 bis 2034 berechnet. Die tatsächlichen CO2-Preise können sowohl höher als auch niedriger als in den hier zugrundeliegenden Modellrechnungen ausfallen. Die CO2-Kosten sind beim Tanken mit den Kraftstoffkosten zu bezahlen. Weitere Informationen unter www.alternativ-mobil.info\"\n  },\n  \"footer\": {\n    \"\": \"\",\n    \"erstellt am:\": \"05.08.2024\"\n  }\n}\n",
+            "consumptionLabel": "{\n  \"baseData\":[\n    {\n      \"label\":\"Marke\",\n      \"value\":\"Mercedes-Benz\"\n    },\n    {\n      \"label\":\"Handelsbezeichnung\",\n      \"value\":\"A 200 d Limousine\"\n    },\n    {\n      \"label\":\"Antriebsart\",\n      \"value\":\"Verbrennungsmotor\"\n    },\n    {\n      \"label\":\"Kraftstoff\",\n      \"value\":\"Diesel\"\n    },\n    {\n      \"label\":\"andere Energieträger\",\n      \"value\":\"entfällt\"\n    },\n    {\n      \"label\":\"Leistung\",\n      \"value\":\"110+0 kW (150+0 PS)\"\n    },\n    {\n      \"label\":\"Masse\",\n      \"value\":\"1.556 kg\"\n    }\n  ],\n  \"energyConsumption\":[\n    {\n      \"label\":\"Energieverbrauch (kombiniert)\",\n      \"value\":\"4,9 l/100km\"\n    },\n    {\n      \"label\":\"CO2-Emissionen (kombiniert)\",\n      \"value\":\"128,0 g/km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    }\n  ],\n  \"co2LabelContainer\":{\n    \"label\":\"CO2-Klasse\",\n    \"subLabel\":\"Auf Grundlage der CO2-Emissionen (kombiniert)\",\n    \"energyEfficiencyClass\":\"D\"\n  },\n  \"furtherConsumptionData\":[\n    {\n      \"label\":\"Kraftstoffverbrauch kombiniert\",\n      \"value\":\"4,9 l/100km\",\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"6,7 l/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"5,3 l/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"4,1 l/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"4,6 l/100km\"\n        }\n      ]\n    }\n  ],\n  \"costs\":[\n    {\n      \"label\":\"Energiekosten bei 15.000 km Jahresfahrleistung\",\n      \"value\":\"1.267,14 EUR\",\n      \"subvalues\":[\n        {\n          \"label\":\"bei Kraftstoffpreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"1,72 EUR/l\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Mögliche CO2-Kosten über die nächsten 10 Jahre (15.000 km/Jahr)\",\n      \"value\":null,\n      \"footnotes\":[\n        \"2\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"bei einem angenommenen mittleren durchschnittlichen CO2-Preis von 115 EUR/t\",\n          \"value\":\"2.208,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen niedrigen durchschnittlichen CO2-Preis von 55 EUR/t\",\n          \"value\":\"1.056,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen hohen durchschnittlichen CO2-Preis von 190 EUR/t\",\n          \"value\":\"3.648,00 EUR\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftfahrzeugsteuer\",\n      \"value\":\"258,00 EUR/Jahr\"\n    }\n  ],\n  \"footnotes\":{\n    \" \":\"Die Informationen erfolgen gemäß der Pkw-Energieverbrauchskennzeichnungsverordnung. Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren WLTP (Worldwide harmonised Light-duty vehicles Test Procedures) ermittelt. Der Kraftstoffverbrauch und der CO2-Ausstoß eines Pkw sind nicht nur von der effizienten Ausnutzung des Kraftstoffs durch den Pkw, sondern auch vom Fahrstil und anderen nichttechnischen Faktoren abhängig. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Ein Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen aller in Deutschland angebotenen neuen Pkw-Modelle ist unentgeltlich in elektronischer Form einsehbar an jedem Verkaufsort in Deutschland, an dem neue Pkw ausgestellt oder angeboten werden. Der Leitfaden ist auch hier abrufbar: www.dat.de/co2/\",\n    \"1\":\"Es werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\",\n    \"2\":\"Aufgrund der CO2-Bepreisung sind künftig Erhöhungen der Kraftstoffkosten möglich. Die künftige CO2-Preisentwicklung ist unsicher, daher werden die möglichen CO2-Kosten anhand von drei angenommenen CO2-Preisen für den Zeitraum 2025 bis 2034 berechnet. Die tatsächlichen CO2-Preise können sowohl höher als auch niedriger als in den hier zugrundeliegenden Modellrechnungen ausfallen. Die CO2-Kosten sind beim Tanken mit den Kraftstoffkosten zu bezahlen. Weitere Informationen unter www.alternativ-mobil.info\"\n  },\n  \"footer\": {\n    \"\": \"\",\n    \"erstellt am:\": \"06.08.2024\"\n  }\n}\n",
             "deliveryDate": "202411"
         },
         {
@@ -784,7 +786,7 @@
                 "weight": "1.592 kg",
                 "co2Class": "D"
             },
-            "consumptionLabel": "{\n  \"baseData\":[\n    {\n      \"label\":\"Marke\",\n      \"value\":\"Mercedes-Benz\"\n    },\n    {\n      \"label\":\"Handelsbezeichnung\",\n      \"value\":\"A 220 d Limousine\"\n    },\n    {\n      \"label\":\"Antriebsart\",\n      \"value\":\"Verbrennungsmotor\"\n    },\n    {\n      \"label\":\"Kraftstoff\",\n      \"value\":\"Diesel\"\n    },\n    {\n      \"label\":\"andere Energieträger\",\n      \"value\":\"entfällt\"\n    },\n    {\n      \"label\":\"Leistung\",\n      \"value\":\"140 kW (190 PS)\"\n    },\n    {\n      \"label\":\"Masse\",\n      \"value\":\"1.592 kg\"\n    }\n  ],\n  \"energyConsumption\":[\n    {\n      \"label\":\"Energieverbrauch (kombiniert)\",\n      \"value\":\"5,1 l/100km\"\n    },\n    {\n      \"label\":\"CO2-Emissionen (kombiniert)\",\n      \"value\":\"134,0 g/km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    }\n  ],\n  \"co2LabelContainer\":{\n    \"label\":\"CO2-Klasse\",\n    \"subLabel\":\"Auf Grundlage der CO2-Emissionen (kombiniert)\",\n    \"energyEfficiencyClass\":\"D\"\n  },\n  \"furtherConsumptionData\":[\n    {\n      \"label\":\"Kraftstoffverbrauch kombiniert\",\n      \"value\":\"5,1 l/100km\",\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"6,9 l/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"5,4 l/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"4,3 l/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"4,9 l/100km\"\n        }\n      ]\n    }\n  ],\n  \"costs\":[\n    {\n      \"label\":\"Energiekosten bei 15.000 km Jahresfahrleistung\",\n      \"value\":\"1.318,86 EUR\",\n      \"subvalues\":[\n        {\n          \"label\":\"bei Kraftstoffpreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"1,72 EUR/l\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Mögliche CO2-Kosten über die nächsten 10 Jahre (15.000 km/Jahr)\",\n      \"value\":null,\n      \"footnotes\":[\n        \"2\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"bei einem angenommenen mittleren durchschnittlichen CO2-Preis von 115 EUR/t\",\n          \"value\":\"2.311,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen niedrigen durchschnittlichen CO2-Preis von 55 EUR/t\",\n          \"value\":\"1.105,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen hohen durchschnittlichen CO2-Preis von 190 EUR/t\",\n          \"value\":\"3.819,00 EUR\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftfahrzeugsteuer\",\n      \"value\":\"271,00 EUR/Jahr\"\n    }\n  ],\n  \"footnotes\":{\n    \" \":\"Die Informationen erfolgen gemäß der Pkw-Energieverbrauchskennzeichnungsverordnung. Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren WLTP (Worldwide harmonised Light-duty vehicles Test Procedures) ermittelt. Der Kraftstoffverbrauch und der CO2-Ausstoß eines Pkw sind nicht nur von der effizienten Ausnutzung des Kraftstoffs durch den Pkw, sondern auch vom Fahrstil und anderen nichttechnischen Faktoren abhängig. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Ein Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen aller in Deutschland angebotenen neuen Pkw-Modelle ist unentgeltlich in elektronischer Form einsehbar an jedem Verkaufsort in Deutschland, an dem neue Pkw ausgestellt oder angeboten werden. Der Leitfaden ist auch hier abrufbar: www.dat.de/co2/\",\n    \"1\":\"Es werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\",\n    \"2\":\"Aufgrund der CO2-Bepreisung sind künftig Erhöhungen der Kraftstoffkosten möglich. Die künftige CO2-Preisentwicklung ist unsicher, daher werden die möglichen CO2-Kosten anhand von drei angenommenen CO2-Preisen für den Zeitraum 2025 bis 2034 berechnet. Die tatsächlichen CO2-Preise können sowohl höher als auch niedriger als in den hier zugrundeliegenden Modellrechnungen ausfallen. Die CO2-Kosten sind beim Tanken mit den Kraftstoffkosten zu bezahlen. Weitere Informationen unter www.alternativ-mobil.info\"\n  },\n  \"footer\": {\n    \"\": \"\",\n    \"erstellt am:\": \"05.08.2024\"\n  }\n}\n",
+            "consumptionLabel": "{\n  \"baseData\":[\n    {\n      \"label\":\"Marke\",\n      \"value\":\"Mercedes-Benz\"\n    },\n    {\n      \"label\":\"Handelsbezeichnung\",\n      \"value\":\"A 220 d Limousine\"\n    },\n    {\n      \"label\":\"Antriebsart\",\n      \"value\":\"Verbrennungsmotor\"\n    },\n    {\n      \"label\":\"Kraftstoff\",\n      \"value\":\"Diesel\"\n    },\n    {\n      \"label\":\"andere Energieträger\",\n      \"value\":\"entfällt\"\n    },\n    {\n      \"label\":\"Leistung\",\n      \"value\":\"140 kW (190 PS)\"\n    },\n    {\n      \"label\":\"Masse\",\n      \"value\":\"1.592 kg\"\n    }\n  ],\n  \"energyConsumption\":[\n    {\n      \"label\":\"Energieverbrauch (kombiniert)\",\n      \"value\":\"5,1 l/100km\"\n    },\n    {\n      \"label\":\"CO2-Emissionen (kombiniert)\",\n      \"value\":\"134,0 g/km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    }\n  ],\n  \"co2LabelContainer\":{\n    \"label\":\"CO2-Klasse\",\n    \"subLabel\":\"Auf Grundlage der CO2-Emissionen (kombiniert)\",\n    \"energyEfficiencyClass\":\"D\"\n  },\n  \"furtherConsumptionData\":[\n    {\n      \"label\":\"Kraftstoffverbrauch kombiniert\",\n      \"value\":\"5,1 l/100km\",\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"6,9 l/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"5,4 l/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"4,3 l/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"4,9 l/100km\"\n        }\n      ]\n    }\n  ],\n  \"costs\":[\n    {\n      \"label\":\"Energiekosten bei 15.000 km Jahresfahrleistung\",\n      \"value\":\"1.318,86 EUR\",\n      \"subvalues\":[\n        {\n          \"label\":\"bei Kraftstoffpreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"1,72 EUR/l\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Mögliche CO2-Kosten über die nächsten 10 Jahre (15.000 km/Jahr)\",\n      \"value\":null,\n      \"footnotes\":[\n        \"2\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"bei einem angenommenen mittleren durchschnittlichen CO2-Preis von 115 EUR/t\",\n          \"value\":\"2.311,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen niedrigen durchschnittlichen CO2-Preis von 55 EUR/t\",\n          \"value\":\"1.105,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen hohen durchschnittlichen CO2-Preis von 190 EUR/t\",\n          \"value\":\"3.819,00 EUR\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftfahrzeugsteuer\",\n      \"value\":\"271,00 EUR/Jahr\"\n    }\n  ],\n  \"footnotes\":{\n    \" \":\"Die Informationen erfolgen gemäß der Pkw-Energieverbrauchskennzeichnungsverordnung. Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren WLTP (Worldwide harmonised Light-duty vehicles Test Procedures) ermittelt. Der Kraftstoffverbrauch und der CO2-Ausstoß eines Pkw sind nicht nur von der effizienten Ausnutzung des Kraftstoffs durch den Pkw, sondern auch vom Fahrstil und anderen nichttechnischen Faktoren abhängig. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Ein Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen aller in Deutschland angebotenen neuen Pkw-Modelle ist unentgeltlich in elektronischer Form einsehbar an jedem Verkaufsort in Deutschland, an dem neue Pkw ausgestellt oder angeboten werden. Der Leitfaden ist auch hier abrufbar: www.dat.de/co2/\",\n    \"1\":\"Es werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\",\n    \"2\":\"Aufgrund der CO2-Bepreisung sind künftig Erhöhungen der Kraftstoffkosten möglich. Die künftige CO2-Preisentwicklung ist unsicher, daher werden die möglichen CO2-Kosten anhand von drei angenommenen CO2-Preisen für den Zeitraum 2025 bis 2034 berechnet. Die tatsächlichen CO2-Preise können sowohl höher als auch niedriger als in den hier zugrundeliegenden Modellrechnungen ausfallen. Die CO2-Kosten sind beim Tanken mit den Kraftstoffkosten zu bezahlen. Weitere Informationen unter www.alternativ-mobil.info\"\n  },\n  \"footer\": {\n    \"\": \"\",\n    \"erstellt am:\": \"06.08.2024\"\n  }\n}\n",
             "deliveryDate": "202411"
         },
         {
@@ -816,7 +818,7 @@
                 "weight": "1.477 kg",
                 "co2Class": "D"
             },
-            "consumptionLabel": "{\n  \"baseData\":[\n    {\n      \"label\":\"Marke\",\n      \"value\":\"Mercedes-Benz\"\n    },\n    {\n      \"label\":\"Handelsbezeichnung\",\n      \"value\":\"A 180 Limousine\"\n    },\n    {\n      \"label\":\"Antriebsart\",\n      \"value\":\"Verbrennungsmotor\"\n    },\n    {\n      \"label\":\"Kraftstoff\",\n      \"value\":\"Super\"\n    },\n    {\n      \"label\":\"andere Energieträger\",\n      \"value\":\"entfällt\"\n    },\n    {\n      \"label\":\"Leistung\",\n      \"value\":\"100+10 kW (136+14 PS)\"\n    },\n    {\n      \"label\":\"Masse\",\n      \"value\":\"1.477 kg\"\n    }\n  ],\n  \"energyConsumption\":[\n    {\n      \"label\":\"Energieverbrauch (kombiniert)\",\n      \"value\":\"5,9 l/100km\"\n    },\n    {\n      \"label\":\"CO2-Emissionen (kombiniert)\",\n      \"value\":\"133,0 g/km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    }\n  ],\n  \"co2LabelContainer\":{\n    \"label\":\"CO2-Klasse\",\n    \"subLabel\":\"Auf Grundlage der CO2-Emissionen (kombiniert)\",\n    \"energyEfficiencyClass\":\"D\"\n  },\n  \"furtherConsumptionData\":[\n    {\n      \"label\":\"Kraftstoffverbrauch kombiniert\",\n      \"value\":\"5,9 l/100km\",\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"9,2 l/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"5,7 l/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"4,9 l/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"5,6 l/100km\"\n        }\n      ]\n    }\n  ],\n  \"costs\":[\n    {\n      \"label\":\"Energiekosten bei 15.000 km Jahresfahrleistung\",\n      \"value\":\"1.637,25 EUR\",\n      \"subvalues\":[\n        {\n          \"label\":\"bei Kraftstoffpreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"1,85 EUR/l\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Mögliche CO2-Kosten über die nächsten 10 Jahre (15.000 km/Jahr)\",\n      \"value\":null,\n      \"footnotes\":[\n        \"2\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"bei einem angenommenen mittleren durchschnittlichen CO2-Preis von 115 EUR/t\",\n          \"value\":\"2.294,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen niedrigen durchschnittlichen CO2-Preis von 55 EUR/t\",\n          \"value\":\"1.097,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen hohen durchschnittlichen CO2-Preis von 190 EUR/t\",\n          \"value\":\"3.791,00 EUR\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftfahrzeugsteuer\",\n      \"value\":\"107,00 EUR/Jahr\"\n    }\n  ],\n  \"footnotes\":{\n    \" \":\"Die Informationen erfolgen gemäß der Pkw-Energieverbrauchskennzeichnungsverordnung. Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren WLTP (Worldwide harmonised Light-duty vehicles Test Procedures) ermittelt. Der Kraftstoffverbrauch und der CO2-Ausstoß eines Pkw sind nicht nur von der effizienten Ausnutzung des Kraftstoffs durch den Pkw, sondern auch vom Fahrstil und anderen nichttechnischen Faktoren abhängig. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Ein Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen aller in Deutschland angebotenen neuen Pkw-Modelle ist unentgeltlich in elektronischer Form einsehbar an jedem Verkaufsort in Deutschland, an dem neue Pkw ausgestellt oder angeboten werden. Der Leitfaden ist auch hier abrufbar: www.dat.de/co2/\",\n    \"1\":\"Es werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\",\n    \"2\":\"Aufgrund der CO2-Bepreisung sind künftig Erhöhungen der Kraftstoffkosten möglich. Die künftige CO2-Preisentwicklung ist unsicher, daher werden die möglichen CO2-Kosten anhand von drei angenommenen CO2-Preisen für den Zeitraum 2025 bis 2034 berechnet. Die tatsächlichen CO2-Preise können sowohl höher als auch niedriger als in den hier zugrundeliegenden Modellrechnungen ausfallen. Die CO2-Kosten sind beim Tanken mit den Kraftstoffkosten zu bezahlen. Weitere Informationen unter www.alternativ-mobil.info\"\n  },\n  \"footer\": {\n    \"\": \"\",\n    \"erstellt am:\": \"05.08.2024\"\n  }\n}\n",
+            "consumptionLabel": "{\n  \"baseData\":[\n    {\n      \"label\":\"Marke\",\n      \"value\":\"Mercedes-Benz\"\n    },\n    {\n      \"label\":\"Handelsbezeichnung\",\n      \"value\":\"A 180 Limousine\"\n    },\n    {\n      \"label\":\"Antriebsart\",\n      \"value\":\"Verbrennungsmotor\"\n    },\n    {\n      \"label\":\"Kraftstoff\",\n      \"value\":\"Super\"\n    },\n    {\n      \"label\":\"andere Energieträger\",\n      \"value\":\"entfällt\"\n    },\n    {\n      \"label\":\"Leistung\",\n      \"value\":\"100+10 kW (136+14 PS)\"\n    },\n    {\n      \"label\":\"Masse\",\n      \"value\":\"1.477 kg\"\n    }\n  ],\n  \"energyConsumption\":[\n    {\n      \"label\":\"Energieverbrauch (kombiniert)\",\n      \"value\":\"5,9 l/100km\"\n    },\n    {\n      \"label\":\"CO2-Emissionen (kombiniert)\",\n      \"value\":\"133,0 g/km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    }\n  ],\n  \"co2LabelContainer\":{\n    \"label\":\"CO2-Klasse\",\n    \"subLabel\":\"Auf Grundlage der CO2-Emissionen (kombiniert)\",\n    \"energyEfficiencyClass\":\"D\"\n  },\n  \"furtherConsumptionData\":[\n    {\n      \"label\":\"Kraftstoffverbrauch kombiniert\",\n      \"value\":\"5,9 l/100km\",\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"9,2 l/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"5,7 l/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"4,9 l/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"5,6 l/100km\"\n        }\n      ]\n    }\n  ],\n  \"costs\":[\n    {\n      \"label\":\"Energiekosten bei 15.000 km Jahresfahrleistung\",\n      \"value\":\"1.637,25 EUR\",\n      \"subvalues\":[\n        {\n          \"label\":\"bei Kraftstoffpreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"1,85 EUR/l\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Mögliche CO2-Kosten über die nächsten 10 Jahre (15.000 km/Jahr)\",\n      \"value\":null,\n      \"footnotes\":[\n        \"2\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"bei einem angenommenen mittleren durchschnittlichen CO2-Preis von 115 EUR/t\",\n          \"value\":\"2.294,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen niedrigen durchschnittlichen CO2-Preis von 55 EUR/t\",\n          \"value\":\"1.097,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen hohen durchschnittlichen CO2-Preis von 190 EUR/t\",\n          \"value\":\"3.791,00 EUR\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftfahrzeugsteuer\",\n      \"value\":\"107,00 EUR/Jahr\"\n    }\n  ],\n  \"footnotes\":{\n    \" \":\"Die Informationen erfolgen gemäß der Pkw-Energieverbrauchskennzeichnungsverordnung. Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren WLTP (Worldwide harmonised Light-duty vehicles Test Procedures) ermittelt. Der Kraftstoffverbrauch und der CO2-Ausstoß eines Pkw sind nicht nur von der effizienten Ausnutzung des Kraftstoffs durch den Pkw, sondern auch vom Fahrstil und anderen nichttechnischen Faktoren abhängig. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Ein Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen aller in Deutschland angebotenen neuen Pkw-Modelle ist unentgeltlich in elektronischer Form einsehbar an jedem Verkaufsort in Deutschland, an dem neue Pkw ausgestellt oder angeboten werden. Der Leitfaden ist auch hier abrufbar: www.dat.de/co2/\",\n    \"1\":\"Es werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\",\n    \"2\":\"Aufgrund der CO2-Bepreisung sind künftig Erhöhungen der Kraftstoffkosten möglich. Die künftige CO2-Preisentwicklung ist unsicher, daher werden die möglichen CO2-Kosten anhand von drei angenommenen CO2-Preisen für den Zeitraum 2025 bis 2034 berechnet. Die tatsächlichen CO2-Preise können sowohl höher als auch niedriger als in den hier zugrundeliegenden Modellrechnungen ausfallen. Die CO2-Kosten sind beim Tanken mit den Kraftstoffkosten zu bezahlen. Weitere Informationen unter www.alternativ-mobil.info\"\n  },\n  \"footer\": {\n    \"\": \"\",\n    \"erstellt am:\": \"06.08.2024\"\n  }\n}\n",
             "deliveryDate": "202411"
         },
         {
@@ -848,7 +850,7 @@
                 "weight": "1.480 kg",
                 "co2Class": "D"
             },
-            "consumptionLabel": "{\n  \"baseData\":[\n    {\n      \"label\":\"Marke\",\n      \"value\":\"Mercedes-Benz\"\n    },\n    {\n      \"label\":\"Handelsbezeichnung\",\n      \"value\":\"A 200 Limousine\"\n    },\n    {\n      \"label\":\"Antriebsart\",\n      \"value\":\"Verbrennungsmotor\"\n    },\n    {\n      \"label\":\"Kraftstoff\",\n      \"value\":\"Super\"\n    },\n    {\n      \"label\":\"andere Energieträger\",\n      \"value\":\"entfällt\"\n    },\n    {\n      \"label\":\"Leistung\",\n      \"value\":\"120+10 kW (163+14 PS)\"\n    },\n    {\n      \"label\":\"Masse\",\n      \"value\":\"1.480 kg\"\n    }\n  ],\n  \"energyConsumption\":[\n    {\n      \"label\":\"Energieverbrauch (kombiniert)\",\n      \"value\":\"5,9 l/100km\"\n    },\n    {\n      \"label\":\"CO2-Emissionen (kombiniert)\",\n      \"value\":\"133,0 g/km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    }\n  ],\n  \"co2LabelContainer\":{\n    \"label\":\"CO2-Klasse\",\n    \"subLabel\":\"Auf Grundlage der CO2-Emissionen (kombiniert)\",\n    \"energyEfficiencyClass\":\"D\"\n  },\n  \"furtherConsumptionData\":[\n    {\n      \"label\":\"Kraftstoffverbrauch kombiniert\",\n      \"value\":\"5,9 l/100km\",\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"9,2 l/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"5,7 l/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"4,9 l/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"5,6 l/100km\"\n        }\n      ]\n    }\n  ],\n  \"costs\":[\n    {\n      \"label\":\"Energiekosten bei 15.000 km Jahresfahrleistung\",\n      \"value\":\"1.637,25 EUR\",\n      \"subvalues\":[\n        {\n          \"label\":\"bei Kraftstoffpreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"1,85 EUR/l\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Mögliche CO2-Kosten über die nächsten 10 Jahre (15.000 km/Jahr)\",\n      \"value\":null,\n      \"footnotes\":[\n        \"2\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"bei einem angenommenen mittleren durchschnittlichen CO2-Preis von 115 EUR/t\",\n          \"value\":\"2.294,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen niedrigen durchschnittlichen CO2-Preis von 55 EUR/t\",\n          \"value\":\"1.097,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen hohen durchschnittlichen CO2-Preis von 190 EUR/t\",\n          \"value\":\"3.791,00 EUR\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftfahrzeugsteuer\",\n      \"value\":\"107,00 EUR/Jahr\"\n    }\n  ],\n  \"footnotes\":{\n    \" \":\"Die Informationen erfolgen gemäß der Pkw-Energieverbrauchskennzeichnungsverordnung. Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren WLTP (Worldwide harmonised Light-duty vehicles Test Procedures) ermittelt. Der Kraftstoffverbrauch und der CO2-Ausstoß eines Pkw sind nicht nur von der effizienten Ausnutzung des Kraftstoffs durch den Pkw, sondern auch vom Fahrstil und anderen nichttechnischen Faktoren abhängig. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Ein Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen aller in Deutschland angebotenen neuen Pkw-Modelle ist unentgeltlich in elektronischer Form einsehbar an jedem Verkaufsort in Deutschland, an dem neue Pkw ausgestellt oder angeboten werden. Der Leitfaden ist auch hier abrufbar: www.dat.de/co2/\",\n    \"1\":\"Es werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\",\n    \"2\":\"Aufgrund der CO2-Bepreisung sind künftig Erhöhungen der Kraftstoffkosten möglich. Die künftige CO2-Preisentwicklung ist unsicher, daher werden die möglichen CO2-Kosten anhand von drei angenommenen CO2-Preisen für den Zeitraum 2025 bis 2034 berechnet. Die tatsächlichen CO2-Preise können sowohl höher als auch niedriger als in den hier zugrundeliegenden Modellrechnungen ausfallen. Die CO2-Kosten sind beim Tanken mit den Kraftstoffkosten zu bezahlen. Weitere Informationen unter www.alternativ-mobil.info\"\n  },\n  \"footer\": {\n    \"\": \"\",\n    \"erstellt am:\": \"05.08.2024\"\n  }\n}\n",
+            "consumptionLabel": "{\n  \"baseData\":[\n    {\n      \"label\":\"Marke\",\n      \"value\":\"Mercedes-Benz\"\n    },\n    {\n      \"label\":\"Handelsbezeichnung\",\n      \"value\":\"A 200 Limousine\"\n    },\n    {\n      \"label\":\"Antriebsart\",\n      \"value\":\"Verbrennungsmotor\"\n    },\n    {\n      \"label\":\"Kraftstoff\",\n      \"value\":\"Super\"\n    },\n    {\n      \"label\":\"andere Energieträger\",\n      \"value\":\"entfällt\"\n    },\n    {\n      \"label\":\"Leistung\",\n      \"value\":\"120+10 kW (163+14 PS)\"\n    },\n    {\n      \"label\":\"Masse\",\n      \"value\":\"1.480 kg\"\n    }\n  ],\n  \"energyConsumption\":[\n    {\n      \"label\":\"Energieverbrauch (kombiniert)\",\n      \"value\":\"5,9 l/100km\"\n    },\n    {\n      \"label\":\"CO2-Emissionen (kombiniert)\",\n      \"value\":\"133,0 g/km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    }\n  ],\n  \"co2LabelContainer\":{\n    \"label\":\"CO2-Klasse\",\n    \"subLabel\":\"Auf Grundlage der CO2-Emissionen (kombiniert)\",\n    \"energyEfficiencyClass\":\"D\"\n  },\n  \"furtherConsumptionData\":[\n    {\n      \"label\":\"Kraftstoffverbrauch kombiniert\",\n      \"value\":\"5,9 l/100km\",\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"9,2 l/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"5,7 l/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"4,9 l/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"5,6 l/100km\"\n        }\n      ]\n    }\n  ],\n  \"costs\":[\n    {\n      \"label\":\"Energiekosten bei 15.000 km Jahresfahrleistung\",\n      \"value\":\"1.637,25 EUR\",\n      \"subvalues\":[\n        {\n          \"label\":\"bei Kraftstoffpreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"1,85 EUR/l\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Mögliche CO2-Kosten über die nächsten 10 Jahre (15.000 km/Jahr)\",\n      \"value\":null,\n      \"footnotes\":[\n        \"2\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"bei einem angenommenen mittleren durchschnittlichen CO2-Preis von 115 EUR/t\",\n          \"value\":\"2.294,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen niedrigen durchschnittlichen CO2-Preis von 55 EUR/t\",\n          \"value\":\"1.097,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen hohen durchschnittlichen CO2-Preis von 190 EUR/t\",\n          \"value\":\"3.791,00 EUR\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftfahrzeugsteuer\",\n      \"value\":\"107,00 EUR/Jahr\"\n    }\n  ],\n  \"footnotes\":{\n    \" \":\"Die Informationen erfolgen gemäß der Pkw-Energieverbrauchskennzeichnungsverordnung. Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren WLTP (Worldwide harmonised Light-duty vehicles Test Procedures) ermittelt. Der Kraftstoffverbrauch und der CO2-Ausstoß eines Pkw sind nicht nur von der effizienten Ausnutzung des Kraftstoffs durch den Pkw, sondern auch vom Fahrstil und anderen nichttechnischen Faktoren abhängig. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Ein Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen aller in Deutschland angebotenen neuen Pkw-Modelle ist unentgeltlich in elektronischer Form einsehbar an jedem Verkaufsort in Deutschland, an dem neue Pkw ausgestellt oder angeboten werden. Der Leitfaden ist auch hier abrufbar: www.dat.de/co2/\",\n    \"1\":\"Es werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\",\n    \"2\":\"Aufgrund der CO2-Bepreisung sind künftig Erhöhungen der Kraftstoffkosten möglich. Die künftige CO2-Preisentwicklung ist unsicher, daher werden die möglichen CO2-Kosten anhand von drei angenommenen CO2-Preisen für den Zeitraum 2025 bis 2034 berechnet. Die tatsächlichen CO2-Preise können sowohl höher als auch niedriger als in den hier zugrundeliegenden Modellrechnungen ausfallen. Die CO2-Kosten sind beim Tanken mit den Kraftstoffkosten zu bezahlen. Weitere Informationen unter www.alternativ-mobil.info\"\n  },\n  \"footer\": {\n    \"\": \"\",\n    \"erstellt am:\": \"06.08.2024\"\n  }\n}\n",
             "deliveryDate": "202411"
         },
         {
@@ -880,7 +882,7 @@
                 "weight": "1.596 kg",
                 "co2Class": "E"
             },
-            "consumptionLabel": "{\n  \"baseData\":[\n    {\n      \"label\":\"Marke\",\n      \"value\":\"Mercedes-Benz\"\n    },\n    {\n      \"label\":\"Handelsbezeichnung\",\n      \"value\":\"A 220 4MATIC Limousine\"\n    },\n    {\n      \"label\":\"Antriebsart\",\n      \"value\":\"Verbrennungsmotor\"\n    },\n    {\n      \"label\":\"Kraftstoff\",\n      \"value\":\"Super\"\n    },\n    {\n      \"label\":\"andere Energieträger\",\n      \"value\":\"entfällt\"\n    },\n    {\n      \"label\":\"Leistung\",\n      \"value\":\"140+10 kW (190+14 PS)\"\n    },\n    {\n      \"label\":\"Masse\",\n      \"value\":\"1.596 kg\"\n    }\n  ],\n  \"energyConsumption\":[\n    {\n      \"label\":\"Energieverbrauch (kombiniert)\",\n      \"value\":\"6,8 l/100km\"\n    },\n    {\n      \"label\":\"CO2-Emissionen (kombiniert)\",\n      \"value\":\"154,0 g/km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    }\n  ],\n  \"co2LabelContainer\":{\n    \"label\":\"CO2-Klasse\",\n    \"subLabel\":\"Auf Grundlage der CO2-Emissionen (kombiniert)\",\n    \"energyEfficiencyClass\":\"E\"\n  },\n  \"furtherConsumptionData\":[\n    {\n      \"label\":\"Kraftstoffverbrauch kombiniert\",\n      \"value\":\"6,8 l/100km\",\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"11,4 l/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"6,9 l/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"5,7 l/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"6,0 l/100km\"\n        }\n      ]\n    }\n  ],\n  \"costs\":[\n    {\n      \"label\":\"Energiekosten bei 15.000 km Jahresfahrleistung\",\n      \"value\":\"1.887,00 EUR\",\n      \"subvalues\":[\n        {\n          \"label\":\"bei Kraftstoffpreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"1,85 EUR/l\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Mögliche CO2-Kosten über die nächsten 10 Jahre (15.000 km/Jahr)\",\n      \"value\":null,\n      \"footnotes\":[\n        \"2\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"bei einem angenommenen mittleren durchschnittlichen CO2-Preis von 115 EUR/t\",\n          \"value\":\"2.656,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen niedrigen durchschnittlichen CO2-Preis von 55 EUR/t\",\n          \"value\":\"1.270,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen hohen durchschnittlichen CO2-Preis von 190 EUR/t\",\n          \"value\":\"4.389,00 EUR\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftfahrzeugsteuer\",\n      \"value\":\"171,00 EUR/Jahr\"\n    }\n  ],\n  \"footnotes\":{\n    \" \":\"Die Informationen erfolgen gemäß der Pkw-Energieverbrauchskennzeichnungsverordnung. Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren WLTP (Worldwide harmonised Light-duty vehicles Test Procedures) ermittelt. Der Kraftstoffverbrauch und der CO2-Ausstoß eines Pkw sind nicht nur von der effizienten Ausnutzung des Kraftstoffs durch den Pkw, sondern auch vom Fahrstil und anderen nichttechnischen Faktoren abhängig. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Ein Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen aller in Deutschland angebotenen neuen Pkw-Modelle ist unentgeltlich in elektronischer Form einsehbar an jedem Verkaufsort in Deutschland, an dem neue Pkw ausgestellt oder angeboten werden. Der Leitfaden ist auch hier abrufbar: www.dat.de/co2/\",\n    \"1\":\"Es werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\",\n    \"2\":\"Aufgrund der CO2-Bepreisung sind künftig Erhöhungen der Kraftstoffkosten möglich. Die künftige CO2-Preisentwicklung ist unsicher, daher werden die möglichen CO2-Kosten anhand von drei angenommenen CO2-Preisen für den Zeitraum 2025 bis 2034 berechnet. Die tatsächlichen CO2-Preise können sowohl höher als auch niedriger als in den hier zugrundeliegenden Modellrechnungen ausfallen. Die CO2-Kosten sind beim Tanken mit den Kraftstoffkosten zu bezahlen. Weitere Informationen unter www.alternativ-mobil.info\"\n  },\n  \"footer\": {\n    \"\": \"\",\n    \"erstellt am:\": \"05.08.2024\"\n  }\n}\n",
+            "consumptionLabel": "{\n  \"baseData\":[\n    {\n      \"label\":\"Marke\",\n      \"value\":\"Mercedes-Benz\"\n    },\n    {\n      \"label\":\"Handelsbezeichnung\",\n      \"value\":\"A 220 4MATIC Limousine\"\n    },\n    {\n      \"label\":\"Antriebsart\",\n      \"value\":\"Verbrennungsmotor\"\n    },\n    {\n      \"label\":\"Kraftstoff\",\n      \"value\":\"Super\"\n    },\n    {\n      \"label\":\"andere Energieträger\",\n      \"value\":\"entfällt\"\n    },\n    {\n      \"label\":\"Leistung\",\n      \"value\":\"140+10 kW (190+14 PS)\"\n    },\n    {\n      \"label\":\"Masse\",\n      \"value\":\"1.596 kg\"\n    }\n  ],\n  \"energyConsumption\":[\n    {\n      \"label\":\"Energieverbrauch (kombiniert)\",\n      \"value\":\"6,8 l/100km\"\n    },\n    {\n      \"label\":\"CO2-Emissionen (kombiniert)\",\n      \"value\":\"154,0 g/km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    }\n  ],\n  \"co2LabelContainer\":{\n    \"label\":\"CO2-Klasse\",\n    \"subLabel\":\"Auf Grundlage der CO2-Emissionen (kombiniert)\",\n    \"energyEfficiencyClass\":\"E\"\n  },\n  \"furtherConsumptionData\":[\n    {\n      \"label\":\"Kraftstoffverbrauch kombiniert\",\n      \"value\":\"6,8 l/100km\",\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"11,4 l/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"6,9 l/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"5,7 l/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"6,0 l/100km\"\n        }\n      ]\n    }\n  ],\n  \"costs\":[\n    {\n      \"label\":\"Energiekosten bei 15.000 km Jahresfahrleistung\",\n      \"value\":\"1.887,00 EUR\",\n      \"subvalues\":[\n        {\n          \"label\":\"bei Kraftstoffpreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"1,85 EUR/l\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Mögliche CO2-Kosten über die nächsten 10 Jahre (15.000 km/Jahr)\",\n      \"value\":null,\n      \"footnotes\":[\n        \"2\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"bei einem angenommenen mittleren durchschnittlichen CO2-Preis von 115 EUR/t\",\n          \"value\":\"2.656,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen niedrigen durchschnittlichen CO2-Preis von 55 EUR/t\",\n          \"value\":\"1.270,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen hohen durchschnittlichen CO2-Preis von 190 EUR/t\",\n          \"value\":\"4.389,00 EUR\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftfahrzeugsteuer\",\n      \"value\":\"171,00 EUR/Jahr\"\n    }\n  ],\n  \"footnotes\":{\n    \" \":\"Die Informationen erfolgen gemäß der Pkw-Energieverbrauchskennzeichnungsverordnung. Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren WLTP (Worldwide harmonised Light-duty vehicles Test Procedures) ermittelt. Der Kraftstoffverbrauch und der CO2-Ausstoß eines Pkw sind nicht nur von der effizienten Ausnutzung des Kraftstoffs durch den Pkw, sondern auch vom Fahrstil und anderen nichttechnischen Faktoren abhängig. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Ein Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen aller in Deutschland angebotenen neuen Pkw-Modelle ist unentgeltlich in elektronischer Form einsehbar an jedem Verkaufsort in Deutschland, an dem neue Pkw ausgestellt oder angeboten werden. Der Leitfaden ist auch hier abrufbar: www.dat.de/co2/\",\n    \"1\":\"Es werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\",\n    \"2\":\"Aufgrund der CO2-Bepreisung sind künftig Erhöhungen der Kraftstoffkosten möglich. Die künftige CO2-Preisentwicklung ist unsicher, daher werden die möglichen CO2-Kosten anhand von drei angenommenen CO2-Preisen für den Zeitraum 2025 bis 2034 berechnet. Die tatsächlichen CO2-Preise können sowohl höher als auch niedriger als in den hier zugrundeliegenden Modellrechnungen ausfallen. Die CO2-Kosten sind beim Tanken mit den Kraftstoffkosten zu bezahlen. Weitere Informationen unter www.alternativ-mobil.info\"\n  },\n  \"footer\": {\n    \"\": \"\",\n    \"erstellt am:\": \"06.08.2024\"\n  }\n}\n",
             "deliveryDate": "202411"
         },
         {
@@ -912,7 +914,7 @@
                 "weight": "1.612 kg",
                 "co2Class": "F"
             },
-            "consumptionLabel": "{\n  \"baseData\":[\n    {\n      \"label\":\"Marke\",\n      \"value\":\"Mercedes-Benz\"\n    },\n    {\n      \"label\":\"Handelsbezeichnung\",\n      \"value\":\"A 250 4MATIC Limousine\"\n    },\n    {\n      \"label\":\"Antriebsart\",\n      \"value\":\"Verbrennungsmotor\"\n    },\n    {\n      \"label\":\"Kraftstoff\",\n      \"value\":\"Super\"\n    },\n    {\n      \"label\":\"andere Energieträger\",\n      \"value\":\"entfällt\"\n    },\n    {\n      \"label\":\"Leistung\",\n      \"value\":\"165+10 kW (224+14 PS)\"\n    },\n    {\n      \"label\":\"Masse\",\n      \"value\":\"1.612 kg\"\n    }\n  ],\n  \"energyConsumption\":[\n    {\n      \"label\":\"Energieverbrauch (kombiniert)\",\n      \"value\":\"6,9 l/100km\"\n    },\n    {\n      \"label\":\"CO2-Emissionen (kombiniert)\",\n      \"value\":\"157,0 g/km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    }\n  ],\n  \"co2LabelContainer\":{\n    \"label\":\"CO2-Klasse\",\n    \"subLabel\":\"Auf Grundlage der CO2-Emissionen (kombiniert)\",\n    \"energyEfficiencyClass\":\"F\"\n  },\n  \"furtherConsumptionData\":[\n    {\n      \"label\":\"Kraftstoffverbrauch kombiniert\",\n      \"value\":\"6,9 l/100km\",\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"11,4 l/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"7,0 l/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"5,8 l/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"6,2 l/100km\"\n        }\n      ]\n    }\n  ],\n  \"costs\":[\n    {\n      \"label\":\"Energiekosten bei 15.000 km Jahresfahrleistung\",\n      \"value\":\"1.914,75 EUR\",\n      \"subvalues\":[\n        {\n          \"label\":\"bei Kraftstoffpreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"1,85 EUR/l\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Mögliche CO2-Kosten über die nächsten 10 Jahre (15.000 km/Jahr)\",\n      \"value\":null,\n      \"footnotes\":[\n        \"2\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"bei einem angenommenen mittleren durchschnittlichen CO2-Preis von 115 EUR/t\",\n          \"value\":\"2.708,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen niedrigen durchschnittlichen CO2-Preis von 55 EUR/t\",\n          \"value\":\"1.295,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen hohen durchschnittlichen CO2-Preis von 190 EUR/t\",\n          \"value\":\"4.475,00 EUR\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftfahrzeugsteuer\",\n      \"value\":\"179,00 EUR/Jahr\"\n    }\n  ],\n  \"footnotes\":{\n    \" \":\"Die Informationen erfolgen gemäß der Pkw-Energieverbrauchskennzeichnungsverordnung. Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren WLTP (Worldwide harmonised Light-duty vehicles Test Procedures) ermittelt. Der Kraftstoffverbrauch und der CO2-Ausstoß eines Pkw sind nicht nur von der effizienten Ausnutzung des Kraftstoffs durch den Pkw, sondern auch vom Fahrstil und anderen nichttechnischen Faktoren abhängig. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Ein Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen aller in Deutschland angebotenen neuen Pkw-Modelle ist unentgeltlich in elektronischer Form einsehbar an jedem Verkaufsort in Deutschland, an dem neue Pkw ausgestellt oder angeboten werden. Der Leitfaden ist auch hier abrufbar: www.dat.de/co2/\",\n    \"1\":\"Es werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\",\n    \"2\":\"Aufgrund der CO2-Bepreisung sind künftig Erhöhungen der Kraftstoffkosten möglich. Die künftige CO2-Preisentwicklung ist unsicher, daher werden die möglichen CO2-Kosten anhand von drei angenommenen CO2-Preisen für den Zeitraum 2025 bis 2034 berechnet. Die tatsächlichen CO2-Preise können sowohl höher als auch niedriger als in den hier zugrundeliegenden Modellrechnungen ausfallen. Die CO2-Kosten sind beim Tanken mit den Kraftstoffkosten zu bezahlen. Weitere Informationen unter www.alternativ-mobil.info\"\n  },\n  \"footer\": {\n    \"\": \"\",\n    \"erstellt am:\": \"05.08.2024\"\n  }\n}\n",
+            "consumptionLabel": "{\n  \"baseData\":[\n    {\n      \"label\":\"Marke\",\n      \"value\":\"Mercedes-Benz\"\n    },\n    {\n      \"label\":\"Handelsbezeichnung\",\n      \"value\":\"A 250 4MATIC Limousine\"\n    },\n    {\n      \"label\":\"Antriebsart\",\n      \"value\":\"Verbrennungsmotor\"\n    },\n    {\n      \"label\":\"Kraftstoff\",\n      \"value\":\"Super\"\n    },\n    {\n      \"label\":\"andere Energieträger\",\n      \"value\":\"entfällt\"\n    },\n    {\n      \"label\":\"Leistung\",\n      \"value\":\"165+10 kW (224+14 PS)\"\n    },\n    {\n      \"label\":\"Masse\",\n      \"value\":\"1.612 kg\"\n    }\n  ],\n  \"energyConsumption\":[\n    {\n      \"label\":\"Energieverbrauch (kombiniert)\",\n      \"value\":\"6,9 l/100km\"\n    },\n    {\n      \"label\":\"CO2-Emissionen (kombiniert)\",\n      \"value\":\"157,0 g/km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    }\n  ],\n  \"co2LabelContainer\":{\n    \"label\":\"CO2-Klasse\",\n    \"subLabel\":\"Auf Grundlage der CO2-Emissionen (kombiniert)\",\n    \"energyEfficiencyClass\":\"F\"\n  },\n  \"furtherConsumptionData\":[\n    {\n      \"label\":\"Kraftstoffverbrauch kombiniert\",\n      \"value\":\"6,9 l/100km\",\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"11,4 l/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"7,0 l/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"5,8 l/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"6,2 l/100km\"\n        }\n      ]\n    }\n  ],\n  \"costs\":[\n    {\n      \"label\":\"Energiekosten bei 15.000 km Jahresfahrleistung\",\n      \"value\":\"1.914,75 EUR\",\n      \"subvalues\":[\n        {\n          \"label\":\"bei Kraftstoffpreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"1,85 EUR/l\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Mögliche CO2-Kosten über die nächsten 10 Jahre (15.000 km/Jahr)\",\n      \"value\":null,\n      \"footnotes\":[\n        \"2\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"bei einem angenommenen mittleren durchschnittlichen CO2-Preis von 115 EUR/t\",\n          \"value\":\"2.708,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen niedrigen durchschnittlichen CO2-Preis von 55 EUR/t\",\n          \"value\":\"1.295,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen hohen durchschnittlichen CO2-Preis von 190 EUR/t\",\n          \"value\":\"4.475,00 EUR\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftfahrzeugsteuer\",\n      \"value\":\"179,00 EUR/Jahr\"\n    }\n  ],\n  \"footnotes\":{\n    \" \":\"Die Informationen erfolgen gemäß der Pkw-Energieverbrauchskennzeichnungsverordnung. Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren WLTP (Worldwide harmonised Light-duty vehicles Test Procedures) ermittelt. Der Kraftstoffverbrauch und der CO2-Ausstoß eines Pkw sind nicht nur von der effizienten Ausnutzung des Kraftstoffs durch den Pkw, sondern auch vom Fahrstil und anderen nichttechnischen Faktoren abhängig. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Ein Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen aller in Deutschland angebotenen neuen Pkw-Modelle ist unentgeltlich in elektronischer Form einsehbar an jedem Verkaufsort in Deutschland, an dem neue Pkw ausgestellt oder angeboten werden. Der Leitfaden ist auch hier abrufbar: www.dat.de/co2/\",\n    \"1\":\"Es werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\",\n    \"2\":\"Aufgrund der CO2-Bepreisung sind künftig Erhöhungen der Kraftstoffkosten möglich. Die künftige CO2-Preisentwicklung ist unsicher, daher werden die möglichen CO2-Kosten anhand von drei angenommenen CO2-Preisen für den Zeitraum 2025 bis 2034 berechnet. Die tatsächlichen CO2-Preise können sowohl höher als auch niedriger als in den hier zugrundeliegenden Modellrechnungen ausfallen. Die CO2-Kosten sind beim Tanken mit den Kraftstoffkosten zu bezahlen. Weitere Informationen unter www.alternativ-mobil.info\"\n  },\n  \"footer\": {\n    \"\": \"\",\n    \"erstellt am:\": \"06.08.2024\"\n  }\n}\n",
             "deliveryDate": "202411"
         },
         {
@@ -950,7 +952,7 @@
                 "co2Class": "D",
                 "co2ClassWeighted": "B"
             },
-            "consumptionLabel": "{\n  \"baseData\":[\n    {\n      \"label\":\"Marke\",\n      \"value\":\"Mercedes-Benz\"\n    },\n    {\n      \"label\":\"Handelsbezeichnung\",\n      \"value\":\"A 250 e Limousine mit EQ Hybrid Technologie\"\n    },\n    {\n      \"label\":\"Antriebsart\",\n      \"value\":\"Plug-In-Hybrid\"\n    },\n    {\n      \"label\":\"Kraftstoff\",\n      \"value\":\"Super\"\n    },\n    {\n      \"label\":\"andere Energieträger\",\n      \"value\":\"Strom\"\n    },\n    {\n      \"label\":\"Leistung\",\n      \"value\":\"120+80 kW (163+109 PS)\"\n    },\n    {\n      \"label\":\"Masse\",\n      \"value\":\"1.731 kg\"\n    }\n  ],\n  \"energyConsumption\":[\n    {\n      \"label\":\"Energieverbrauch (gewichtet, kombiniert)\",\n      \"value\":\"17,6 kWh/100km + 0,7 l/100km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    },\n    {\n      \"label\":\"CO2-Emissionen (gewichtet, kombiniert)\",\n      \"value\":\"16,0 g/km\",\n      \"footnotes\":[\n        \"1\",\n        \"2\"\n      ]\n    },\n    {\n      \"label\":\"Elektrische Reichweite (EAER)\",\n      \"value\":\"87 km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    }\n  ],\n  \"co2LabelContainer\":{\n    \"label\":\"CO2-Klasse\",\n    \"subLabel\":\"Auf Grundlage der CO2-Emissionen\",\n    \"energyEfficiencyClass\":\"B\",\n    \"energyEfficiencyClassSecondary\":\"D\"\n  },\n  \"furtherConsumptionData\":[\n    {\n      \"label\":\"Stromverbrauch (rein elektrischer Betrieb, kombiniert)\",\n      \"value\":\"19,1 kWh/100km\",\n      \"footnotes\":[\n        \"1\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"19,7 kWh/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"16,8 kWh/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"17,1 kWh/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"22,3 kWh/100km\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftstoffverbrauch (entladene Batterie, kombiniert)\",\n      \"value\":\"5,8 l/100km\",\n      \"footnotes\":[\n        \"1\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"9,0 l/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"5,2 l/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"4,9 l/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"5,8 l/100km\"\n        }\n      ]\n    }\n  ],\n  \"costs\":[\n    {\n      \"label\":\"Energiekosten bei 15.000 km Jahresfahrleistung\",\n      \"value\":\"1.184,25 EUR\",\n      \"subvalues\":[\n        {\n          \"label\":\"bei Kraftstoffpreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"1,85 EUR/l\"\n        },\n        {\n          \"label\":\"bei Strompreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"0,38 EUR/kWh\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Mögliche CO2-Kosten über die nächsten 10 Jahre (15.000 km/Jahr)\",\n      \"value\":null,\n      \"footnotes\":[\n        \"2\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"bei einem angenommenen mittleren durchschnittlichen CO2-Preis von 115 EUR/t\",\n          \"value\":\"276,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen niedrigen durchschnittlichen CO2-Preis von 55 EUR/t\",\n          \"value\":\"132,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen hohen durchschnittlichen CO2-Preis von 190 EUR/t\",\n          \"value\":\"456,00 EUR\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftfahrzeugsteuer\",\n      \"value\":\"28,00 EUR/Jahr\"\n    }\n  ],\n  \"footnotes\":{\n    \" \":\"Die Informationen erfolgen gemäß der Pkw-Energieverbrauchskennzeichnungsverordnung. Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren WLTP (Worldwide harmonised Light-duty vehicles Test Procedures) ermittelt. Der Kraftstoffverbrauch und der CO2-Ausstoß eines Pkw sind nicht nur von der effizienten Ausnutzung des Kraftstoffs durch den Pkw, sondern auch vom Fahrstil und anderen nichttechnischen Faktoren abhängig. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Ein Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen aller in Deutschland angebotenen neuen Pkw-Modelle ist unentgeltlich in elektronischer Form einsehbar an jedem Verkaufsort in Deutschland, an dem neue Pkw ausgestellt oder angeboten werden. Der Leitfaden ist auch hier abrufbar: www.dat.de/co2/\",\n    \"1\":\"Es werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\",\n    \"2\":\"Aufgrund der CO2-Bepreisung sind künftig Erhöhungen der Kraftstoffkosten möglich. Die künftige CO2-Preisentwicklung ist unsicher, daher werden die möglichen CO2-Kosten anhand von drei angenommenen CO2-Preisen für den Zeitraum 2025 bis 2034 berechnet. Die tatsächlichen CO2-Preise können sowohl höher als auch niedriger als in den hier zugrundeliegenden Modellrechnungen ausfallen. Die CO2-Kosten sind beim Tanken mit den Kraftstoffkosten zu bezahlen. Weitere Informationen unter www.alternativ-mobil.info\"\n  },\n  \"footer\": {\n    \"\": \"\",\n    \"erstellt am:\": \"05.08.2024\"\n  }\n}\n",
+            "consumptionLabel": "{\n  \"baseData\":[\n    {\n      \"label\":\"Marke\",\n      \"value\":\"Mercedes-Benz\"\n    },\n    {\n      \"label\":\"Handelsbezeichnung\",\n      \"value\":\"A 250 e Limousine mit EQ Hybrid Technologie\"\n    },\n    {\n      \"label\":\"Antriebsart\",\n      \"value\":\"Plug-In-Hybrid\"\n    },\n    {\n      \"label\":\"Kraftstoff\",\n      \"value\":\"Super\"\n    },\n    {\n      \"label\":\"andere Energieträger\",\n      \"value\":\"Strom\"\n    },\n    {\n      \"label\":\"Leistung\",\n      \"value\":\"120+80 kW (163+109 PS)\"\n    },\n    {\n      \"label\":\"Masse\",\n      \"value\":\"1.731 kg\"\n    }\n  ],\n  \"energyConsumption\":[\n    {\n      \"label\":\"Energieverbrauch (gewichtet, kombiniert)\",\n      \"value\":\"17,6 kWh/100km + 0,7 l/100km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    },\n    {\n      \"label\":\"CO2-Emissionen (gewichtet, kombiniert)\",\n      \"value\":\"16,0 g/km\",\n      \"footnotes\":[\n        \"1\",\n        \"2\"\n      ]\n    },\n    {\n      \"label\":\"Elektrische Reichweite (EAER)\",\n      \"value\":\"87 km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    }\n  ],\n  \"co2LabelContainer\":{\n    \"label\":\"CO2-Klasse\",\n    \"subLabel\":\"Auf Grundlage der CO2-Emissionen\",\n    \"energyEfficiencyClass\":\"B\",\n    \"energyEfficiencyClassSecondary\":\"D\"\n  },\n  \"furtherConsumptionData\":[\n    {\n      \"label\":\"Stromverbrauch (rein elektrischer Betrieb, kombiniert)\",\n      \"value\":\"19,1 kWh/100km\",\n      \"footnotes\":[\n        \"1\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"19,7 kWh/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"16,8 kWh/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"17,1 kWh/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"22,3 kWh/100km\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftstoffverbrauch (entladene Batterie, kombiniert)\",\n      \"value\":\"5,8 l/100km\",\n      \"footnotes\":[\n        \"1\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"9,0 l/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"5,2 l/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"4,9 l/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"5,8 l/100km\"\n        }\n      ]\n    }\n  ],\n  \"costs\":[\n    {\n      \"label\":\"Energiekosten bei 15.000 km Jahresfahrleistung\",\n      \"value\":\"1.184,25 EUR\",\n      \"subvalues\":[\n        {\n          \"label\":\"bei Kraftstoffpreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"1,85 EUR/l\"\n        },\n        {\n          \"label\":\"bei Strompreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"0,38 EUR/kWh\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Mögliche CO2-Kosten über die nächsten 10 Jahre (15.000 km/Jahr)\",\n      \"value\":null,\n      \"footnotes\":[\n        \"2\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"bei einem angenommenen mittleren durchschnittlichen CO2-Preis von 115 EUR/t\",\n          \"value\":\"276,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen niedrigen durchschnittlichen CO2-Preis von 55 EUR/t\",\n          \"value\":\"132,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen hohen durchschnittlichen CO2-Preis von 190 EUR/t\",\n          \"value\":\"456,00 EUR\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftfahrzeugsteuer\",\n      \"value\":\"28,00 EUR/Jahr\"\n    }\n  ],\n  \"footnotes\":{\n    \" \":\"Die Informationen erfolgen gemäß der Pkw-Energieverbrauchskennzeichnungsverordnung. Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren WLTP (Worldwide harmonised Light-duty vehicles Test Procedures) ermittelt. Der Kraftstoffverbrauch und der CO2-Ausstoß eines Pkw sind nicht nur von der effizienten Ausnutzung des Kraftstoffs durch den Pkw, sondern auch vom Fahrstil und anderen nichttechnischen Faktoren abhängig. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Ein Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen aller in Deutschland angebotenen neuen Pkw-Modelle ist unentgeltlich in elektronischer Form einsehbar an jedem Verkaufsort in Deutschland, an dem neue Pkw ausgestellt oder angeboten werden. Der Leitfaden ist auch hier abrufbar: www.dat.de/co2/\",\n    \"1\":\"Es werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\",\n    \"2\":\"Aufgrund der CO2-Bepreisung sind künftig Erhöhungen der Kraftstoffkosten möglich. Die künftige CO2-Preisentwicklung ist unsicher, daher werden die möglichen CO2-Kosten anhand von drei angenommenen CO2-Preisen für den Zeitraum 2025 bis 2034 berechnet. Die tatsächlichen CO2-Preise können sowohl höher als auch niedriger als in den hier zugrundeliegenden Modellrechnungen ausfallen. Die CO2-Kosten sind beim Tanken mit den Kraftstoffkosten zu bezahlen. Weitere Informationen unter www.alternativ-mobil.info\"\n  },\n  \"footer\": {\n    \"\": \"\",\n    \"erstellt am:\": \"06.08.2024\"\n  }\n}\n",
             "deliveryDate": "202411"
         },
         {
@@ -982,7 +984,7 @@
                 "weight": "1.663 kg",
                 "co2Class": "G"
             },
-            "consumptionLabel": "{\n  \"baseData\":[\n    {\n      \"label\":\"Marke\",\n      \"value\":\"Mercedes-Benz\"\n    },\n    {\n      \"label\":\"Handelsbezeichnung\",\n      \"value\":\"Mercedes-AMG A 35 4MATIC Limousine\"\n    },\n    {\n      \"label\":\"Antriebsart\",\n      \"value\":\"Verbrennungsmotor\"\n    },\n    {\n      \"label\":\"Kraftstoff\",\n      \"value\":\"Super Plus\"\n    },\n    {\n      \"label\":\"andere Energieträger\",\n      \"value\":\"entfällt\"\n    },\n    {\n      \"label\":\"Leistung\",\n      \"value\":\"225+10 kW (306+14 PS)\"\n    },\n    {\n      \"label\":\"Masse\",\n      \"value\":\"1.663 kg\"\n    }\n  ],\n  \"energyConsumption\":[\n    {\n      \"label\":\"Energieverbrauch (kombiniert)\",\n      \"value\":\"8,1 l/100km\"\n    },\n    {\n      \"label\":\"CO2-Emissionen (kombiniert)\",\n      \"value\":\"184,0 g/km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    }\n  ],\n  \"co2LabelContainer\":{\n    \"label\":\"CO2-Klasse\",\n    \"subLabel\":\"Auf Grundlage der CO2-Emissionen (kombiniert)\",\n    \"energyEfficiencyClass\":\"G\"\n  },\n  \"furtherConsumptionData\":[\n    {\n      \"label\":\"Kraftstoffverbrauch kombiniert\",\n      \"value\":\"8,1 l/100km\",\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"13,0 l/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"8,6 l/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"7,0 l/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"7,0 l/100km\"\n        }\n      ]\n    }\n  ],\n  \"costs\":[\n    {\n      \"label\":\"Energiekosten bei 15.000 km Jahresfahrleistung\",\n      \"value\":\"2.247,75 EUR\",\n      \"subvalues\":[\n        {\n          \"label\":\"bei Kraftstoffpreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"1,85 EUR/l\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Mögliche CO2-Kosten über die nächsten 10 Jahre (15.000 km/Jahr)\",\n      \"value\":null,\n      \"footnotes\":[\n        \"2\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"bei einem angenommenen mittleren durchschnittlichen CO2-Preis von 115 EUR/t\",\n          \"value\":\"3.174,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen niedrigen durchschnittlichen CO2-Preis von 55 EUR/t\",\n          \"value\":\"1.518,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen hohen durchschnittlichen CO2-Preis von 190 EUR/t\",\n          \"value\":\"5.244,00 EUR\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftfahrzeugsteuer\",\n      \"value\":\"262,00 EUR/Jahr\"\n    }\n  ],\n  \"footnotes\":{\n    \" \":\"Die Informationen erfolgen gemäß der Pkw-Energieverbrauchskennzeichnungsverordnung. Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren WLTP (Worldwide harmonised Light-duty vehicles Test Procedures) ermittelt. Der Kraftstoffverbrauch und der CO2-Ausstoß eines Pkw sind nicht nur von der effizienten Ausnutzung des Kraftstoffs durch den Pkw, sondern auch vom Fahrstil und anderen nichttechnischen Faktoren abhängig. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Ein Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen aller in Deutschland angebotenen neuen Pkw-Modelle ist unentgeltlich in elektronischer Form einsehbar an jedem Verkaufsort in Deutschland, an dem neue Pkw ausgestellt oder angeboten werden. Der Leitfaden ist auch hier abrufbar: www.dat.de/co2/\",\n    \"1\":\"Es werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\",\n    \"2\":\"Aufgrund der CO2-Bepreisung sind künftig Erhöhungen der Kraftstoffkosten möglich. Die künftige CO2-Preisentwicklung ist unsicher, daher werden die möglichen CO2-Kosten anhand von drei angenommenen CO2-Preisen für den Zeitraum 2025 bis 2034 berechnet. Die tatsächlichen CO2-Preise können sowohl höher als auch niedriger als in den hier zugrundeliegenden Modellrechnungen ausfallen. Die CO2-Kosten sind beim Tanken mit den Kraftstoffkosten zu bezahlen. Weitere Informationen unter www.alternativ-mobil.info\"\n  },\n  \"footer\": {\n    \"\": \"\",\n    \"erstellt am:\": \"05.08.2024\"\n  }\n}\n",
+            "consumptionLabel": "{\n  \"baseData\":[\n    {\n      \"label\":\"Marke\",\n      \"value\":\"Mercedes-Benz\"\n    },\n    {\n      \"label\":\"Handelsbezeichnung\",\n      \"value\":\"Mercedes-AMG A 35 4MATIC Limousine\"\n    },\n    {\n      \"label\":\"Antriebsart\",\n      \"value\":\"Verbrennungsmotor\"\n    },\n    {\n      \"label\":\"Kraftstoff\",\n      \"value\":\"Super Plus\"\n    },\n    {\n      \"label\":\"andere Energieträger\",\n      \"value\":\"entfällt\"\n    },\n    {\n      \"label\":\"Leistung\",\n      \"value\":\"225+10 kW (306+14 PS)\"\n    },\n    {\n      \"label\":\"Masse\",\n      \"value\":\"1.663 kg\"\n    }\n  ],\n  \"energyConsumption\":[\n    {\n      \"label\":\"Energieverbrauch (kombiniert)\",\n      \"value\":\"8,1 l/100km\"\n    },\n    {\n      \"label\":\"CO2-Emissionen (kombiniert)\",\n      \"value\":\"184,0 g/km\",\n      \"footnotes\":[\n        \"1\"\n      ]\n    }\n  ],\n  \"co2LabelContainer\":{\n    \"label\":\"CO2-Klasse\",\n    \"subLabel\":\"Auf Grundlage der CO2-Emissionen (kombiniert)\",\n    \"energyEfficiencyClass\":\"G\"\n  },\n  \"furtherConsumptionData\":[\n    {\n      \"label\":\"Kraftstoffverbrauch kombiniert\",\n      \"value\":\"8,1 l/100km\",\n      \"subvalues\":[\n        {\n          \"label\":\"- Innenstadt\",\n          \"value\":\"13,0 l/100km\"\n        },\n        {\n          \"label\":\"- Stadtrand\",\n          \"value\":\"8,6 l/100km\"\n        },\n        {\n          \"label\":\"- Landstraße\",\n          \"value\":\"7,0 l/100km\"\n        },\n        {\n          \"label\":\"- Autobahn\",\n          \"value\":\"7,0 l/100km\"\n        }\n      ]\n    }\n  ],\n  \"costs\":[\n    {\n      \"label\":\"Energiekosten bei 15.000 km Jahresfahrleistung\",\n      \"value\":\"2.247,75 EUR\",\n      \"subvalues\":[\n        {\n          \"label\":\"bei Kraftstoffpreis (Jahresdurchschnitt 2023)\",\n          \"value\":\"1,85 EUR/l\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Mögliche CO2-Kosten über die nächsten 10 Jahre (15.000 km/Jahr)\",\n      \"value\":null,\n      \"footnotes\":[\n        \"2\"\n      ],\n      \"subvalues\":[\n        {\n          \"label\":\"bei einem angenommenen mittleren durchschnittlichen CO2-Preis von 115 EUR/t\",\n          \"value\":\"3.174,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen niedrigen durchschnittlichen CO2-Preis von 55 EUR/t\",\n          \"value\":\"1.518,00 EUR\"\n        },\n        {\n          \"label\":\"bei einem angenommenen hohen durchschnittlichen CO2-Preis von 190 EUR/t\",\n          \"value\":\"5.244,00 EUR\"\n        }\n      ]\n    },\n    {\n      \"label\":\"Kraftfahrzeugsteuer\",\n      \"value\":\"262,00 EUR/Jahr\"\n    }\n  ],\n  \"footnotes\":{\n    \" \":\"Die Informationen erfolgen gemäß der Pkw-Energieverbrauchskennzeichnungsverordnung. Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren WLTP (Worldwide harmonised Light-duty vehicles Test Procedures) ermittelt. Der Kraftstoffverbrauch und der CO2-Ausstoß eines Pkw sind nicht nur von der effizienten Ausnutzung des Kraftstoffs durch den Pkw, sondern auch vom Fahrstil und anderen nichttechnischen Faktoren abhängig. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Ein Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen aller in Deutschland angebotenen neuen Pkw-Modelle ist unentgeltlich in elektronischer Form einsehbar an jedem Verkaufsort in Deutschland, an dem neue Pkw ausgestellt oder angeboten werden. Der Leitfaden ist auch hier abrufbar: www.dat.de/co2/\",\n    \"1\":\"Es werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\",\n    \"2\":\"Aufgrund der CO2-Bepreisung sind künftig Erhöhungen der Kraftstoffkosten möglich. Die künftige CO2-Preisentwicklung ist unsicher, daher werden die möglichen CO2-Kosten anhand von drei angenommenen CO2-Preisen für den Zeitraum 2025 bis 2034 berechnet. Die tatsächlichen CO2-Preise können sowohl höher als auch niedriger als in den hier zugrundeliegenden Modellrechnungen ausfallen. Die CO2-Kosten sind beim Tanken mit den Kraftstoffkosten zu bezahlen. Weitere Informationen unter www.alternativ-mobil.info\"\n  },\n  \"footer\": {\n    \"\": \"\",\n    \"erstellt am:\": \"06.08.2024\"\n  }\n}\n",
             "deliveryDate": "202411"
         }
     ],
@@ -991,7 +993,7 @@
             "id": "L*993",
             "code": "993",
             "name": "MANUFAKTUR Lack MANUFAKTUR patagonienrot metallic",
-            "price": 12.49,
+            "price": 11.9,
             "category": "MANUFAKTUR Lacke",
             "isStandard": false,
             "carPolicy": 9,
@@ -1002,7 +1004,7 @@
             "id": "L*191",
             "code": "191",
             "name": "Metalliclack kosmosschwarz",
-            "price": 7.87,
+            "price": 7.5,
             "category": "Metallic",
             "isStandard": false,
             "carPolicy": 2,
@@ -1014,7 +1016,7 @@
             "id": "L*787",
             "code": "787",
             "name": "Metalliclack mountaingrau",
-            "price": 7.87,
+            "price": 7.5,
             "category": "Metallic",
             "isStandard": false,
             "carPolicy": 9,
@@ -1025,7 +1027,7 @@
             "id": "L*922",
             "code": "922",
             "name": "Metalliclack hightechsilber",
-            "price": 7.87,
+            "price": 7.5,
             "category": "Metallic",
             "isStandard": false,
             "carPolicy": 9,
@@ -1036,7 +1038,7 @@
             "id": "L*970",
             "code": "970",
             "name": "Metalliclack spektralblau",
-            "price": 7.87,
+            "price": 7.5,
             "category": "Metallic",
             "isStandard": false,
             "carPolicy": 9,
@@ -1047,7 +1049,7 @@
             "id": "L*149",
             "code": "149",
             "name": "Unilack polarweiß",
-            "price": 2.87,
+            "price": 2.74,
             "category": "Uni",
             "isStandard": false,
             "carPolicy": 9,
@@ -1069,7 +1071,7 @@
             "id": "L*662",
             "code": "662",
             "name": "MANUFAKTUR magno Lack MANUFAKTUR mountaingrau magno",
-            "price": 27.49,
+            "price": 26.18,
             "category": "MANUFAKTUR magno Lack",
             "isStandard": false,
             "carPolicy": 3,
@@ -1080,7 +1082,7 @@
             "id": "P*101",
             "code": "101",
             "name": "Ledernachbildung ARTICO schwarz",
-            "price": 1.81,
+            "price": 1.73,
             "category": "Ledernachbildung ARTICO",
             "isStandard": false,
             "carPolicy": 9,
@@ -1091,7 +1093,7 @@
             "id": "P*105",
             "code": "105",
             "name": "Ledernachbildung ARTICO macchiatobeige / schwarz",
-            "price": 3.06,
+            "price": 2.92,
             "category": "Ledernachbildung ARTICO",
             "isStandard": false,
             "carPolicy": 9,
@@ -1103,7 +1105,7 @@
             "id": "P*158",
             "code": "158",
             "name": "Ledernachbildung ARTICO sagegrey / schwarz",
-            "price": 1.81,
+            "price": 1.73,
             "category": "Ledernachbildung ARTICO",
             "isStandard": false,
             "carPolicy": 9,
@@ -1125,7 +1127,7 @@
             "id": "P*318",
             "code": "318",
             "name": "Ledernachbildung ARTICO / Stoff Bertrix sagegrey / schwarz",
-            "price": 1.25,
+            "price": 1.19,
             "category": "Ledernachbildung ARTICO",
             "isStandard": false,
             "carPolicy": 9,
@@ -1147,7 +1149,7 @@
             "id": "P*654",
             "code": "654",
             "name": "Ledernachbildung ARTICO / Mikrofaser MICROCUT bahiabraun / schwarz",
-            "price": 1.25,
+            "price": 1.19,
             "category": "Ledernachbildung ARTICO",
             "isStandard": false,
             "carPolicy": 9,
@@ -1169,10 +1171,10 @@
             "id": "P*277",
             "code": "277",
             "name": "Leder zweifarbig red pepper / schwarz",
-            "price": 1.25,
+            "price": 1.19,
             "category": "Leder",
             "isStandard": false,
-            "carPolicy": 9,
+            "carPolicy": 3,
             "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/0/a8/a0e192648db10330c2d2c8bceee7901778080.jpg",
             "imageUrls": []
         },
@@ -1197,7 +1199,7 @@
             "id": "P34",
             "code": "P34",
             "name": "Leder-Paket",
-            "price": 21.12,
+            "price": 20.11,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 9,
@@ -1211,7 +1213,7 @@
             "id": "P39",
             "code": "P39",
             "name": "AMG Leder-Paket",
-            "price": 14.37,
+            "price": 13.69,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 9,
@@ -1225,7 +1227,7 @@
             "id": "P44",
             "code": "P44",
             "name": "Park-Paket mit Rückfahrkamera",
-            "price": 7.62,
+            "price": 0.0,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 9,
@@ -1243,7 +1245,7 @@
             "id": "P47",
             "code": "P47",
             "name": "Park-Paket mit 360°-Kamera",
-            "price": 16.93,
+            "price": 16.12,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 9,
@@ -1263,7 +1265,7 @@
             "id": "P49",
             "code": "P49",
             "name": "Spiegel-Paket",
-            "price": 5.25,
+            "price": 0.0,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 9,
@@ -1280,7 +1282,7 @@
             "id": "P55",
             "code": "P55",
             "name": "Night-Paket",
-            "price": 10.0,
+            "price": 9.52,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 9,
@@ -1303,7 +1305,7 @@
             "id": "P79",
             "code": "P79",
             "name": "Fahrassistenz-Paket",
-            "price": 19.24,
+            "price": 18.33,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 9,
@@ -1327,7 +1329,7 @@
             "id": "P82",
             "code": "P82",
             "name": "GUARD 360° Fahrzeugschutz Plus",
-            "price": 8.0,
+            "price": 7.62,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 9,
@@ -1344,32 +1346,10 @@
             ]
         },
         {
-            "id": "PAD",
-            "code": "PAD",
-            "name": "Technik-Paket",
-            "price": 61.48,
-            "category": "Pakete",
-            "isStandard": false,
-            "carPolicy": 9,
-            "description": "Mit größeren Bremsscheiben vorn und der adaptiven Verstelldämpfung kontrollieren Sie Ihr Fahrzeug souverän. Die MULTIBEAM LEDs glänzen mit Ästhetik über ihre Leuchtkraft hinaus. Das Fahrassistenz-Paket entlastet und unterstützt Sie umfassend – außerdem macht KEYLESS-GO bereits den Einstieg komfortabler.",
-            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/4/f0/0c5f5eeb25a5101e3a06e2df9f63e54144b88.jpg",
-            "imageUrls": [
-                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/1/af/2e65bf36e8900abf93f9f0439f1ab0a39b91f.jpg",
-                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/4/1e/75672f5981ef83869185e4f78e055195afd35.jpg",
-                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/9/2f/ca69d865c6b6668f595a43949447b297f9426.jpg",
-                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/1/72/40c3d7414a9beced0182c6159645842835c82.jpg"
-            ],
-            "includedEqs": [
-                "KEYLESS-GO|Dank der gespeicherten Zugangs- und Fahrberechtigung erkennt das Fahrzeug seinen Besitzer. Alle Türen lassen sich allein durch Berühren des Türgriffes öffnen und verriegeln. Ihr KEYLESS-GO Fahrzeugschlüssel kann einfach in der Tasche bleiben.",
-                "Fahrwerk mit adaptiver Verstelldämpfung|Wählen Sie selbst zwischen maximaler Agilität und hohem Dämpfungskomfort. Sie können die Dämpferhärte von „Comfort“ bis „Sport“ passend zur Strecke und Ihrem persönlichen Fahrstil einstellen. Das tiefere Fahrwerksniveau und die Sport-Direktlenkung unterstützen zusätzlich eine dynamische Fahrweise.",
-                "Bremsanlage mit größeren Bremsscheiben an der Vorderachse|Besonders standfeste Bremsen für alle Fahrsituationen: Die Bremsanlage mit vergrößerten Bremsscheiben an der Vorderachse packt auch nach mehreren starken Bremsungen jederzeit kraftvoll zu. Der schwarze „Mercedes-Benz“ Schriftzug auf den Bremssätteln unterstreicht die Wertigkeit."
-            ]
-        },
-        {
             "id": "PAV",
             "code": "PAV",
             "name": "Winter-Paket",
-            "price": 2.94,
+            "price": 2.8,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 1,
@@ -1404,28 +1384,10 @@
             ]
         },
         {
-            "id": "PGA",
-            "code": "PGA",
-            "name": "Winter-Paket Plus mit 40,6 cm (16'') Winter-Kompletträdern",
-            "price": 16.06,
-            "category": "Pakete",
-            "isStandard": false,
-            "carPolicy": 3,
-            "description": "Das Winter-Paket Plus begleitet Sie mit Winter-Kompletträdern, Sitzheizung für Fahrer und Beifahrer, Lenkradheizung  sowie beheizter Scheibenwaschanlage durch die kalte Jahreszeit.",
-            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/e/eb/4c5a461f1dcee6bfca5bdb9a291da357290ba.jpg",
-            "imageUrls": [
-                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/2/ca/060a31b7a90b303c560e74d1911c635d727e3.jpg"
-            ],
-            "includedEqs": [
-                "Winter-Paket|Dank Lenkradheizung und Sitzheizung für Fahrer und Beifahrer genießen Sie auch im Winter wohlige Wärme bis in die Fingerspitzen. Für den freien Durchblick kann die beheizte Scheibenwischanlage zudem ein Vereisen der Waschdüsen verhindern.",
-                "Winter-Kompletträder M+S 4-fach (16\")|<b>Winter-Kompletträder M+S 4-fach (5R9)</b> 40,6 cm (16\") Leichtmetallräder im Vielspeichen-Design aerodynamisch optimiert, schwarz hochglänzend lackiert und glanzgedreht mit 205/60 R16 auf 6,5J x 16 ET44 (Felge 43R)"
-            ]
-        },
-        {
             "id": "PGC",
             "code": "PGC",
             "name": "Winter-Paket Plus mit 43,2 cm (17'') Winter-Kompletträdern",
-            "price": 19.8,
+            "price": 18.86,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 3,
@@ -1443,7 +1405,7 @@
             "id": "PGG",
             "code": "PGG",
             "name": "Winter-Paket Plus mit 45,7 cm (18'') Leichtmetallrädern",
-            "price": 26.05,
+            "price": 24.81,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 3,
@@ -1467,9 +1429,9 @@
             "carPolicy": 3,
             "imageUrls": [],
             "includedEqs": [
+                "Remote und Charging Services Plus|Die Remote und Charging Services Plus verbinden Sie mit Ihrem Fahrzeug. Sie können es auf Wunsch lokalisieren und ausgewählte Funktionen fernbedienen. Mit Mercedes me Charge* beziehen Sie Strom an vielen öffentlichen Ladestationen bei größtmöglicher Kostentransparenz. Sie müssen sich nur einmal registrieren und erhalten eine zentrale Abrechnung.",
+                "Ladekabel bis 11 kW für Wallbox und öffentliche Ladestation, 5m, glatt|Dieses Ladekabel, auch Mode 3 Kabel genannt, ermöglicht Ihnen das Aufladen der Fahrzeugbatterie an der Wallbox oder an öffentlichen Ladestationen mit bis zu 11 kW (Typ 2, 3-phasig, 16 A).",
                 "Sitzheizung für Fahrer und Beifahrer|Die Sitzheizung bringt die Sitzflächen und -lehnen bei kühlerem Wetter oder nach Ihrem persönlichen Wunsch schnell auf angenehme Temperatur. Die Intensität wählen Sie in 3 Stufen aus. Nach einiger Zeit schaltet sich die Sitzheizung automatisch zurück.",
-                "Komfortfahrwerk mit Tieferlegung|Die spezielle Abstimmung der Federn und Dämpfer unterstützt sportliches Fahren – ohne, dass Sie auf den gewohnten Komfort verzichten müssen. Durch die Tieferlegung um 15 Millimeter liegt Ihr Fahrzeug gleichzeitig auch optisch satter auf der Straße.",
-                "Remote Services",
                 "TIREFIT|Dichten Sie kleinere Reifenschäden durch eingefahrene Scherben oder Nägel ab. Ein Luftkompressor bläst Dichtmittel in den defekten Reifen. Dank dieser schnellen Übergangslösung können Sie mit bis zu 80 km/h zur nächsten Werkstatt weiterfahren.",
                 "MBUX Navigation Premium|Mit der MBUX Navigation Premium erreichen Sie Ihr Ziel schnell und bestens informiert. Dabei können Sie sich u. a. auf aktuelle Kartendaten inklusive Satellitenansicht, präzise Echtzeit-Verkehrsinformationen und eine schnelle Online-Routenführung verlassen. Intelligent vernetzte Funktionen machen Ihre Fahrt nicht zuletzt auch sicherer.",
                 "Warnweste für Fahrer"
@@ -1479,138 +1441,138 @@
             "id": "PSD",
             "code": "PSD",
             "name": "Entry Advanced",
-            "price": 23.93,
+            "price": 22.79,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 3,
             "imageUrls": [],
             "includedEqs": [
+                "Remote und Charging Services Plus|Die Remote und Charging Services Plus verbinden Sie mit Ihrem Fahrzeug. Sie können es auf Wunsch lokalisieren und ausgewählte Funktionen fernbedienen. Mit Mercedes me Charge* beziehen Sie Strom an vielen öffentlichen Ladestationen bei größtmöglicher Kostentransparenz. Sie müssen sich nur einmal registrieren und erhalten eine zentrale Abrechnung.",
                 "Adaptiver Fernlicht-Assistent|Der adaptive Fernlicht-Assistent schaltet automatisch das Fernlicht zu, wenn er keine beleuchteten Fahrzeuge voraus oder im Gegenverkehr registriert. Durch die hohe Leuchtweite können Sie die Fahrbahn und Gefahren besser erkennen. Drücken Sie den Lenkradbedienhebel auf die Fernlichtstellung, um die Funktion zu aktivieren.",
+                "Ladekabel bis 11 kW für Wallbox und öffentliche Ladestation, 5m, glatt|Dieses Ladekabel, auch Mode 3 Kabel genannt, ermöglicht Ihnen das Aufladen der Fahrzeugbatterie an der Wallbox oder an öffentlichen Ladestationen mit bis zu 11 kW (Typ 2, 3-phasig, 16 A).",
                 "4-Wege-Lordosenstütze|Die 4-Wege-Lordosenstütze passt die Sitzkontur an Ihre Lendenwirbelsäule an und gibt ihr Halt. 4 Einstellungen sind möglich: höher, tiefer, schwächer oder stärker. Ihre Sitzhaltung wird ergonomischer und ihre Rückenmuskulatur entspannter.",
                 "Spiegel-Paket|Die Außenspiegel können Sie elektrisch anklappen und machen so Ihr Fahrzeug auf Tastendruck schlanker. So werden kleine Parkplätze auf einmal groß genug. Zudem kann der Innenspiegel störendes Scheinwerferlicht von hinten registrieren und automatisch abblenden.",
                 "Sitzheizung für Fahrer und Beifahrer|Die Sitzheizung bringt die Sitzflächen und -lehnen bei kühlerem Wetter oder nach Ihrem persönlichen Wunsch schnell auf angenehme Temperatur. Die Intensität wählen Sie in 3 Stufen aus. Nach einiger Zeit schaltet sich die Sitzheizung automatisch zurück.",
-                "Komfortfahrwerk mit Tieferlegung|Die spezielle Abstimmung der Federn und Dämpfer unterstützt sportliches Fahren – ohne, dass Sie auf den gewohnten Komfort verzichten müssen. Durch die Tieferlegung um 15 Millimeter liegt Ihr Fahrzeug gleichzeitig auch optisch satter auf der Straße.",
                 "TIREFIT|Dichten Sie kleinere Reifenschäden durch eingefahrene Scherben oder Nägel ab. Ein Luftkompressor bläst Dichtmittel in den defekten Reifen. Dank dieser schnellen Übergangslösung können Sie mit bis zu 80 km/h zur nächsten Werkstatt weiterfahren.",
-                "Remote Services",
                 "MBUX Navigation Premium|Mit der MBUX Navigation Premium erreichen Sie Ihr Ziel schnell und bestens informiert. Dabei können Sie sich u. a. auf aktuelle Kartendaten inklusive Satellitenansicht, präzise Echtzeit-Verkehrsinformationen und eine schnelle Online-Routenführung verlassen. Intelligent vernetzte Funktionen machen Ihre Fahrt nicht zuletzt auch sicherer.",
                 "Warnweste für Fahrer",
-                "LED High Performance-Scheinwerfer|Die LED High Performance-Scheinwerfer leuchten die Fahrbahn mit breitem Lichtkegel und angenehm warmweißem  Licht wesentlich präziser und großzügiger aus als herkömmliche Halogen- oder Bi-Xenon-Scheinwerfer. Das bedeutet für Sie: bessere Sicht und damit mehr Sicherheit.",
-                "Park-Paket mit Rückfahrkamera|Der Aktive Park-Assistent unterstützt Sie sowohl bei der Parkplatzsuche als auch beim Rückwärtseinparken, sobald eine passende Lücke erkannt ist. Sie haben die Wahl: dank Rückfahrkamera souverän selbst manövrieren – oder einfach einparken lassen."
+                "Park-Paket mit Rückfahrkamera|Der Aktive Park-Assistent unterstützt Sie sowohl bei der Parkplatzsuche als auch beim Rückwärtseinparken, sobald eine passende Lücke erkannt ist. Sie haben die Wahl: dank Rückfahrkamera souverän selbst manövrieren – oder einfach einparken lassen.",
+                "LED High Performance-Scheinwerfer|Die LED High Performance-Scheinwerfer leuchten die Fahrbahn mit breitem Lichtkegel und angenehm warmweißem  Licht wesentlich präziser und großzügiger aus als herkömmliche Halogen- oder Bi-Xenon-Scheinwerfer. Das bedeutet für Sie: bessere Sicht und damit mehr Sicherheit."
             ]
         },
         {
             "id": "PSE",
             "code": "PSE",
             "name": "Progressive Line Advanced",
-            "price": 35.49,
+            "price": 33.8,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 4,
             "imageUrls": [],
             "includedEqs": [
+                "Remote und Charging Services Plus|Die Remote und Charging Services Plus verbinden Sie mit Ihrem Fahrzeug. Sie können es auf Wunsch lokalisieren und ausgewählte Funktionen fernbedienen. Mit Mercedes me Charge* beziehen Sie Strom an vielen öffentlichen Ladestationen bei größtmöglicher Kostentransparenz. Sie müssen sich nur einmal registrieren und erhalten eine zentrale Abrechnung.",
                 "Adaptiver Fernlicht-Assistent|Der adaptive Fernlicht-Assistent schaltet automatisch das Fernlicht zu, wenn er keine beleuchteten Fahrzeuge voraus oder im Gegenverkehr registriert. Durch die hohe Leuchtweite können Sie die Fahrbahn und Gefahren besser erkennen. Drücken Sie den Lenkradbedienhebel auf die Fernlichtstellung, um die Funktion zu aktivieren.",
+                "Ladekabel bis 11 kW für Wallbox und öffentliche Ladestation, 5m, glatt|Dieses Ladekabel, auch Mode 3 Kabel genannt, ermöglicht Ihnen das Aufladen der Fahrzeugbatterie an der Wallbox oder an öffentlichen Ladestationen mit bis zu 11 kW (Typ 2, 3-phasig, 16 A).",
                 "4-Wege-Lordosenstütze|Die 4-Wege-Lordosenstütze passt die Sitzkontur an Ihre Lendenwirbelsäule an und gibt ihr Halt. 4 Einstellungen sind möglich: höher, tiefer, schwächer oder stärker. Ihre Sitzhaltung wird ergonomischer und ihre Rückenmuskulatur entspannter.",
                 "Spiegel-Paket|Die Außenspiegel können Sie elektrisch anklappen und machen so Ihr Fahrzeug auf Tastendruck schlanker. So werden kleine Parkplätze auf einmal groß genug. Zudem kann der Innenspiegel störendes Scheinwerferlicht von hinten registrieren und automatisch abblenden.",
                 "Sitzheizung für Fahrer und Beifahrer|Die Sitzheizung bringt die Sitzflächen und -lehnen bei kühlerem Wetter oder nach Ihrem persönlichen Wunsch schnell auf angenehme Temperatur. Die Intensität wählen Sie in 3 Stufen aus. Nach einiger Zeit schaltet sich die Sitzheizung automatisch zurück.",
-                "Komfortfahrwerk mit Tieferlegung|Die spezielle Abstimmung der Federn und Dämpfer unterstützt sportliches Fahren – ohne, dass Sie auf den gewohnten Komfort verzichten müssen. Durch die Tieferlegung um 15 Millimeter liegt Ihr Fahrzeug gleichzeitig auch optisch satter auf der Straße.",
                 "TIREFIT|Dichten Sie kleinere Reifenschäden durch eingefahrene Scherben oder Nägel ab. Ein Luftkompressor bläst Dichtmittel in den defekten Reifen. Dank dieser schnellen Übergangslösung können Sie mit bis zu 80 km/h zur nächsten Werkstatt weiterfahren.",
-                "Remote Services",
                 "MBUX Navigation Premium|Mit der MBUX Navigation Premium erreichen Sie Ihr Ziel schnell und bestens informiert. Dabei können Sie sich u. a. auf aktuelle Kartendaten inklusive Satellitenansicht, präzise Echtzeit-Verkehrsinformationen und eine schnelle Online-Routenführung verlassen. Intelligent vernetzte Funktionen machen Ihre Fahrt nicht zuletzt auch sicherer.",
                 "Progressive|Mit der Ausstattungslinie Progressive setzen Sie gezielt Highlights: Die sichtbaren Endrohrblenden unterstreichen den dynamischen Anspruch Ihres Fahrzeugs. Im Innenraum setzen Zierelemente in dunkler Carbonoptik stilsichere Akzente. Außerdem stehen Sitzbezüge in verschiedener Farbe und Materialität zur Wahl.",
                 "Warnweste für Fahrer",
-                "LED High Performance-Scheinwerfer|Die LED High Performance-Scheinwerfer leuchten die Fahrbahn mit breitem Lichtkegel und angenehm warmweißem  Licht wesentlich präziser und großzügiger aus als herkömmliche Halogen- oder Bi-Xenon-Scheinwerfer. Das bedeutet für Sie: bessere Sicht und damit mehr Sicherheit.",
-                "Park-Paket mit Rückfahrkamera|Der Aktive Park-Assistent unterstützt Sie sowohl bei der Parkplatzsuche als auch beim Rückwärtseinparken, sobald eine passende Lücke erkannt ist. Sie haben die Wahl: dank Rückfahrkamera souverän selbst manövrieren – oder einfach einparken lassen."
+                "Park-Paket mit Rückfahrkamera|Der Aktive Park-Assistent unterstützt Sie sowohl bei der Parkplatzsuche als auch beim Rückwärtseinparken, sobald eine passende Lücke erkannt ist. Sie haben die Wahl: dank Rückfahrkamera souverän selbst manövrieren – oder einfach einparken lassen.",
+                "LED High Performance-Scheinwerfer|Die LED High Performance-Scheinwerfer leuchten die Fahrbahn mit breitem Lichtkegel und angenehm warmweißem  Licht wesentlich präziser und großzügiger aus als herkömmliche Halogen- oder Bi-Xenon-Scheinwerfer. Das bedeutet für Sie: bessere Sicht und damit mehr Sicherheit."
             ]
         },
         {
             "id": "PSF",
             "code": "PSF",
             "name": "AMG Line Advanced",
-            "price": 56.66,
+            "price": 58.37,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 9,
             "imageUrls": [],
             "includedEqs": [
+                "Remote und Charging Services Plus|Die Remote und Charging Services Plus verbinden Sie mit Ihrem Fahrzeug. Sie können es auf Wunsch lokalisieren und ausgewählte Funktionen fernbedienen. Mit Mercedes me Charge* beziehen Sie Strom an vielen öffentlichen Ladestationen bei größtmöglicher Kostentransparenz. Sie müssen sich nur einmal registrieren und erhalten eine zentrale Abrechnung.",
                 "Adaptiver Fernlicht-Assistent|Der adaptive Fernlicht-Assistent schaltet automatisch das Fernlicht zu, wenn er keine beleuchteten Fahrzeuge voraus oder im Gegenverkehr registriert. Durch die hohe Leuchtweite können Sie die Fahrbahn und Gefahren besser erkennen. Drücken Sie den Lenkradbedienhebel auf die Fernlichtstellung, um die Funktion zu aktivieren.",
+                "Ladekabel bis 11 kW für Wallbox und öffentliche Ladestation, 5m, glatt|Dieses Ladekabel, auch Mode 3 Kabel genannt, ermöglicht Ihnen das Aufladen der Fahrzeugbatterie an der Wallbox oder an öffentlichen Ladestationen mit bis zu 11 kW (Typ 2, 3-phasig, 16 A).",
                 "4-Wege-Lordosenstütze|Die 4-Wege-Lordosenstütze passt die Sitzkontur an Ihre Lendenwirbelsäule an und gibt ihr Halt. 4 Einstellungen sind möglich: höher, tiefer, schwächer oder stärker. Ihre Sitzhaltung wird ergonomischer und ihre Rückenmuskulatur entspannter.",
                 "Spiegel-Paket|Die Außenspiegel können Sie elektrisch anklappen und machen so Ihr Fahrzeug auf Tastendruck schlanker. So werden kleine Parkplätze auf einmal groß genug. Zudem kann der Innenspiegel störendes Scheinwerferlicht von hinten registrieren und automatisch abblenden.",
-                "Komfortfahrwerk mit Tieferlegung|Die spezielle Abstimmung der Federn und Dämpfer unterstützt sportliches Fahren – ohne, dass Sie auf den gewohnten Komfort verzichten müssen. Durch die Tieferlegung um 15 Millimeter liegt Ihr Fahrzeug gleichzeitig auch optisch satter auf der Straße.",
                 "Sitzheizung für Fahrer und Beifahrer|Die Sitzheizung bringt die Sitzflächen und -lehnen bei kühlerem Wetter oder nach Ihrem persönlichen Wunsch schnell auf angenehme Temperatur. Die Intensität wählen Sie in 3 Stufen aus. Nach einiger Zeit schaltet sich die Sitzheizung automatisch zurück.",
-                "Remote Services",
                 "TIREFIT|Dichten Sie kleinere Reifenschäden durch eingefahrene Scherben oder Nägel ab. Ein Luftkompressor bläst Dichtmittel in den defekten Reifen. Dank dieser schnellen Übergangslösung können Sie mit bis zu 80 km/h zur nächsten Werkstatt weiterfahren.",
                 "MBUX Navigation Premium|Mit der MBUX Navigation Premium erreichen Sie Ihr Ziel schnell und bestens informiert. Dabei können Sie sich u. a. auf aktuelle Kartendaten inklusive Satellitenansicht, präzise Echtzeit-Verkehrsinformationen und eine schnelle Online-Routenführung verlassen. Intelligent vernetzte Funktionen machen Ihre Fahrt nicht zuletzt auch sicherer.",
                 "Warnweste für Fahrer",
-                "LED High Performance-Scheinwerfer|Die LED High Performance-Scheinwerfer leuchten die Fahrbahn mit breitem Lichtkegel und angenehm warmweißem  Licht wesentlich präziser und großzügiger aus als herkömmliche Halogen- oder Bi-Xenon-Scheinwerfer. Das bedeutet für Sie: bessere Sicht und damit mehr Sicherheit.",
+                "AMG Line|Das eigenständige AMG Styling rückt Ihr Fahrzeug optisch in die Nähe der Modelle von Mercedes-AMG. Weitere Elemente im Interieur wie die Sportsitze und das Multifunktions-Sportlenkrad in Leder Nappa verstärken den expressiven Gesamteindruck. Der sportliche Motorsound bietet jede Menge zusätzlichen Fahrspaß.",
                 "Park-Paket mit Rückfahrkamera|Der Aktive Park-Assistent unterstützt Sie sowohl bei der Parkplatzsuche als auch beim Rückwärtseinparken, sobald eine passende Lücke erkannt ist. Sie haben die Wahl: dank Rückfahrkamera souverän selbst manövrieren – oder einfach einparken lassen.",
-                "AMG Line|Das eigenständige AMG Styling rückt Ihr Fahrzeug optisch in die Nähe der Modelle von Mercedes-AMG. Weitere Elemente im Interieur wie die Sportsitze und das Multifunktions-Sportlenkrad in Leder Nappa verstärken den expressiven Gesamteindruck. Der sportliche Motorsound bietet jede Menge zusätzlichen Fahrspaß."
+                "LED High Performance-Scheinwerfer|Die LED High Performance-Scheinwerfer leuchten die Fahrbahn mit breitem Lichtkegel und angenehm warmweißem  Licht wesentlich präziser und großzügiger aus als herkömmliche Halogen- oder Bi-Xenon-Scheinwerfer. Das bedeutet für Sie: bessere Sicht und damit mehr Sicherheit."
             ]
         },
         {
             "id": "PSI",
             "code": "PSI",
             "name": "Progressive Line Advanced Plus",
-            "price": 52.42,
+            "price": 49.92,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 9,
             "imageUrls": [],
             "includedEqs": [
                 "Adaptiver Fernlicht-Assistent|Der adaptive Fernlicht-Assistent schaltet automatisch das Fernlicht zu, wenn er keine beleuchteten Fahrzeuge voraus oder im Gegenverkehr registriert. Durch die hohe Leuchtweite können Sie die Fahrbahn und Gefahren besser erkennen. Drücken Sie den Lenkradbedienhebel auf die Fernlichtstellung, um die Funktion zu aktivieren.",
+                "Ladekabel bis 11 kW für Wallbox und öffentliche Ladestation, 5m, glatt|Dieses Ladekabel, auch Mode 3 Kabel genannt, ermöglicht Ihnen das Aufladen der Fahrzeugbatterie an der Wallbox oder an öffentlichen Ladestationen mit bis zu 11 kW (Typ 2, 3-phasig, 16 A).",
                 "Fingerabdruck Scanner|Mit dem Fingerabdruck Scanner schalten Sie den Zugang zu Ihren persönlichen Daten frei. Dazu gehören Profile oder auch Büro- und Zahlungsfunktionen. Wenn Sie die farbig beleuchtete Taste berühren, identifizieren Sie sich schnell und komfortabel. Das ist sicher und zudem ablenkungsfreier als eine PIN-Eingabe.",
                 "Sitzheizung für Fahrer und Beifahrer|Die Sitzheizung bringt die Sitzflächen und -lehnen bei kühlerem Wetter oder nach Ihrem persönlichen Wunsch schnell auf angenehme Temperatur. Die Intensität wählen Sie in 3 Stufen aus. Nach einiger Zeit schaltet sich die Sitzheizung automatisch zurück.",
-                "Komfortfahrwerk mit Tieferlegung|Die spezielle Abstimmung der Federn und Dämpfer unterstützt sportliches Fahren – ohne, dass Sie auf den gewohnten Komfort verzichten müssen. Durch die Tieferlegung um 15 Millimeter liegt Ihr Fahrzeug gleichzeitig auch optisch satter auf der Straße.",
-                "Ambientebeleuchtung|Die Ambientebeleuchtung hält mit insgesamt 64 Farben eine passende Lichtinszenierung für Sie bereit – ganz nach Ihrer persönlichen Vorliebe. 10 faszinierende Farbwelten setzen beispielsweise die Lüftungsdüsen, Türen oder die Instrumententafel emotional in Szene.",
                 "TIREFIT|Dichten Sie kleinere Reifenschäden durch eingefahrene Scherben oder Nägel ab. Ein Luftkompressor bläst Dichtmittel in den defekten Reifen. Dank dieser schnellen Übergangslösung können Sie mit bis zu 80 km/h zur nächsten Werkstatt weiterfahren.",
-                "Remote Services",
+                "Ambientebeleuchtung|Die Ambientebeleuchtung hält mit insgesamt 64 Farben eine passende Lichtinszenierung für Sie bereit – ganz nach Ihrer persönlichen Vorliebe. 10 faszinierende Farbwelten setzen beispielsweise die Lüftungsdüsen, Türen oder die Instrumententafel emotional in Szene.",
                 "MBUX Navigation Premium|Mit der MBUX Navigation Premium erreichen Sie Ihr Ziel schnell und bestens informiert. Dabei können Sie sich u. a. auf aktuelle Kartendaten inklusive Satellitenansicht, präzise Echtzeit-Verkehrsinformationen und eine schnelle Online-Routenführung verlassen. Intelligent vernetzte Funktionen machen Ihre Fahrt nicht zuletzt auch sicherer.",
                 "Progressive|Mit der Ausstattungslinie Progressive setzen Sie gezielt Highlights: Die sichtbaren Endrohrblenden unterstreichen den dynamischen Anspruch Ihres Fahrzeugs. Im Innenraum setzen Zierelemente in dunkler Carbonoptik stilsichere Akzente. Außerdem stehen Sitzbezüge in verschiedener Farbe und Materialität zur Wahl.",
                 "LED High Performance-Scheinwerfer|Die LED High Performance-Scheinwerfer leuchten die Fahrbahn mit breitem Lichtkegel und angenehm warmweißem  Licht wesentlich präziser und großzügiger aus als herkömmliche Halogen- oder Bi-Xenon-Scheinwerfer. Das bedeutet für Sie: bessere Sicht und damit mehr Sicherheit.",
                 "KEYLESS-GO Komfort-Paket|Entriegeln oder verriegeln Sie Ihr Fahrzeug, indem Sie einfach den Türgriff berühren. HANDS-FREE ACCESS öffnet außerdem den Kofferraumdeckel mit einer Kickbewegung unter den Stoßfänger. Das ist besonders hilfreich, wenn Sie schwer bepackt vom Einkaufen kommen.",
+                "Remote und Charging Services Plus|Die Remote und Charging Services Plus verbinden Sie mit Ihrem Fahrzeug. Sie können es auf Wunsch lokalisieren und ausgewählte Funktionen fernbedienen. Mit Mercedes me Charge* beziehen Sie Strom an vielen öffentlichen Ladestationen bei größtmöglicher Kostentransparenz. Sie müssen sich nur einmal registrieren und erhalten eine zentrale Abrechnung.",
                 "4-Wege-Lordosenstütze|Die 4-Wege-Lordosenstütze passt die Sitzkontur an Ihre Lendenwirbelsäule an und gibt ihr Halt. 4 Einstellungen sind möglich: höher, tiefer, schwächer oder stärker. Ihre Sitzhaltung wird ergonomischer und ihre Rückenmuskulatur entspannter.",
                 "Spiegel-Paket|Die Außenspiegel können Sie elektrisch anklappen und machen so Ihr Fahrzeug auf Tastendruck schlanker. So werden kleine Parkplätze auf einmal groß genug. Zudem kann der Innenspiegel störendes Scheinwerferlicht von hinten registrieren und automatisch abblenden.",
                 "Armlehne im Fond|Mit der Armlehne im Fond genießen Ihre Fondpassagiere eine besonders entspannte Sitzposition. Den Reisekomfort steigern auch die 2 integrierten Cupholder für Getränke.",
                 "Kabelloses Ladesystem für mobile Endgeräte vorn|Ihr Smartphone ist mit nur einer Handbewegung an seinem festen Platz in der Spontanablage und wird dort kabellos geladen. Unabhängig von Modell und Marke laden sich Qi-kompatible mobile Endgeräte kabellos auf.",
                 "Warnweste für Fahrer",
-                "Volldigitales Instrumenten-Display|Erweitern Sie Ihr Cockpit um ein digitales Instrumenten-Display im 10,25\"-Format. Hier entscheiden Sie selbst, welche Informationen Ihnen besonders wichtig sind, denn die Anzeigeinhalte lassen sich mit verschiedenen Kontexten individuell konfigurieren. Außerdem wählen Sie aus 3 attraktiven Anzeigestilen.",
-                "Park-Paket mit Rückfahrkamera|Der Aktive Park-Assistent unterstützt Sie sowohl bei der Parkplatzsuche als auch beim Rückwärtseinparken, sobald eine passende Lücke erkannt ist. Sie haben die Wahl: dank Rückfahrkamera souverän selbst manövrieren – oder einfach einparken lassen."
+                "Park-Paket mit Rückfahrkamera|Der Aktive Park-Assistent unterstützt Sie sowohl bei der Parkplatzsuche als auch beim Rückwärtseinparken, sobald eine passende Lücke erkannt ist. Sie haben die Wahl: dank Rückfahrkamera souverän selbst manövrieren – oder einfach einparken lassen.",
+                "Volldigitales Instrumenten-Display|Erweitern Sie Ihr Cockpit um ein digitales Instrumenten-Display im 10,25\"-Format. Hier entscheiden Sie selbst, welche Informationen Ihnen besonders wichtig sind, denn die Anzeigeinhalte lassen sich mit verschiedenen Kontexten individuell konfigurieren. Außerdem wählen Sie aus 3 attraktiven Anzeigestilen."
             ]
         },
         {
             "id": "PSJ",
             "code": "PSJ",
             "name": "AMG Line Advanced Plus",
-            "price": 73.6,
+            "price": 74.49,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 9,
             "imageUrls": [],
             "includedEqs": [
                 "Adaptiver Fernlicht-Assistent|Der adaptive Fernlicht-Assistent schaltet automatisch das Fernlicht zu, wenn er keine beleuchteten Fahrzeuge voraus oder im Gegenverkehr registriert. Durch die hohe Leuchtweite können Sie die Fahrbahn und Gefahren besser erkennen. Drücken Sie den Lenkradbedienhebel auf die Fernlichtstellung, um die Funktion zu aktivieren.",
+                "Ladekabel bis 11 kW für Wallbox und öffentliche Ladestation, 5m, glatt|Dieses Ladekabel, auch Mode 3 Kabel genannt, ermöglicht Ihnen das Aufladen der Fahrzeugbatterie an der Wallbox oder an öffentlichen Ladestationen mit bis zu 11 kW (Typ 2, 3-phasig, 16 A).",
                 "Fingerabdruck Scanner|Mit dem Fingerabdruck Scanner schalten Sie den Zugang zu Ihren persönlichen Daten frei. Dazu gehören Profile oder auch Büro- und Zahlungsfunktionen. Wenn Sie die farbig beleuchtete Taste berühren, identifizieren Sie sich schnell und komfortabel. Das ist sicher und zudem ablenkungsfreier als eine PIN-Eingabe.",
                 "Sitzheizung für Fahrer und Beifahrer|Die Sitzheizung bringt die Sitzflächen und -lehnen bei kühlerem Wetter oder nach Ihrem persönlichen Wunsch schnell auf angenehme Temperatur. Die Intensität wählen Sie in 3 Stufen aus. Nach einiger Zeit schaltet sich die Sitzheizung automatisch zurück.",
-                "Komfortfahrwerk mit Tieferlegung|Die spezielle Abstimmung der Federn und Dämpfer unterstützt sportliches Fahren – ohne, dass Sie auf den gewohnten Komfort verzichten müssen. Durch die Tieferlegung um 15 Millimeter liegt Ihr Fahrzeug gleichzeitig auch optisch satter auf der Straße.",
-                "TIREFIT|Dichten Sie kleinere Reifenschäden durch eingefahrene Scherben oder Nägel ab. Ein Luftkompressor bläst Dichtmittel in den defekten Reifen. Dank dieser schnellen Übergangslösung können Sie mit bis zu 80 km/h zur nächsten Werkstatt weiterfahren.",
                 "Ambientebeleuchtung|Die Ambientebeleuchtung hält mit insgesamt 64 Farben eine passende Lichtinszenierung für Sie bereit – ganz nach Ihrer persönlichen Vorliebe. 10 faszinierende Farbwelten setzen beispielsweise die Lüftungsdüsen, Türen oder die Instrumententafel emotional in Szene.",
-                "Remote Services",
+                "TIREFIT|Dichten Sie kleinere Reifenschäden durch eingefahrene Scherben oder Nägel ab. Ein Luftkompressor bläst Dichtmittel in den defekten Reifen. Dank dieser schnellen Übergangslösung können Sie mit bis zu 80 km/h zur nächsten Werkstatt weiterfahren.",
                 "MBUX Navigation Premium|Mit der MBUX Navigation Premium erreichen Sie Ihr Ziel schnell und bestens informiert. Dabei können Sie sich u. a. auf aktuelle Kartendaten inklusive Satellitenansicht, präzise Echtzeit-Verkehrsinformationen und eine schnelle Online-Routenführung verlassen. Intelligent vernetzte Funktionen machen Ihre Fahrt nicht zuletzt auch sicherer.",
-                "LED High Performance-Scheinwerfer|Die LED High Performance-Scheinwerfer leuchten die Fahrbahn mit breitem Lichtkegel und angenehm warmweißem  Licht wesentlich präziser und großzügiger aus als herkömmliche Halogen- oder Bi-Xenon-Scheinwerfer. Das bedeutet für Sie: bessere Sicht und damit mehr Sicherheit.",
                 "AMG Line|Das eigenständige AMG Styling rückt Ihr Fahrzeug optisch in die Nähe der Modelle von Mercedes-AMG. Weitere Elemente im Interieur wie die Sportsitze und das Multifunktions-Sportlenkrad in Leder Nappa verstärken den expressiven Gesamteindruck. Der sportliche Motorsound bietet jede Menge zusätzlichen Fahrspaß.",
+                "LED High Performance-Scheinwerfer|Die LED High Performance-Scheinwerfer leuchten die Fahrbahn mit breitem Lichtkegel und angenehm warmweißem  Licht wesentlich präziser und großzügiger aus als herkömmliche Halogen- oder Bi-Xenon-Scheinwerfer. Das bedeutet für Sie: bessere Sicht und damit mehr Sicherheit.",
                 "KEYLESS-GO Komfort-Paket|Entriegeln oder verriegeln Sie Ihr Fahrzeug, indem Sie einfach den Türgriff berühren. HANDS-FREE ACCESS öffnet außerdem den Kofferraumdeckel mit einer Kickbewegung unter den Stoßfänger. Das ist besonders hilfreich, wenn Sie schwer bepackt vom Einkaufen kommen.",
+                "Remote und Charging Services Plus|Die Remote und Charging Services Plus verbinden Sie mit Ihrem Fahrzeug. Sie können es auf Wunsch lokalisieren und ausgewählte Funktionen fernbedienen. Mit Mercedes me Charge* beziehen Sie Strom an vielen öffentlichen Ladestationen bei größtmöglicher Kostentransparenz. Sie müssen sich nur einmal registrieren und erhalten eine zentrale Abrechnung.",
                 "4-Wege-Lordosenstütze|Die 4-Wege-Lordosenstütze passt die Sitzkontur an Ihre Lendenwirbelsäule an und gibt ihr Halt. 4 Einstellungen sind möglich: höher, tiefer, schwächer oder stärker. Ihre Sitzhaltung wird ergonomischer und ihre Rückenmuskulatur entspannter.",
                 "Spiegel-Paket|Die Außenspiegel können Sie elektrisch anklappen und machen so Ihr Fahrzeug auf Tastendruck schlanker. So werden kleine Parkplätze auf einmal groß genug. Zudem kann der Innenspiegel störendes Scheinwerferlicht von hinten registrieren und automatisch abblenden.",
                 "Armlehne im Fond|Mit der Armlehne im Fond genießen Ihre Fondpassagiere eine besonders entspannte Sitzposition. Den Reisekomfort steigern auch die 2 integrierten Cupholder für Getränke.",
                 "Kabelloses Ladesystem für mobile Endgeräte vorn|Ihr Smartphone ist mit nur einer Handbewegung an seinem festen Platz in der Spontanablage und wird dort kabellos geladen. Unabhängig von Modell und Marke laden sich Qi-kompatible mobile Endgeräte kabellos auf.",
                 "Warnweste für Fahrer",
-                "Volldigitales Instrumenten-Display|Erweitern Sie Ihr Cockpit um ein digitales Instrumenten-Display im 10,25\"-Format. Hier entscheiden Sie selbst, welche Informationen Ihnen besonders wichtig sind, denn die Anzeigeinhalte lassen sich mit verschiedenen Kontexten individuell konfigurieren. Außerdem wählen Sie aus 3 attraktiven Anzeigestilen.",
-                "Park-Paket mit Rückfahrkamera|Der Aktive Park-Assistent unterstützt Sie sowohl bei der Parkplatzsuche als auch beim Rückwärtseinparken, sobald eine passende Lücke erkannt ist. Sie haben die Wahl: dank Rückfahrkamera souverän selbst manövrieren – oder einfach einparken lassen."
+                "Park-Paket mit Rückfahrkamera|Der Aktive Park-Assistent unterstützt Sie sowohl bei der Parkplatzsuche als auch beim Rückwärtseinparken, sobald eine passende Lücke erkannt ist. Sie haben die Wahl: dank Rückfahrkamera souverän selbst manövrieren – oder einfach einparken lassen.",
+                "Volldigitales Instrumenten-Display|Erweitern Sie Ihr Cockpit um ein digitales Instrumenten-Display im 10,25\"-Format. Hier entscheiden Sie selbst, welche Informationen Ihnen besonders wichtig sind, denn die Anzeigeinhalte lassen sich mit verschiedenen Kontexten individuell konfigurieren. Außerdem wählen Sie aus 3 attraktiven Anzeigestilen."
             ]
         },
         {
             "id": "PSM",
             "code": "PSM",
             "name": "Progressive Line Premium",
-            "price": 67.72,
+            "price": 64.5,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 9,
@@ -1618,16 +1580,16 @@
             "includedEqs": [
                 "Advanced Soundsystem|Mit 10 Lautsprechern und 225 Watt Systemleistung steigern Sie Ihren Fahrspaß auch akustisch. Das exakt auf den Innenraum abgestimmte Lautsprechersystem bietet Ihnen eine dynamische Musikwiedergabe.",
                 "Adaptiver Fernlicht-Assistent|Der adaptive Fernlicht-Assistent schaltet automatisch das Fernlicht zu, wenn er keine beleuchteten Fahrzeuge voraus oder im Gegenverkehr registriert. Durch die hohe Leuchtweite können Sie die Fahrbahn und Gefahren besser erkennen. Drücken Sie den Lenkradbedienhebel auf die Fernlichtstellung, um die Funktion zu aktivieren.",
+                "Ladekabel bis 11 kW für Wallbox und öffentliche Ladestation, 5m, glatt|Dieses Ladekabel, auch Mode 3 Kabel genannt, ermöglicht Ihnen das Aufladen der Fahrzeugbatterie an der Wallbox oder an öffentlichen Ladestationen mit bis zu 11 kW (Typ 2, 3-phasig, 16 A).",
                 "Fingerabdruck Scanner|Mit dem Fingerabdruck Scanner schalten Sie den Zugang zu Ihren persönlichen Daten frei. Dazu gehören Profile oder auch Büro- und Zahlungsfunktionen. Wenn Sie die farbig beleuchtete Taste berühren, identifizieren Sie sich schnell und komfortabel. Das ist sicher und zudem ablenkungsfreier als eine PIN-Eingabe.",
-                "Komfortfahrwerk mit Tieferlegung|Die spezielle Abstimmung der Federn und Dämpfer unterstützt sportliches Fahren – ohne, dass Sie auf den gewohnten Komfort verzichten müssen. Durch die Tieferlegung um 15 Millimeter liegt Ihr Fahrzeug gleichzeitig auch optisch satter auf der Straße.",
                 "Sitzheizung für Fahrer und Beifahrer|Die Sitzheizung bringt die Sitzflächen und -lehnen bei kühlerem Wetter oder nach Ihrem persönlichen Wunsch schnell auf angenehme Temperatur. Die Intensität wählen Sie in 3 Stufen aus. Nach einiger Zeit schaltet sich die Sitzheizung automatisch zurück.",
-                "Ambientebeleuchtung|Die Ambientebeleuchtung hält mit insgesamt 64 Farben eine passende Lichtinszenierung für Sie bereit – ganz nach Ihrer persönlichen Vorliebe. 10 faszinierende Farbwelten setzen beispielsweise die Lüftungsdüsen, Türen oder die Instrumententafel emotional in Szene.",
-                "Remote Services",
                 "TIREFIT|Dichten Sie kleinere Reifenschäden durch eingefahrene Scherben oder Nägel ab. Ein Luftkompressor bläst Dichtmittel in den defekten Reifen. Dank dieser schnellen Übergangslösung können Sie mit bis zu 80 km/h zur nächsten Werkstatt weiterfahren.",
+                "Ambientebeleuchtung|Die Ambientebeleuchtung hält mit insgesamt 64 Farben eine passende Lichtinszenierung für Sie bereit – ganz nach Ihrer persönlichen Vorliebe. 10 faszinierende Farbwelten setzen beispielsweise die Lüftungsdüsen, Türen oder die Instrumententafel emotional in Szene.",
                 "MBUX Navigation Premium|Mit der MBUX Navigation Premium erreichen Sie Ihr Ziel schnell und bestens informiert. Dabei können Sie sich u. a. auf aktuelle Kartendaten inklusive Satellitenansicht, präzise Echtzeit-Verkehrsinformationen und eine schnelle Online-Routenführung verlassen. Intelligent vernetzte Funktionen machen Ihre Fahrt nicht zuletzt auch sicherer.",
                 "Progressive|Mit der Ausstattungslinie Progressive setzen Sie gezielt Highlights: Die sichtbaren Endrohrblenden unterstreichen den dynamischen Anspruch Ihres Fahrzeugs. Im Innenraum setzen Zierelemente in dunkler Carbonoptik stilsichere Akzente. Außerdem stehen Sitzbezüge in verschiedener Farbe und Materialität zur Wahl.",
                 "LED High Performance-Scheinwerfer|Die LED High Performance-Scheinwerfer leuchten die Fahrbahn mit breitem Lichtkegel und angenehm warmweißem  Licht wesentlich präziser und großzügiger aus als herkömmliche Halogen- oder Bi-Xenon-Scheinwerfer. Das bedeutet für Sie: bessere Sicht und damit mehr Sicherheit.",
                 "KEYLESS-GO Komfort-Paket|Entriegeln oder verriegeln Sie Ihr Fahrzeug, indem Sie einfach den Türgriff berühren. HANDS-FREE ACCESS öffnet außerdem den Kofferraumdeckel mit einer Kickbewegung unter den Stoßfänger. Das ist besonders hilfreich, wenn Sie schwer bepackt vom Einkaufen kommen.",
+                "Remote und Charging Services Plus|Die Remote und Charging Services Plus verbinden Sie mit Ihrem Fahrzeug. Sie können es auf Wunsch lokalisieren und ausgewählte Funktionen fernbedienen. Mit Mercedes me Charge* beziehen Sie Strom an vielen öffentlichen Ladestationen bei größtmöglicher Kostentransparenz. Sie müssen sich nur einmal registrieren und erhalten eine zentrale Abrechnung.",
                 "Totwinkel-Assistent|Der Totwinkel-Assistent kann Sie optisch und akustisch vor Seitenkollisionen mit anderen Verkehrsteilnehmern warnen – insbesondere, wenn Sie den Blinker zum Spurwechsel betätigen. Nach der Fahrt unterstützt Sie die Ausstiegswarnfunktion beim Türöffnen. Ein wichtiger Schutz, vor allem für Fahrradfahrer.",
                 "Einstiegsleisten mit \"Mercedes-Benz\" Schriftzug, beleuchtet und mit Wechselcover|Die hochwertigen Einstiegsleisten aus Edelstahl sind mit einem „Mercedes-Benz“ Schriftzug beleuchtet. Dank der auswechselbaren Abdeckung können Sie die Einstiegsleisten gegen weitere attraktive Original-Teile von Mercedes-Benz oder Mercedes-AMG tauschen.",
                 "4-Wege-Lordosenstütze|Die 4-Wege-Lordosenstütze passt die Sitzkontur an Ihre Lendenwirbelsäule an und gibt ihr Halt. 4 Einstellungen sind möglich: höher, tiefer, schwächer oder stärker. Ihre Sitzhaltung wird ergonomischer und ihre Rückenmuskulatur entspannter.",
@@ -1644,7 +1606,7 @@
             "id": "PSN",
             "code": "PSN",
             "name": "AMG Line Premium",
-            "price": 88.9,
+            "price": 89.07,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 9,
@@ -1652,16 +1614,16 @@
             "includedEqs": [
                 "Advanced Soundsystem|Mit 10 Lautsprechern und 225 Watt Systemleistung steigern Sie Ihren Fahrspaß auch akustisch. Das exakt auf den Innenraum abgestimmte Lautsprechersystem bietet Ihnen eine dynamische Musikwiedergabe.",
                 "Adaptiver Fernlicht-Assistent|Der adaptive Fernlicht-Assistent schaltet automatisch das Fernlicht zu, wenn er keine beleuchteten Fahrzeuge voraus oder im Gegenverkehr registriert. Durch die hohe Leuchtweite können Sie die Fahrbahn und Gefahren besser erkennen. Drücken Sie den Lenkradbedienhebel auf die Fernlichtstellung, um die Funktion zu aktivieren.",
+                "Ladekabel bis 11 kW für Wallbox und öffentliche Ladestation, 5m, glatt|Dieses Ladekabel, auch Mode 3 Kabel genannt, ermöglicht Ihnen das Aufladen der Fahrzeugbatterie an der Wallbox oder an öffentlichen Ladestationen mit bis zu 11 kW (Typ 2, 3-phasig, 16 A).",
                 "Fingerabdruck Scanner|Mit dem Fingerabdruck Scanner schalten Sie den Zugang zu Ihren persönlichen Daten frei. Dazu gehören Profile oder auch Büro- und Zahlungsfunktionen. Wenn Sie die farbig beleuchtete Taste berühren, identifizieren Sie sich schnell und komfortabel. Das ist sicher und zudem ablenkungsfreier als eine PIN-Eingabe.",
                 "Sitzheizung für Fahrer und Beifahrer|Die Sitzheizung bringt die Sitzflächen und -lehnen bei kühlerem Wetter oder nach Ihrem persönlichen Wunsch schnell auf angenehme Temperatur. Die Intensität wählen Sie in 3 Stufen aus. Nach einiger Zeit schaltet sich die Sitzheizung automatisch zurück.",
-                "Komfortfahrwerk mit Tieferlegung|Die spezielle Abstimmung der Federn und Dämpfer unterstützt sportliches Fahren – ohne, dass Sie auf den gewohnten Komfort verzichten müssen. Durch die Tieferlegung um 15 Millimeter liegt Ihr Fahrzeug gleichzeitig auch optisch satter auf der Straße.",
-                "Remote Services",
-                "TIREFIT|Dichten Sie kleinere Reifenschäden durch eingefahrene Scherben oder Nägel ab. Ein Luftkompressor bläst Dichtmittel in den defekten Reifen. Dank dieser schnellen Übergangslösung können Sie mit bis zu 80 km/h zur nächsten Werkstatt weiterfahren.",
                 "Ambientebeleuchtung|Die Ambientebeleuchtung hält mit insgesamt 64 Farben eine passende Lichtinszenierung für Sie bereit – ganz nach Ihrer persönlichen Vorliebe. 10 faszinierende Farbwelten setzen beispielsweise die Lüftungsdüsen, Türen oder die Instrumententafel emotional in Szene.",
+                "TIREFIT|Dichten Sie kleinere Reifenschäden durch eingefahrene Scherben oder Nägel ab. Ein Luftkompressor bläst Dichtmittel in den defekten Reifen. Dank dieser schnellen Übergangslösung können Sie mit bis zu 80 km/h zur nächsten Werkstatt weiterfahren.",
                 "MBUX Navigation Premium|Mit der MBUX Navigation Premium erreichen Sie Ihr Ziel schnell und bestens informiert. Dabei können Sie sich u. a. auf aktuelle Kartendaten inklusive Satellitenansicht, präzise Echtzeit-Verkehrsinformationen und eine schnelle Online-Routenführung verlassen. Intelligent vernetzte Funktionen machen Ihre Fahrt nicht zuletzt auch sicherer.",
                 "LED High Performance-Scheinwerfer|Die LED High Performance-Scheinwerfer leuchten die Fahrbahn mit breitem Lichtkegel und angenehm warmweißem  Licht wesentlich präziser und großzügiger aus als herkömmliche Halogen- oder Bi-Xenon-Scheinwerfer. Das bedeutet für Sie: bessere Sicht und damit mehr Sicherheit.",
                 "AMG Line|Das eigenständige AMG Styling rückt Ihr Fahrzeug optisch in die Nähe der Modelle von Mercedes-AMG. Weitere Elemente im Interieur wie die Sportsitze und das Multifunktions-Sportlenkrad in Leder Nappa verstärken den expressiven Gesamteindruck. Der sportliche Motorsound bietet jede Menge zusätzlichen Fahrspaß.",
                 "KEYLESS-GO Komfort-Paket|Entriegeln oder verriegeln Sie Ihr Fahrzeug, indem Sie einfach den Türgriff berühren. HANDS-FREE ACCESS öffnet außerdem den Kofferraumdeckel mit einer Kickbewegung unter den Stoßfänger. Das ist besonders hilfreich, wenn Sie schwer bepackt vom Einkaufen kommen.",
+                "Remote und Charging Services Plus|Die Remote und Charging Services Plus verbinden Sie mit Ihrem Fahrzeug. Sie können es auf Wunsch lokalisieren und ausgewählte Funktionen fernbedienen. Mit Mercedes me Charge* beziehen Sie Strom an vielen öffentlichen Ladestationen bei größtmöglicher Kostentransparenz. Sie müssen sich nur einmal registrieren und erhalten eine zentrale Abrechnung.",
                 "Totwinkel-Assistent|Der Totwinkel-Assistent kann Sie optisch und akustisch vor Seitenkollisionen mit anderen Verkehrsteilnehmern warnen – insbesondere, wenn Sie den Blinker zum Spurwechsel betätigen. Nach der Fahrt unterstützt Sie die Ausstiegswarnfunktion beim Türöffnen. Ein wichtiger Schutz, vor allem für Fahrradfahrer.",
                 "Einstiegsleisten mit \"Mercedes-Benz\" Schriftzug, beleuchtet und mit Wechselcover|Die hochwertigen Einstiegsleisten aus Edelstahl sind mit einem „Mercedes-Benz“ Schriftzug beleuchtet. Dank der auswechselbaren Abdeckung können Sie die Einstiegsleisten gegen weitere attraktive Original-Teile von Mercedes-Benz oder Mercedes-AMG tauschen.",
                 "4-Wege-Lordosenstütze|Die 4-Wege-Lordosenstütze passt die Sitzkontur an Ihre Lendenwirbelsäule an und gibt ihr Halt. 4 Einstellungen sind möglich: höher, tiefer, schwächer oder stärker. Ihre Sitzhaltung wird ergonomischer und ihre Rückenmuskulatur entspannter.",
@@ -1678,14 +1640,14 @@
             "id": "PSQ",
             "code": "PSQ",
             "name": "AMG Line Premium Plus",
-            "price": 128.76,
+            "price": 127.03,
             "category": "Pakete",
             "isStandard": false,
             "carPolicy": 9,
             "imageUrls": [],
             "includedEqs": [
+                "Ladekabel bis 11 kW für Wallbox und öffentliche Ladestation, 5m, glatt|Dieses Ladekabel, auch Mode 3 Kabel genannt, ermöglicht Ihnen das Aufladen der Fahrzeugbatterie an der Wallbox oder an öffentlichen Ladestationen mit bis zu 11 kW (Typ 2, 3-phasig, 16 A).",
                 "Panorama-Schiebedach|Mit dem großzügigen Panorama-Schiebedach erleben Sie ein faszinierendes Freiheitsgefühl und ein angenehm helles Ambiente im Innenraum. Von außen betrachtet wirkt Ihr Fahrzeug besonders exklusiv.",
-                "Komfortfahrwerk mit Tieferlegung|Die spezielle Abstimmung der Federn und Dämpfer unterstützt sportliches Fahren – ohne, dass Sie auf den gewohnten Komfort verzichten müssen. Durch die Tieferlegung um 15 Millimeter liegt Ihr Fahrzeug gleichzeitig auch optisch satter auf der Straße.",
                 "TIREFIT|Dichten Sie kleinere Reifenschäden durch eingefahrene Scherben oder Nägel ab. Ein Luftkompressor bläst Dichtmittel in den defekten Reifen. Dank dieser schnellen Übergangslösung können Sie mit bis zu 80 km/h zur nächsten Werkstatt weiterfahren.",
                 "KEYLESS-GO Komfort-Paket|Entriegeln oder verriegeln Sie Ihr Fahrzeug, indem Sie einfach den Türgriff berühren. HANDS-FREE ACCESS öffnet außerdem den Kofferraumdeckel mit einer Kickbewegung unter den Stoßfänger. Das ist besonders hilfreich, wenn Sie schwer bepackt vom Einkaufen kommen.",
                 "Totwinkel-Assistent|Der Totwinkel-Assistent kann Sie optisch und akustisch vor Seitenkollisionen mit anderen Verkehrsteilnehmern warnen – insbesondere, wenn Sie den Blinker zum Spurwechsel betätigen. Nach der Fahrt unterstützt Sie die Ausstiegswarnfunktion beim Türöffnen. Ein wichtiger Schutz, vor allem für Fahrradfahrer.",
@@ -1700,10 +1662,10 @@
                 "Fahrersitz elektrisch einstellbar mit Memory-Funktion|Mit der Memory-Funktion können Sie bis zu 3 verschiedene Sitzpositionen speichern und komfortabel auswählen. Dabei können Sie den Sitz ganz einfach elektrisch und stufenlos nachjustieren. Die ENERGIZING-Sitzkinetik ist eine Wohltat für die Rückenmuskulatur, die weniger schnell ermüdet.",
                 "Sitzheizung für Fahrer und Beifahrer|Die Sitzheizung bringt die Sitzflächen und -lehnen bei kühlerem Wetter oder nach Ihrem persönlichen Wunsch schnell auf angenehme Temperatur. Die Intensität wählen Sie in 3 Stufen aus. Nach einiger Zeit schaltet sich die Sitzheizung automatisch zurück.",
                 "Ambientebeleuchtung|Die Ambientebeleuchtung hält mit insgesamt 64 Farben eine passende Lichtinszenierung für Sie bereit – ganz nach Ihrer persönlichen Vorliebe. 10 faszinierende Farbwelten setzen beispielsweise die Lüftungsdüsen, Türen oder die Instrumententafel emotional in Szene.",
-                "Remote Services",
                 "MBUX Navigation Premium|Mit der MBUX Navigation Premium erreichen Sie Ihr Ziel schnell und bestens informiert. Dabei können Sie sich u. a. auf aktuelle Kartendaten inklusive Satellitenansicht, präzise Echtzeit-Verkehrsinformationen und eine schnelle Online-Routenführung verlassen. Intelligent vernetzte Funktionen machen Ihre Fahrt nicht zuletzt auch sicherer.",
                 "AMG Line|Das eigenständige AMG Styling rückt Ihr Fahrzeug optisch in die Nähe der Modelle von Mercedes-AMG. Weitere Elemente im Interieur wie die Sportsitze und das Multifunktions-Sportlenkrad in Leder Nappa verstärken den expressiven Gesamteindruck. Der sportliche Motorsound bietet jede Menge zusätzlichen Fahrspaß.",
                 "Park-Paket mit 360°-Kamera|Der Aktive Park-Assistent mit 360°-Kamera erleichtert Ihnen sowohl die Parkplatzsuche als auch das Ein- und Ausparken. Sie haben die Wahl: dank Rundumsicht souverän selbst parken – oder einfach parken lassen.",
+                "Remote und Charging Services Plus|Die Remote und Charging Services Plus verbinden Sie mit Ihrem Fahrzeug. Sie können es auf Wunsch lokalisieren und ausgewählte Funktionen fernbedienen. Mit Mercedes me Charge* beziehen Sie Strom an vielen öffentlichen Ladestationen bei größtmöglicher Kostentransparenz. Sie müssen sich nur einmal registrieren und erhalten eine zentrale Abrechnung.",
                 "Spiegel-Paket|Die Außenspiegel können Sie elektrisch anklappen und machen so Ihr Fahrzeug auf Tastendruck schlanker. So werden kleine Parkplätze auf einmal groß genug. Zudem kann der Innenspiegel störendes Scheinwerferlicht von hinten registrieren und automatisch abblenden.",
                 "MBUX Interieur-Assistent|Der MBUX Interieur-Assistent unterstützt die Bedienung, indem er auf Körpersprache reagiert. Er erfasst und interpretiert Ihre Hand- und Armbewegungen. Ausgewählte Funktionen, bspw. die Aktivierung des Such- oder Leselichts, können Sie somit sprichwörtlich im Handumdrehen aktivieren. Das System kann zwischen Fahrer und Beifahrer unterscheiden.",
                 "Armlehne im Fond|Mit der Armlehne im Fond genießen Ihre Fondpassagiere eine besonders entspannte Sitzposition. Den Reisekomfort steigern auch die 2 integrierten Cupholder für Getränke.",
@@ -1716,7 +1678,7 @@
             "id": "03H",
             "code": "03H",
             "name": "Zierelemente Holz Linde braun offenporig",
-            "price": 3.25,
+            "price": 3.09,
             "category": "Zierteile",
             "isStandard": false,
             "carPolicy": 9,
@@ -1740,7 +1702,7 @@
             "id": "H15",
             "code": "H15",
             "name": "Zierelemente Holz Linde schwarz offenporig",
-            "price": 3.25,
+            "price": 3.09,
             "category": "Zierteile",
             "isStandard": false,
             "carPolicy": 9,
@@ -1752,7 +1714,7 @@
             "id": "H44",
             "code": "H44",
             "name": "Zierelemente Aluminium mit Längsschliff hell",
-            "price": 2.19,
+            "price": 2.08,
             "category": "Zierteile",
             "isStandard": false,
             "carPolicy": 9,
@@ -1764,31 +1726,19 @@
             "id": "25R",
             "code": "25R",
             "name": "43,2 cm (17'') Leichtmetallräder im 5-Doppelspeichen-Design",
-            "price": 3.75,
+            "price": 0.0,
             "category": "Felgen",
-            "isStandard": false,
+            "isStandard": true,
             "carPolicy": 9,
             "description": "<b>43,2 cm (17'') Leichtmetallräder im 5-Doppelspeichen-Design</b> aerodynamisch optimiert, schwarz lackiert und glanzgedreht mit 205/55 R17 auf 6,5J x 17 ET44",
             "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/5/37/d6823fa53f4cdd5e9dabd4b43d9c544516146.jpg",
             "imageUrls": []
         },
         {
-            "id": "43R",
-            "code": "43R",
-            "name": "40,6 cm (16'') Leichtmetallräder im Vielspeichen-Design",
-            "price": 0.0,
-            "category": "Felgen",
-            "isStandard": true,
-            "carPolicy": 3,
-            "description": "<b>40,6 cm (16'') Leichtmetallräder im Vielspeichen-Design</b> aerodynamisch optimiert, schwarz hochglänzend lackiert und glanzgedreht mit 205/60 R16 auf 6,5J x 16 ET44",
-            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/2/ca/060a31b7a90b303c560e74d1911c635d727e3.jpg",
-            "imageUrls": []
-        },
-        {
             "id": "R31",
             "code": "R31",
             "name": "45,7 cm (18'') Leichtmetallräder im 5-Doppelspeichen-Design",
-            "price": 11.25,
+            "price": 7.14,
             "category": "Felgen",
             "isStandard": false,
             "carPolicy": 9,
@@ -1800,7 +1750,7 @@
             "id": "R62",
             "code": "R62",
             "name": "43,2 cm (17'') Leichtmetallräder im 5-Doppelspeichen-Design",
-            "price": 3.75,
+            "price": 0.0,
             "category": "Felgen",
             "isStandard": false,
             "carPolicy": 9,
@@ -1824,7 +1774,7 @@
             "id": "RQT",
             "code": "RQT",
             "name": "45,7 cm (18'') AMG Leichtmetallräder im 5-Doppelspeichen-Design",
-            "price": 16.87,
+            "price": 12.5,
             "category": "Felgen",
             "isStandard": false,
             "carPolicy": 9,
@@ -1836,7 +1786,7 @@
             "id": "RUH",
             "code": "RUH",
             "name": "48,3 cm (19“) AMG Leichtmetallräder im Vielspeichen-Design",
-            "price": 26.24,
+            "price": 21.42,
             "category": "Felgen",
             "isStandard": false,
             "carPolicy": 9,
@@ -1848,7 +1798,7 @@
             "id": "RVZ",
             "code": "RVZ",
             "name": "48,3 cm (19“) AMG Leichtmetallräder im Vielspeichen-Design",
-            "price": 21.87,
+            "price": 17.26,
             "category": "Felgen",
             "isStandard": false,
             "carPolicy": 9,
@@ -1860,7 +1810,7 @@
             "id": "586",
             "code": "586",
             "name": "Umfeldbeleuchtung mit Projektion des Markenlogos",
-            "price": 1.37,
+            "price": 1.31,
             "category": "Exterieur > Exterieur Design",
             "isStandard": false,
             "carPolicy": 9,
@@ -1874,7 +1824,7 @@
             "id": "840",
             "code": "840",
             "name": "Wärmedämmend dunkel getöntes Glas",
-            "price": 3.75,
+            "price": 3.57,
             "category": "Exterieur > Exterieur Design",
             "isStandard": false,
             "carPolicy": 9,
@@ -1882,19 +1832,6 @@
             "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/9/c7/e73705d67b5b93cb3e49ab4f010dd31112f01.jpg",
             "imageUrls": [
                 "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/9/8c/f94a0d1c318a81c332bcc11bb86a367d6100e.jpg"
-            ]
-        },
-        {
-            "id": "260",
-            "code": "260",
-            "name": "Wegfall Typkennzeichen auf Kofferraumdeckel",
-            "price": 0.0,
-            "category": "Exterieur > Exterieur Sonstiges",
-            "isStandard": false,
-            "carPolicy": 1,
-            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/8/47/9444813dd4d5a752f1af36adf15a01a33cc3c.jpg",
-            "imageUrls": [
-                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/7/c1/88fbed6f37aeb242ec50d4e05579e6a5b58a8.jpg"
             ]
         },
         {
@@ -1911,7 +1848,7 @@
             "id": "413",
             "code": "413",
             "name": "Panorama-Schiebedach",
-            "price": 12.81,
+            "price": 12.2,
             "category": "Exterieur > Exterieur Sonstiges",
             "isStandard": false,
             "carPolicy": 9,
@@ -1925,7 +1862,7 @@
             "id": "550",
             "code": "550",
             "name": "Anhängevorrichtung mit ESP® Anhängerstabilisierung",
-            "price": 10.62,
+            "price": 10.12,
             "category": "Exterieur > Exterieur Sonstiges",
             "isStandard": false,
             "carPolicy": 9,
@@ -1933,21 +1870,6 @@
             "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/a/50/5cee79b02f4a6e6694478f8204d40ea4dd11e.jpg",
             "imageUrls": [
                 "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/b/d8/be084c09c09e30c2dac068fbf412438593dec.jpg"
-            ]
-        },
-        {
-            "id": "228",
-            "code": "228",
-            "name": "Standheizung",
-            "price": 13.74,
-            "category": "Interieur > Interieur Komfort",
-            "isStandard": false,
-            "carPolicy": 9,
-            "description": "Die Standheizung mit Standlüftung bringt den Innenraum an kalten und heißen Tagen schnell und effizient auf eine angenehme Temperatur. Im Winter profitieren Sie zudem von eisfreien Scheiben und bei feuchter Witterung genießen Sie konstant freie Sicht ohne erneutes Beschlagen.",
-            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/e/38/01eb8aa45b500e1a9cce609a59cf3fa321075.jpg",
-            "imageUrls": [
-                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/1/c7/23d60b0cac93e0ddbca5eca9b57051a2c9f1a.jpg",
-                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/4/00/6b576b4ce387055b2103f124d45d680e5408c.jpg"
             ]
         },
         {
@@ -2019,10 +1941,10 @@
             "id": "942",
             "code": "942",
             "name": "Laderaum-Paket",
-            "price": 1.87,
+            "price": 1.79,
             "category": "Interieur > Interieur Komfort",
             "isStandard": false,
-            "carPolicy": 2,
+            "carPolicy": 1,
             "description": "Das Laderaum-Paket kombiniert zusätzliche Verstau- sowie Anschlussmöglichkeiten wie die 12-V-Steckdose. Ihr Auto gewinnt an Variabilität und wird zur Mini-Stromtankstelle, z. B. für Ihre Kühltasche beim Einkaufen oder am Strand.",
             "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/c/f2/d42425b28a9ed3a593ee4adc1d5333bcd3540.jpg",
             "imageUrls": [
@@ -2047,7 +1969,7 @@
             "id": "242",
             "code": "242",
             "name": "Vordersitz rechts elektrisch verstellbar mit Memory-Funktion",
-            "price": 3.56,
+            "price": 3.39,
             "category": "Interieur > Interieur Klimatisierung",
             "isStandard": false,
             "carPolicy": 9,
@@ -2061,7 +1983,7 @@
             "id": "275",
             "code": "275",
             "name": "Fahrersitz elektrisch einstellbar mit Memory-Funktion",
-            "price": 4.31,
+            "price": 4.11,
             "category": "Interieur > Interieur Klimatisierung",
             "isStandard": false,
             "carPolicy": 9,
@@ -2075,7 +1997,7 @@
             "id": "581",
             "code": "581",
             "name": "Klimatisierungsautomatik THERMOTRONIC",
-            "price": 6.37,
+            "price": 6.07,
             "category": "Interieur > Interieur Klimatisierung",
             "isStandard": false,
             "carPolicy": 9,
@@ -2089,7 +2011,7 @@
             "id": "7U4",
             "code": "7U4",
             "name": "Sportsitze",
-            "price": 3.75,
+            "price": 3.57,
             "category": "Interieur > Interieur Klimatisierung",
             "isStandard": false,
             "carPolicy": 9,
@@ -2117,7 +2039,7 @@
             "id": "14U",
             "code": "14U",
             "name": "Smartphone Integration",
-            "price": 3.75,
+            "price": 3.57,
             "category": "Radio und Kommunikation > Kommunikation",
             "isStandard": false,
             "carPolicy": 9,
@@ -2145,7 +2067,7 @@
             "id": "897",
             "code": "897",
             "name": "Kabelloses Ladesystem für mobile Endgeräte vorn",
-            "price": 2.5,
+            "price": 2.38,
             "category": "Radio und Kommunikation > Kommunikation",
             "isStandard": false,
             "carPolicy": 9,
@@ -2185,10 +2107,24 @@
             ]
         },
         {
+            "id": "38U",
+            "code": "38U",
+            "name": "Remote und Charging Services Plus",
+            "price": 0.0,
+            "category": "Radio und Kommunikation > Radio &  Navigation",
+            "isStandard": true,
+            "carPolicy": 9,
+            "description": "Die Remote und Charging Services Plus verbinden Sie mit Ihrem Fahrzeug. Sie können es auf Wunsch lokalisieren und ausgewählte Funktionen fernbedienen. Mit Mercedes me Charge* beziehen Sie Strom an vielen öffentlichen Ladestationen bei größtmöglicher Kostentransparenz. Sie müssen sich nur einmal registrieren und erhalten eine zentrale Abrechnung.",
+            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/3/39/c0df3f1b938c0045f52d77aaf01190b5d917e.jpg",
+            "imageUrls": [
+                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/c/be/54640f85b622cf358a04e1335c833c7a78431.jpg"
+            ]
+        },
+        {
             "id": "458",
             "code": "458",
             "name": "Volldigitales Instrumenten-Display",
-            "price": 5.62,
+            "price": 5.36,
             "category": "Radio und Kommunikation > Radio &  Navigation",
             "isStandard": false,
             "carPolicy": 1,
@@ -2227,7 +2163,7 @@
             "id": "810",
             "code": "810",
             "name": "Burmester® Surround-Soundsystem",
-            "price": 11.31,
+            "price": 10.77,
             "category": "Radio und Kommunikation > Radio &  Navigation",
             "isStandard": false,
             "carPolicy": 9,
@@ -2241,7 +2177,7 @@
             "id": "853",
             "code": "853",
             "name": "Advanced Soundsystem",
-            "price": 3.87,
+            "price": 3.69,
             "category": "Radio und Kommunikation > Radio &  Navigation",
             "isStandard": false,
             "carPolicy": 9,
@@ -2269,7 +2205,7 @@
             "id": "207",
             "code": "207",
             "name": "Aktiver Abstands-Assistent DISTRONIC",
-            "price": 5.0,
+            "price": 4.76,
             "category": "Sicherheit und Technik > Sicherheit",
             "isStandard": false,
             "carPolicy": 9,
@@ -2297,7 +2233,7 @@
             "id": "234",
             "code": "234",
             "name": "Totwinkel-Assistent",
-            "price": 5.62,
+            "price": 5.36,
             "category": "Sicherheit und Technik > Sicherheit",
             "isStandard": false,
             "carPolicy": 9,
@@ -2311,7 +2247,7 @@
             "id": "293",
             "code": "293",
             "name": "Sidebags im Fond",
-            "price": 4.69,
+            "price": 4.46,
             "category": "Sicherheit und Technik > Sicherheit",
             "isStandard": false,
             "carPolicy": 9,
@@ -2339,7 +2275,7 @@
             "id": "299",
             "code": "299",
             "name": "PRE-SAFE® System",
-            "price": 4.12,
+            "price": 3.93,
             "category": "Sicherheit und Technik > Sicherheit",
             "isStandard": false,
             "carPolicy": 9,
@@ -2367,7 +2303,7 @@
             "id": "513",
             "code": "513",
             "name": "Verkehrszeichen-Assistent",
-            "price": 3.69,
+            "price": 3.51,
             "category": "Sicherheit und Technik > Sicherheit",
             "isStandard": false,
             "carPolicy": 9,
@@ -2381,7 +2317,7 @@
             "id": "642",
             "code": "642",
             "name": "MULTIBEAM LED",
-            "price": 16.24,
+            "price": 15.47,
             "category": "Sicherheit und Technik > Sicherheit",
             "isStandard": false,
             "carPolicy": 9,
@@ -2398,7 +2334,7 @@
             "id": "682",
             "code": "682",
             "name": "Feuerlöscher",
-            "price": 1.37,
+            "price": 1.31,
             "category": "Sicherheit und Technik > Sicherheit",
             "isStandard": false,
             "carPolicy": 9,
@@ -2418,6 +2354,20 @@
             "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/d/5f/3e88b7ee99692efc6dae40481efa4519b6f92.jpg",
             "imageUrls": [
                 "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/9/e3/be2ebcef21f409c8a0c07b110ef9e46aa6930.jpg"
+            ]
+        },
+        {
+            "id": "B53",
+            "code": "B53",
+            "name": "Akustischer Umfeldschutz",
+            "price": 0.0,
+            "category": "Sicherheit und Technik > Sicherheit",
+            "isStandard": true,
+            "carPolicy": 9,
+            "description": "Damit ihr Fahrzeug auch bei rein elektrischer und beinahe lautloser Fahrt nicht zur Gefahr für Fußgänger und Radfahrer wird, generiert der Akustische Umfeldschutz bis zu einer Geschwindigkeit von etwa 30 km/h einen Mercedes-Benz spezifischen Sound außerhalb des Fahrzeugs. Das sogenannte Acoustic Vehicle Alerting System (AVAS) ist nicht abschaltbar.",
+            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/a/fc/d7d911fbd7dab2719d58ab3d284a1967370cc.jpg",
+            "imageUrls": [
+                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/4/75/13ae8db11e958e0c793ccfbf4092be54e025d.jpg"
             ]
         },
         {
@@ -2452,7 +2402,7 @@
             "id": "463",
             "code": "463",
             "name": "Head-up-Display",
-            "price": 12.37,
+            "price": 11.78,
             "category": "Sicherheit und Technik > Technik",
             "isStandard": false,
             "carPolicy": 9,
@@ -2461,16 +2411,6 @@
             "imageUrls": [
                 "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/8/5b/89aa8dca69819fba55cf72c1327d98537fd0a.jpg"
             ]
-        },
-        {
-            "id": "B01",
-            "code": "B01",
-            "name": "Mild Hybrid Antrieb",
-            "price": 0.0,
-            "category": "Sicherheit und Technik > Technik",
-            "isStandard": true,
-            "carPolicy": 9,
-            "imageUrls": []
         },
         {
             "id": "B59",
@@ -2515,20 +2455,6 @@
             ]
         },
         {
-            "id": "5R9",
-            "code": "5R9",
-            "name": "Winter-Kompletträder M+S 4-fach (16'')",
-            "price": 0.0,
-            "category": "Räder und Fahrwerk > Räder",
-            "isStandard": false,
-            "carPolicy": 9,
-            "description": "<b>Winter-Kompletträder M+S 4-fach (5R9)</b> 40,6 cm (16'') Leichtmetallräder im Vielspeichen-Design aerodynamisch optimiert, schwarz hochglänzend lackiert und glanzgedreht mit 205/60 R16 auf 6,5J x 16 ET44 (Felge 43R)",
-            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/e/eb/4c5a461f1dcee6bfca5bdb9a291da357290ba.jpg",
-            "imageUrls": [
-                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/2/ca/060a31b7a90b303c560e74d1911c635d727e3.jpg"
-            ]
-        },
-        {
             "id": "651",
             "code": "651",
             "name": "Winter-Kompletträder montiert",
@@ -2566,7 +2492,7 @@
             "id": "R1A",
             "code": "R1A",
             "name": "Sportreifen",
-            "price": 3.75,
+            "price": 3.57,
             "category": "Räder und Fahrwerk > Räder",
             "isStandard": false,
             "carPolicy": 9,
@@ -2580,7 +2506,7 @@
             "id": "R66",
             "code": "R66",
             "name": "Reifen mit Notlaufeigenschaften",
-            "price": 2.12,
+            "price": 2.02,
             "category": "Räder und Fahrwerk > Räder",
             "isStandard": false,
             "carPolicy": 9,
@@ -2591,26 +2517,12 @@
             ]
         },
         {
-            "id": "459",
-            "code": "459",
-            "name": "Fahrwerk mit adaptiver Verstelldämpfung",
-            "price": 7.75,
-            "category": "Räder und Fahrwerk > Fahrwerk",
-            "isStandard": false,
-            "carPolicy": 9,
-            "description": "Wählen Sie selbst zwischen maximaler Agilität und hohem Dämpfungskomfort. Sie können die Dämpferhärte von „Comfort“ bis „Sport“ passend zur Strecke und Ihrem persönlichen Fahrstil einstellen. Das tiefere Fahrwerksniveau und die Sport-Direktlenkung unterstützen zusätzlich eine dynamische Fahrweise.",
-            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/a/77/a9f6f6069cd307f04013df08c5211bdae718a.jpg",
-            "imageUrls": [
-                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/9/2f/ca69d865c6b6668f595a43949447b297f9426.jpg"
-            ]
-        },
-        {
             "id": "485",
             "code": "485",
             "name": "Komfortfahrwerk",
             "price": 0.0,
             "category": "Räder und Fahrwerk > Fahrwerk",
-            "isStandard": false,
+            "isStandard": true,
             "carPolicy": 9,
             "description": "Hoher Komfort auf langen Autobahnetappen, sportliches Potenzial bei der Kurvenfahrt: Das Komfortfahrwerk vereint ansprechende Federungsreserven mit einer sehr guten Fahrstabilität. Diese ausgewogene Kombination macht Ihre Fahrt sicherer und vermittelt mehr Fahrspaß.",
             "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/e/05/893d3c3631793b05d337fbddc6b2a1689e8af.jpg",
@@ -2619,31 +2531,17 @@
             ]
         },
         {
-            "id": "677",
-            "code": "677",
-            "name": "Komfortfahrwerk mit Tieferlegung",
-            "price": 0.0,
-            "category": "Räder und Fahrwerk > Fahrwerk",
-            "isStandard": true,
-            "carPolicy": 9,
-            "description": "Die spezielle Abstimmung der Federn und Dämpfer unterstützt sportliches Fahren – ohne, dass Sie auf den gewohnten Komfort verzichten müssen. Durch die Tieferlegung um 15 Millimeter liegt Ihr Fahrzeug gleichzeitig auch optisch satter auf der Straße.",
-            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/4/66/d7bc3f3b42ea2b821dce53426b350c2ecf083.jpg",
-            "imageUrls": [
-                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/f/e6/587bea9d4327ffa716d6ecff9a8f8f13782cc.jpg"
-            ]
-        },
-        {
-            "id": "429",
-            "code": "429",
-            "name": "7G-DCT",
+            "id": "426",
+            "code": "426",
+            "name": "8G-DCT",
             "price": 0.0,
             "category": "Lenkung und Schaltung > Schaltung & Getriebe",
             "isStandard": true,
             "carPolicy": 9,
-            "description": "Mit dem Doppelkupplungsgetriebe beschleunigen Sie schnell und ohne Unterbrechung. Der nächste Gang ist immer schon vorgewählt. Die Fahrprogramme passen den Charakter des 7G-DCT nach Ihren Wünschen an.",
-            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/e/74/e10dcd3d3dd6003165fd85513d3d382e316f5.jpg",
+            "description": "Mit dem Fahrprogramm verändern Sie auch die Charakteristik des Doppelkupplungsgetriebes. Es nutzt die 8 Gänge wahlweise für effizientes Fahren mit niedrigen Drehzahlen oder für beeindruckende Dynamik. Weil der nächste Gang immer schon vorgewählt ist, beschleunigen Sie ohne Unterbrechung.",
+            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/5/e7/d882e67465905625c5836996376c8ceec446f.jpg",
             "imageUrls": [
-                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/1/bd/0a6b5d8ee94074129b1b0662d3ece4a75bdb5.jpg"
+                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/2/1f/4c3df454277a17271d8526054c89d3a164da3.jpg"
             ]
         },
         {
@@ -2680,7 +2578,7 @@
             "id": "950",
             "code": "950",
             "name": "AMG Line",
-            "price": 37.36,
+            "price": 35.58,
             "category": "Pakete > Lines",
             "isStandard": false,
             "carPolicy": 9,
@@ -2695,23 +2593,22 @@
                 "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/a/28/f62dc252f9be2cd1ff78c512b41bf15632830.jpg"
             ],
             "includedEqs": [
-                "Sportbremsanlage|Besonders standfeste Bremsen für alle Fahrsituationen: Die Sportbremsanlage packt auch nach mehreren starken Bremsungen jederzeit kraftvoll zu. Der „Mercedes-Benz“ Schriftzug auf den Bremssätteln vorn unterstreicht die Wertigkeit.",
                 "Ledernachbildung ARTICO / Mikrofaser MICROCUT schwarz",
                 "Innenhimmel Stoff schwarz",
                 "AMG Styling",
+                "Sportbremsanlage|Besonders standfeste Bremsen für alle Fahrsituationen: Die Sportbremsanlage packt auch nach mehreren starken Bremsungen jederzeit kraftvoll zu. Die Lochung der Bremsscheiben in Verbindung mit dem „Mercedes-Benz“ Schriftzug unterstreichen den dynamischen Look Ihres Fahrzeugs.",
                 "Multifunktions-Sportlenkrad in Leder Nappa|Das Multifunktions-Sportlenkrad in Leder Nappa ist unten abgeflacht und im Griffbereich tiefgeprägt – eine hervorragende Voraussetzung für sportliches Fahren. Über die Touch-Bedienfelder steuern Sie die wichtigsten Fahrzeugfunktionen, ohne die Hände vom Lenkrad nehmen zu müssen.",
                 "Doppelcupholder|Mit dem Doppelcupholder im vorderen Bereich der Mittelkonsole haben Sie Ihr Getränk stets griffbereit. Befestigen Sie dort sicher 2 Flaschen oder Becher. Wenn Sie den Doppelcupholder herausnehmen, erweitern Sie das Interieur um eine große Ablagefläche.",
                 "Sportsitze|Die Sportsitze optimieren den Seitenhalt für dynamisches Fahren und bieten zugleich uneingeschränktem Komfort für den Alltag. Für die schnelle Ablage dienen Netze an der Lehnenrückseite.",
-                "Komfortfahrwerk mit Tieferlegung|Die spezielle Abstimmung der Federn und Dämpfer unterstützt sportliches Fahren – ohne, dass Sie auf den gewohnten Komfort verzichten müssen. Durch die Tieferlegung um 15 Millimeter liegt Ihr Fahrzeug gleichzeitig auch optisch satter auf der Straße.",
-                "45,7 cm (18\") AMG Leichtmetallräder im 5-Doppelspeichen-Design|<b>45,7 cm (18\") AMG Leichtmetallräder im 5-Doppelspeichen-Design</b> aerodynamisch optimiert, tremolitgrau lackiert und glanzgedreht mit 225/45 R18 auf 7,5J x 18 ET49",
-                "AMG Fußmatten|Die AMG Fußmatten ergänzen den sportlichen Gesamteindruck Ihres Fahrzeugs. Sie sind in strapazierfähigem schwarzen Velours ausgeführt, schützen den Fußraum vor Verschmutzungen und lassen sich einfach reinigen. Details wie der „AMG“ Schriftzug verstärken die Wirkung."
+                "AMG Fußmatten|Die AMG Fußmatten ergänzen den sportlichen Gesamteindruck Ihres Fahrzeugs. Sie sind in strapazierfähigem schwarzen Velours ausgeführt, schützen den Fußraum vor Verschmutzungen und lassen sich einfach reinigen. Details wie der „AMG“ Schriftzug verstärken die Wirkung.",
+                "45,7 cm (18\") AMG Leichtmetallräder im 5-Doppelspeichen-Design|<b>45,7 cm (18\") AMG Leichtmetallräder im 5-Doppelspeichen-Design</b> aerodynamisch optimiert, tremolitgrau lackiert und glanzgedreht mit 225/45 R18 auf 7,5J x 18 ET49"
             ]
         },
         {
             "id": "P59",
             "code": "P59",
             "name": "Progressive",
-            "price": 11.56,
+            "price": 11.01,
             "category": "Pakete > Lines",
             "isStandard": false,
             "carPolicy": 9,
@@ -2735,10 +2632,122 @@
             ]
         },
         {
+            "id": "637",
+            "code": "637",
+            "name": "Flexibles Ladesystem Pro",
+            "price": 7.85,
+            "category": "Laden > Laden",
+            "isStandard": false,
+            "carPolicy": 9,
+            "description": "Mit dem Flexiblen Ladesystem Pro können Sie Ihr Fahrzeug an allen gängigen Stromquellen und mit bis zu 22 kW sicher aufladen. Dank verschiedener Ladeadapter bleiben Sie immer flexibel – zuhause, unterwegs und im Ausland. Ebenfalls praktisch: Das System zeigt an, wie viel Strom Sie bereits geladen haben.",
+            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/c/9c/a946d7655d0a50d136a2373368d01a25fd385.jpg",
+            "imageUrls": [
+                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/c/6b/93cda78c79bf62ebee8fe43fffd07c84add45.jpg"
+            ]
+        },
+        {
+            "id": "80B",
+            "code": "80B",
+            "name": "Wechselstrom-Ladesystem (AC-Laden) bis zu 3,7 kW",
+            "price": 0.0,
+            "category": "Laden > Laden",
+            "isStandard": true,
+            "carPolicy": 9,
+            "description": "Mit dem Wechselstrom-Ladesystem laden Sie Ihr Fahrzeug mit bis zu 3,7 kW (1-phasig). Neben der Wallbox zu Hause können Sie Ihr Fahrzeug auch an einer Vielzahl öffentlicher Ladesäulen anschließen.",
+            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/0/17/612647ec1c390366eb6a3c11215d59d5abe94.jpg",
+            "imageUrls": [
+                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/d/21/5d60523b5f66560edb8e533c33790d2d98d47.jpg"
+            ]
+        },
+        {
+            "id": "82B",
+            "code": "82B",
+            "name": "Wechselstrom-Ladesystem (AC-Laden) bis zu 11 kW",
+            "price": 5.95,
+            "category": "Laden > Laden",
+            "isStandard": false,
+            "carPolicy": 1,
+            "description": "Mit dem Wechselstrom-Ladesystem laden Sie Ihr Fahrzeug schnell und einfach mit bis zu 11 kW (3-phasig) oder 7,4 kW (1-phasig). Neben der Wallbox zu Hause können Sie Ihr Fahrzeug auch an einer Vielzahl öffentlicher Ladesäulen anschließen.",
+            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/0/17/612647ec1c390366eb6a3c11215d59d5abe94.jpg",
+            "imageUrls": [
+                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/d/21/5d60523b5f66560edb8e533c33790d2d98d47.jpg"
+            ]
+        },
+        {
+            "id": "83B",
+            "code": "83B",
+            "name": "Gleichstrom-Ladesystem (DC-Laden) bis zu 22 kW",
+            "price": 5.95,
+            "category": "Laden > Laden",
+            "isStandard": false,
+            "carPolicy": 9,
+            "description": "Mit dem Gleichstrom-Ladesystem laden Sie Ihr Fahrzeug mit bis zu 22 kW an Schnellladesäulen wie z. B. IONITY. Diese liefern den für Ihre Hochvolt-Batterie erforderlichen Gleichstrom – und das System stellt in kurzer Zeit eine bestmögliche elektrische Reichweite bereit.",
+            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/c/8a/8420231270b46c4c4f5a07dfabbe3e6682153.jpg",
+            "imageUrls": [
+                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/f/d4/da9b81a774aab0fecc7cf1760de99de4134c1.jpg"
+            ]
+        },
+        {
+            "id": "9B2",
+            "code": "9B2",
+            "name": "Ladekabel bis 11 kW für Wallbox und öffentliche Ladestation, 5m, glatt",
+            "price": 0.0,
+            "category": "Laden > Laden",
+            "isStandard": true,
+            "carPolicy": 9,
+            "description": "Dieses Ladekabel, auch Mode 3 Kabel genannt, ermöglicht Ihnen das Aufladen der Fahrzeugbatterie an der Wallbox oder an öffentlichen Ladestationen mit bis zu 11 kW (Typ 2, 3-phasig, 16 A).",
+            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/1/35/913a1e0de32fccbee141b9c35a2448ee7586b.jpg",
+            "imageUrls": [
+                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/0/2e/499a451bb08a34fed7745939b6f57fb1ec036.jpg"
+            ]
+        },
+        {
+            "id": "9B3",
+            "code": "9B3",
+            "name": "Ladekabel bis 11 kW für Wallbox und öffentliche Ladestation, 8m, glatt",
+            "price": 0.83,
+            "category": "Laden > Laden",
+            "isStandard": false,
+            "carPolicy": 9,
+            "description": "Dieses Ladekabel, auch Mode 3 Kabel genannt, ermöglicht Ihnen das Aufladen der Fahrzeugbatterie an der Wallbox oder an öffentlichen Ladestationen mit bis zu 11 kW (Typ 2, 3-phasig, 16 A).",
+            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/4/0f/a8fb9da62ca9e875d2998c5aad4e3927e7cc3.jpg",
+            "imageUrls": [
+                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/1/d2/eac9ca6c3bcc62a1c50cbd1eb8f140ca67560.jpg"
+            ]
+        },
+        {
+            "id": "B30",
+            "code": "B30",
+            "name": "Ladekabel bis 1,8 kW für Haushaltssteckdose, 5m, glatt",
+            "price": 0.0,
+            "category": "Laden > Laden",
+            "isStandard": true,
+            "carPolicy": 9,
+            "description": "Dieses Ladekabel, auch Mode 2 Kabel genannt, ermöglicht Ihnen das Aufladen der Fahrzeugbatterie an der Haushaltssteckdose mit bis zu 1,8 kW (230 V, 1-phasig, 8 A) und passt für Steckdosen des Typs E/F CEE 7/7.",
+            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/8/aa/b60a747621d6ee241e222a53869aeb137bf34.jpg",
+            "imageUrls": [
+                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/6/25/12778ca2db6a223777e593ae513093b77fe7a.jpg"
+            ]
+        },
+        {
+            "id": "B80",
+            "code": "B80",
+            "name": "Ladekabel bis 1,8 kW für Haushaltssteckdose, 8m, glatt",
+            "price": 0.83,
+            "category": "Laden > Laden",
+            "isStandard": false,
+            "carPolicy": 9,
+            "description": "Dieses Ladekabel, auch Mode 2 Kabel genannt, ermöglicht Ihnen das Aufladen der Fahrzeugbatterie an der Haushaltssteckdose mit bis zu 1,8 kW (230 V, 1-phasig, 8 A) und passt für Steckdosen des Typs E/F CEE 7/7.",
+            "thumbnailUrl": "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/c/b7/c728e619c4b1b1f7788659b8cc64264d46646.jpg",
+            "imageUrls": [
+                "https://assets.oneweb.mercedes-benz.com/bbd/images/v1/9306/b/2e/1243e8f06a7fd1f00bf33596b37097513e0bc.jpg"
+            ]
+        },
+        {
             "id": "E65",
             "code": "E65",
             "name": "Lenkraddrehknauf links",
-            "price": 5.25,
+            "price": 5.0,
             "category": "Fahrhilfen > Lenkhilfen",
             "isStandard": false,
             "carPolicy": 3,
@@ -2752,7 +2761,7 @@
             "id": "E66",
             "code": "E66",
             "name": "Lenkraddrehknauf rechts",
-            "price": 5.25,
+            "price": 5.0,
             "category": "Fahrhilfen > Lenkhilfen",
             "isStandard": false,
             "carPolicy": 3,
@@ -2766,7 +2775,7 @@
             "id": "E70",
             "code": "E70",
             "name": "Gurtschlossöffner für Beifahrer",
-            "price": 2.19,
+            "price": 2.08,
             "category": "Fahrhilfen > Steuerungs- und Bedienhilfen",
             "isStandard": false,
             "carPolicy": 3,
@@ -2780,7 +2789,7 @@
             "id": "E85",
             "code": "E85",
             "name": "Gurtschlossöffner für Fahrer",
-            "price": 2.19,
+            "price": 2.08,
             "category": "Fahrhilfen > Steuerungs- und Bedienhilfen",
             "isStandard": false,
             "carPolicy": 3,
@@ -2794,7 +2803,7 @@
             "id": "E88",
             "code": "E88",
             "name": "Kombischalterverlegung",
-            "price": 3.12,
+            "price": 2.98,
             "category": "Fahrhilfen > Steuerungs- und Bedienhilfen",
             "isStandard": false,
             "carPolicy": 3,
@@ -2808,7 +2817,7 @@
             "id": "E67",
             "code": "E67",
             "name": "Handbediengerät Classic",
-            "price": 27.49,
+            "price": 26.18,
             "category": "Fahrhilfen > Handbediengeräte",
             "isStandard": false,
             "carPolicy": 3,
@@ -2822,7 +2831,7 @@
             "id": "E68",
             "code": "E68",
             "name": "Handbediengerät Classic beledert",
-            "price": 33.74,
+            "price": 32.13,
             "category": "Fahrhilfen > Handbediengeräte",
             "isStandard": false,
             "carPolicy": 3,
@@ -2836,7 +2845,7 @@
             "id": "E83",
             "code": "E83",
             "name": "Handbediengerät Easy Speed beledert",
-            "price": 42.48,
+            "price": 40.46,
             "category": "Fahrhilfen > Handbediengeräte",
             "isStandard": false,
             "carPolicy": 3,
@@ -2850,7 +2859,7 @@
             "id": "E84",
             "code": "E84",
             "name": "Handbediengerät Easy Speed",
-            "price": 34.36,
+            "price": 32.73,
             "category": "Fahrhilfen > Handbediengeräte",
             "isStandard": false,
             "carPolicy": 3,
@@ -2864,7 +2873,7 @@
             "id": "E05",
             "code": "E05",
             "name": "Einstiegsschutz rechts in Schwarz",
-            "price": 2.37,
+            "price": 2.26,
             "category": "Fahrhilfen > Ein- und Ausstieghilfen",
             "isStandard": false,
             "carPolicy": 3,
@@ -2878,7 +2887,7 @@
             "id": "E09",
             "code": "E09",
             "name": "Einstiegsschutz links",
-            "price": 2.37,
+            "price": 2.26,
             "category": "Fahrhilfen > Ein- und Ausstieghilfen",
             "isStandard": false,
             "carPolicy": 3,
@@ -2892,7 +2901,7 @@
             "id": "E87",
             "code": "E87",
             "name": "Pedalabdeckung",
-            "price": 6.25,
+            "price": 5.95,
             "category": "Fahrhilfen > Pedalanpassungen",
             "isStandard": false,
             "carPolicy": 3,
@@ -2906,7 +2915,7 @@
             "id": "E89",
             "code": "E89",
             "name": "Gaspedalverlegung",
-            "price": 21.24,
+            "price": 20.23,
             "category": "Fahrhilfen > Pedalanpassungen",
             "isStandard": false,
             "carPolicy": 3,
@@ -2920,7 +2929,7 @@
             "id": "E92",
             "code": "E92",
             "name": "Pedalerhöhung 2-Fach",
-            "price": 10.87,
+            "price": 10.35,
             "category": "Fahrhilfen > Pedalanpassungen",
             "isStandard": false,
             "carPolicy": 3,
@@ -2934,7 +2943,7 @@
             "id": "E94",
             "code": "E94",
             "name": "Sitzverlagerung links nach hinten",
-            "price": 9.37,
+            "price": 8.93,
             "category": "Fahrhilfen > Sitzanpassungen",
             "isStandard": false,
             "carPolicy": 3,
@@ -2948,7 +2957,7 @@
             "id": "E95",
             "code": "E95",
             "name": "Sitzverlagerung rechts nach hinten",
-            "price": 9.37,
+            "price": 8.93,
             "category": "Fahrhilfen > Sitzanpassungen",
             "isStandard": false,
             "carPolicy": 3,
@@ -2979,19 +2988,19 @@
             "price": 0.0
         },
         {
-            "id": "B01",
-            "name": "Mild Hybrid Antrieb",
-            "price": 0.0
-        },
-        {
             "id": "PAV",
             "name": "Winter-Paket",
-            "price": 2.94
+            "price": 2.8
         },
         {
             "id": "72B",
             "name": "USB-Paket Plus",
             "price": 0.0
+        },
+        {
+            "id": "82B",
+            "name": "Wechselstrom-Ladesystem (AC-Laden) bis zu 11 kW",
+            "price": 5.95
         },
         {
             "id": "70B",
@@ -3019,13 +3028,13 @@
             "price": 0.0
         },
         {
-            "id": "P44",
-            "name": "Park-Paket mit Rückfahrkamera",
+            "id": "38U",
+            "name": "Remote und Charging Services Plus",
             "price": 0.0
         },
         {
-            "id": "475",
-            "name": "Reifendruckkontrolle",
+            "id": "P44",
+            "name": "Park-Paket mit Rückfahrkamera",
             "price": 0.0
         },
         {
@@ -3036,6 +3045,11 @@
         {
             "id": "58U",
             "name": "Innenhimmel Stoff kristallgrau",
+            "price": 0.0
+        },
+        {
+            "id": "475",
+            "name": "Reifendruckkontrolle",
             "price": 0.0
         },
         {
@@ -3059,11 +3073,6 @@
             "price": 0.0
         },
         {
-            "id": "677",
-            "name": "Komfortfahrwerk mit Tieferlegung",
-            "price": 0.0
-        },
-        {
             "id": "20U",
             "name": "Vorrüstung für digitale Schlüsselübergabe",
             "price": 0.0
@@ -3071,7 +3080,7 @@
         {
             "id": "458",
             "name": "Volldigitales Instrumenten-Display",
-            "price": 5.62
+            "price": 5.36
         },
         {
             "id": "218",
@@ -3094,6 +3103,16 @@
             "price": 0.0
         },
         {
+            "id": "B30",
+            "name": "Ladekabel bis 1,8 kW für Haushaltssteckdose, 5m, glatt",
+            "price": 0.0
+        },
+        {
+            "id": "B53",
+            "name": "Akustischer Umfeldschutz",
+            "price": 0.0
+        },
+        {
             "id": "79B",
             "name": "Vorrüstung für digitales Radio",
             "price": 0.0
@@ -3101,7 +3120,7 @@
         {
             "id": "PSE",
             "name": "Progressive Line Advanced",
-            "price": 35.49
+            "price": 33.8
         },
         {
             "id": "B59",
@@ -3111,11 +3130,11 @@
         {
             "id": "L*191",
             "name": "Metalliclack kosmosschwarz",
-            "price": 7.87
+            "price": 7.5
         },
         {
-            "id": "260",
-            "name": "Wegfall Typkennzeichen auf Kofferraumdeckel",
+            "id": "9B2",
+            "name": "Ladekabel bis 11 kW für Wallbox und öffentliche Ladestation, 5m, glatt",
             "price": 0.0
         },
         {
@@ -3126,6 +3145,11 @@
         {
             "id": "25R",
             "name": "43,2 cm (17'') Leichtmetallräder im 5-Doppelspeichen-Design",
+            "price": 0.0
+        },
+        {
+            "id": "485",
+            "name": "Komfortfahrwerk",
             "price": 0.0
         },
         {
@@ -3148,8 +3172,13 @@
             "deliveryDate": "202412"
         },
         {
-            "id": "429",
-            "name": "7G-DCT",
+            "id": "942",
+            "name": "Laderaum-Paket",
+            "price": 1.79
+        },
+        {
+            "id": "426",
+            "name": "8G-DCT",
             "price": 0.0
         },
         {
@@ -3187,13 +3216,52 @@
             "mandatory": true
         }
     ],
-    "ccId": "de_DE__1771841__AJ-055_AU-311_GC-429_LE-L_LU-191_MJ-805_PC-P44-P49-P59-PAV-PBG-PDA-PSE-U59-U62_SA-00U-01U-02B-20U-213-218-235-243-252-258-25R-260-270-286-287-294-310-345-351-355-362-365-367-428-443-458-475-500-504-521-52H-537-543-580-58U-5B0-608-632-677-679-70B-72B-73B-79B-7U2-859-873-875-88B-927-969-986-B01-B51-B59-L3E-R01-U01-U10-U12-U22-U55-U60_SC-0B2-0S3-0U1-1B3-1U5-2U1-2U8-3S6-4S6-502-51B-6P5-7B4-7S8-8P3-8S8-8U6-8U8-98B-998-9U8-B09-B10-K13-K31-K37-K45-PVM-PXV-PYY-R7D-V50",
-    "isXEV": false,
+    "selectedEquipments": [
+        "P*311",
+        "873",
+        "310",
+        "58U",
+        "88B",
+        "U10",
+        "942",
+        "72B",
+        "B53",
+        "218",
+        "475",
+        "70B",
+        "294",
+        "20U",
+        "B59",
+        "345",
+        "426",
+        "362",
+        "859",
+        "458",
+        "79B",
+        "355",
+        "537",
+        "38U",
+        "351",
+        "B30",
+        "9B2",
+        "82B",
+        "R01",
+        "B51",
+        "485",
+        "PAV",
+        "PBG",
+        "PSE",
+        "P59",
+        "52H",
+        "25R"
+    ],
+    "ccId": "de_DE__1771851__AJ-055_AU-311_GC-426_LE-L_LU-191_MJ-805_PC-P44-P49-P59-PAV-PBG-PDA-PSE-U59-U62_SA-01U-02B-13U-20U-218-235-243-252-258-25R-270-286-287-294-310-345-351-355-362-365-367-38U-428-443-458-475-485-500-504-521-52H-537-543-580-58U-5B0-608-632-63B-679-70B-72B-73B-79B-7U2-82B-859-873-875-88B-927-942-969-986-9B2-B30-B51-B53-B59-L3E-R01-U01-U10-U12-U22-U35-U54-U60_SC-0B2-0S3-0U1-1B3-1U5-2U1-2U8-3S8-4S6-502-51B-6P5-7B4-7S1-7S3-7S8-8B7-8P3-8S8-8U6-8U8-98B-998-9U8-B10-BHB-K13-K31-K37-K45-PVM-PXV-PYY-R7D-V50",
+    "isXEV": true,
     "isUtilityVehicle": false,
     "isElectric": false,
     "hasPictures": true,
     "bbdImage": {
-        "url": "https://europe.starconnect-ce.i.mercedes-benz.com/iris/iris.png?COSY-EU-100-1713d0VXq5SFqtyO67PobzIr3eWsrrCsdRRzwQZgkfZbMw3SGtGyjtsd2sDcUfp8qXGEubXJ0l3otOB2NMEbApjThI5uVfxQC31SrkzNB%25km7jAc3hKViSF%25vq4tqyLRgGjYaxPrWrH1enDn8wsbfoiZrb1M4FnKrTg95vp6PDCIoSeWHmjtsd8otcUfAyYXOc6VRjgkrH1ACmn8waTboiZHkIM4Fg4rTg9Pzn6PDe%25mSeWswMtsLV79MOuljcVL2vGd7dhcfWF002ROxEnfxXr1RjijhWh5DvaAFCDGp00hoCR&&BKGND=12&IMGT=${resolution}&POV=${perspective},${mediaQualifiers}",
+        "url": "https://europe.starconnect-ce.i.mercedes-benz.com/iris/iris.png?COSY-EU-100-1713d0VXq5SFqtyO67PobzIr3eWsrrCsdRRzwQZgkfZbMw3SGtGyjtsd2sDcUfp8qXGEubXJ0l3otOB2NMEbApjThI5ux6YQC30hQkzNBtum7j86ZhKViSV%25vq4UNyLRgYDYaxPr9rH1eOdn8wYOxoiZr7YM4FAK2Tg95bn6PDakNSeWHnStsd9JTcUfAyYXOc6VRjgkrH1ACmn8waTboiZHkIM4Fg4rTg9Pzn6PDeLNSeWsyhtsdUZTcUaqKDTb32VXqapL0fef%25XEd9BBpxb1loE1JnwxV4V%25d%25CWLH59zW0uBB%25Mzx&&BKGND=12&IMGT=${resolution}&POV=${perspective},${mediaQualifiers}",
         "isInteractive": true,
         "sdType": "A27&width=1000",
         "hdType": "A27",
@@ -3233,8 +3301,8 @@
         "is360interior": true
     },
     "stickyMenu": {
-        "listPriceSum": 43119.65,
-        "rentRate": 402.76,
+        "listPriceSum": 50348.9,
+        "rentRate": 453.49,
         "rentalMileage": "1 - 9.099",
         "rentalMileageOptions": [
             "1 - 9.099",
