@@ -124,17 +124,12 @@ const TypeList = ({ selectedModell }) => {
   };
 
   const ShowCars = async (typesid, typeskarosserie) => {
- 
     if (focusedButton){
       setFocusedButton(null);
     }
     else{
-    setFocusedButton(typesid);
+      setFocusedButton(typesid);
     }
-
-  const toggleShowMoreCars = () => {
-    setShowMoreCars(!showMoreCars);
-  };
 
     if (!showMoreCars) {
       const carMoreData = [];
@@ -187,11 +182,11 @@ const TypeList = ({ selectedModell }) => {
           ]);
         }
       }
-      toggleShowMoreCars();
+      setShowMoreCars(!showMoreCars);
       typeDiv(carMoreData.length);
     } else {
       setType(typeback);
-      toggleShowMoreCars();
+      setShowMoreCars(!showMoreCars);
     }
   };
 

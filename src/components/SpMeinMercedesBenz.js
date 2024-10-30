@@ -14,12 +14,16 @@ import cancel from "../image/cancel.svg";
 
 const SpMeinMercedesBenz = ({elementName, elementPrice, changeNav, deleteElementSmry, mietrate, miles, collectausstattung,collectline, collectpaketline, collectwinterpaketplus, collectlederpaket, collectzusatzpaket, collectfarben, collectraeder, collectzierelemente, collectpolster,  setIsVisibleSummary, isVisibleSummary}) => {
     const [steps, setSteps] = useState ([]);
+    const [models, setModels] = useState([]);
 
     useEffect(() => {
         const fetchData = async (fileName) => {
             const response = await fetch(`http://localhost:3057/${fileName}/steps`);
+            const response2 = await fetch(`http://localhost:3057/${fileName}/models`);
             const data = await response.json();
+            const data2 = await response2.json();
             setSteps(data);
+            setModels(data2);
         };
         
         fetchData(elementName.motorSteps);
@@ -126,7 +130,7 @@ const SpMeinMercedesBenz = ({elementName, elementPrice, changeNav, deleteElement
                     <SummarySonder motorSteps={elementName.motorSteps}/>
                     <SummaryKonditionen mietrate={mietrate} miles={miles}/>
                     <SummaryLeistungsdaten motorSteps={elementName.motorSteps}/>
-                    <SummaryVerbrauchsdaten/>
+                    <SummaryVerbrauchsdaten elementName={elementName} models={models}/>
                     <SummaryReifenlabel/>
                     <hr className="linem"/>
                 </div>

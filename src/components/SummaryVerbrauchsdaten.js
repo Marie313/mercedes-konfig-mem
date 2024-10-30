@@ -1,16 +1,17 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { SlArrowDown } from "react-icons/sl";
 import { SlArrowUp } from "react-icons/sl";
+import ConsumptionLabel2 from "./ConsumptionLabel2";
 
-const SummaryVerbrauchsdaten = () => {
-    const [showverbrauchsdaten, setshowverbrauchsdaten] = useState(true);
+const SummaryVerbrauchsdaten = ({elementName, models}) => {
+    const [isVisible, setIsVisible] = useState(true);
 
     const clickreactionverbrauch = () => {
-        setshowverbrauchsdaten(!showverbrauchsdaten);
+        setIsVisible(!isVisible);
     }
 
     const arrowIconverbrauch = () => {
-        if (showverbrauchsdaten){
+        if (isVisible){
             return (<SlArrowUp/>)
         }
         else{
@@ -20,13 +21,18 @@ const SummaryVerbrauchsdaten = () => {
 
     return (  
         <div>
-            <div className={showverbrauchsdaten ? 'mbuttonsclicked' : 'mbuttons'}>
+            <div className={isVisible ? 'mbuttonsclicked' : 'mbuttons'}>
                 <hr className="linem"/>
                 <button onClick={() => clickreactionverbrauch()}>
                     Verbrauchsdaten
                     <div className="moreButtonm">{arrowIconverbrauch()}</div>
                 </button>
             </div>
+            {isVisible &&
+                <div className="divverbrauchsdaten">
+                    <ConsumptionLabel2 setIsVisible={setIsVisible} models={models} name={elementName.motorName} herkunft={'summary'}/>
+                </div>
+            }
         </div>
     );
 }

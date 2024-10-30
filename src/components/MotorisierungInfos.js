@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import info from "../image/info.svg";
-import cancel from "../image/cancel.svg";
+import ConsumptionLabel2 from "./ConsumptionLabel2";
 
 const MotorisierungInfos = ({stepsce, motorSteps, collectmotor}) => {
     const [models, setModels] = useState ([]);
@@ -159,15 +159,14 @@ const MotorisierungInfos = ({stepsce, motorSteps, collectmotor}) => {
     return (  
         <div>
             {models.map((models) => (
-                <div>{infoMotor(stepsce, models.id, models.name, models.specifications, models.fuelConsumption, models.rentalPercentage)}</div>
+                <div>
+                    {infoMotor(stepsce, models.id, models.name, models.specifications, models.fuelConsumption, models.rentalPercentage)}
+                </div>
             ))}
             <div className="linesside">
                 {isVisible && (
                     <div className="displaydeatils">
-                        <div className="detailBox">
-                            <div className="canceldetailbtn"><button onClick={() => setIsVisible(false)}><img className="cancelicon" src={cancel}/></button></div>
-                            <h3>{name}</h3>
-                        </div>
+                        <div className="detailBoxConsumption"><ConsumptionLabel2 setIsVisible={setIsVisible} models={models} name={name} herkunft={'motor'}/></div>
                     </div>
                 )}
             </div>

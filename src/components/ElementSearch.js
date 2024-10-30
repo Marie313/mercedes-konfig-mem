@@ -44,7 +44,7 @@ const ElementSearch = ({collectausstattung, collectline, collectpaketline, colle
     setInputSearch(input); //speichert übernimmt Wert des Input Feldes (eingegebene Daten)
     setDetailContent([]); //bei Änderung des Input Feldes wird detailContent geleert --> keine mehrfach Ausgabe von gleichen Elementen + garantiert passende Ausgabe der Elemente
 
-    let match = ausstattung.filter((aus) => aus.code === input); //Element aus ausstattungen, bei dem id mit dem eingegebenen Wert übereinstimmen (notwendig bei Suche nach id!)
+    let match = ausstattung.filter((aus) => aus.code.toLowerCase() === input.toLowerCase()); //Element aus ausstattungen, bei dem id mit dem eingegebenen Wert übereinstimmen (notwendig bei Suche nach id!) --> toLowerCase um Groß- / Kleinschreibung zu ignorieren
 
     if(match.length == 0){
       match = ausstattung.filter((aus) => (aus.name).toLowerCase().includes(input.toLowerCase()))
@@ -147,7 +147,7 @@ const ElementSearch = ({collectausstattung, collectline, collectpaketline, colle
           searchresult[0] ? //Selektion ob erstes Element true ist
             (detailContent.length > 1 ? //Selektion wenn das Suchergebnis multi ist
               detailContent.map((dC, index) => (
-                <button className={`ergebnisinput`} onClick={() => showDetailErgebnis(index)} style={{ top: `${index * 56 + 114}px` }}>
+                <button className="ergebnisinput" onClick={() => showDetailErgebnis(index)} style={{ top: `${index * 56 + 114}px` }}>
                   {dC[1]}
                 </button> 
               ))

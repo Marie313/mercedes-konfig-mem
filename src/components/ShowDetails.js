@@ -7,12 +7,9 @@ const ShowDetails = ({elementDetails, setElementDetails}) => {
     const [currentImgIndex, setCurrentImgIndex] = useState(0);
 
     const swipe = (dir) => {
-        if (dir == 'left'){
-            setCurrentImgIndex(currentImgIndex == 0 ? elementDetails[4].length - 1 : currentImgIndex -1)
-        }
-        else if(dir == 'right'){
-            setCurrentImgIndex(currentImgIndex == elementDetails[4].length - 1 ? 0 : currentImgIndex + 1)
-        }
+        if (dir == 'left') return setCurrentImgIndex(currentImgIndex == 0 ? elementDetails[4].length - 1 : currentImgIndex -1)
+    
+        setCurrentImgIndex(currentImgIndex == elementDetails[4].length - 1 ? 0 : currentImgIndex + 1)
     }
 
     const detailImages = () => {
@@ -58,7 +55,7 @@ const ShowDetails = ({elementDetails, setElementDetails}) => {
                 </div>
             )}
         </div>
-     );
+    );
 }
  
 export default ShowDetails;

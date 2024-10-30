@@ -902,6 +902,15 @@ hr{
   padding: 20px;
   padding-left: 30px;
 }
+.divverbrauchsdaten{
+  background-color: #e8e8e88e;
+  width: 850px;
+  margin-top: 1px;
+  padding: 20px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+}
 .leistungsdaten{
   width: 50%;
   background-color: #ffffff;
@@ -981,6 +990,21 @@ hr{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); 
+}
+.detailBoxConsumption{
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  height: 75vh;
+  width: 800px;
+  background-color: white;
+  padding: 20px;
+  position: fixed; 
+  z-index: 11; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  overflow-y: scroll;
 }
 .detailBoxSearch{
   font-size: 17px;
@@ -1111,4 +1135,85 @@ hr{
 }
 .detailSearchRate{
   margin-top: 20px;
+}
+.CLheadline{
+  font-size: 25px;
+  font-weight: 600;
+  width: 470px;
+}
+.consumptionLabel{
+  display: flex;
+  justify-content: center;
+}
+.consumptionLabelBody{
+  width: 740px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px black solid;
+}
+.alloverCO2{
+  display: flex;
+}
+.consumptionLabelBodyCO2class{
+  width: 390px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px black solid;
+}
+.consumptionLabelBodyCO2more{
+  width: 330px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px black solid;
+  border-left: none;
+}
+.baseData{
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.baseData p{
+  margin: 0px;
+}
+.labelCL{
+  font-weight: 700;
+}
+.labelCLCO2{
+  font-weight: 700;
+  margin-bottom: -15px;
+}
+.ConsumpCat {
+  margin-bottom: 20px;
+}
+.footnotes{
+  font-size: 14px;
+  margin: 0px;
+}
+.furtherCD{
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.wA{
+  font-weight: 700;
+  margin: 0px;
+}
+.gedate{
+  margin-top: -15px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.CLbgrd{
+  background-color: white;
+}
+.CO2class{
+  margin-top: 0px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.classLabel{
+  height: 250px;
 }
