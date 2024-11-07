@@ -1,238 +1,92 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
-import { SlArrowDown } from "react-icons/sl";
-import { SlArrowUp } from "react-icons/sl";
+import { SlArrowDown, SlArrowUp } from "react-icons/sl";
 
-const TypeList = ({ selectedModell }) => {
-  const [type, setType] = useState([]);
-  const [showMoreCars, setShowMoreCars] = useState(false);
-  const [typeback, setTypeback] = useState([]);
-  const [NewTypeDiv, setNewTypeDiv] = useState("NewTypeDiv");
-  const [focusedButton, setFocusedButton] = useState(null);
+const CarList = ({ selectedModell }) => {
+  const [umstellung, setUmstellung] = useState([]); //Sammlung des series Objekt aus startpage.json
+  const [umstellung2, setUmstellung2] = useState([]); //Sammlung des bodyTypes Objekt aus startpage.json
+  const [focusedButton, setFocusedButton] = useState(null); //entspricht der id des geklickten Buttons/ geklickten bodytypes
+  const [prompti, setPrompti] = useState([]); //Array mit umstellung Objekten, deren id dem geklicten bodytype entsprechen
 
   useEffect(() => {
     const fetchData = async (fileName) => {
-      const typeData = [];
-      for (let i = 0; i < 8; i++) {
-        const response = await fetch(`http://localhost:3057/${fileName}/${i}`);
-        const data = await response.json();
-        typeData.push(data);
-      }
-      setTypeback(typeData);
-      setType(typeData);
+      const response = await fetch(`http://localhost:3057/${fileName}/series`);
+      const response2 = await fetch(`http://localhost:3057/${fileName}/bodyTypes`);
+      const data = await response.json();
+      const data2 = await response2.json();
+      setUmstellung(data);
+      setUmstellung2(data2);
     };
 
-    fetchData('type');
-  }, []);
+    fetchData('startpage');
+  }, []); //GET request um umstellung und umstellung2 mit Daten aus startpage.json zu befüllen
 
-  const showReturn = (
-    typesMietmodell,
-    typesKaufmodell,
-    typespic,
-    typesclass,
-    typesid,
-    carsmoreCars
-  ) => {
-    if (selectedModell === "mietmodell") {
-      if (typesMietmodell === true) {
-        if (carsmoreCars)
-          return (
-            <div className="showReturn">
-              <div className={`showReturni${typesid}`}>
-              <button className={focusedButton === typesid ? "clickred" : "notclickred" } onClick={() => {ShowCars(typesid, typesclass)}}>
-                  <img src={typespic} className="carsPic" />
-                  <div className="backgroundcolor1">
-                    <p className="carClass">{typesclass}</p>
-                    {moreCars(typesid)}
-                  </div>
-              </button>
-              </div>
-            </div>
-          );
-        return (
-          <Link className="linkSpecificCar" to={{pathname: `/configurator/${typesclass}`, state: { selectedModell }}}>
-            <div className="showReturn">
-              <img src={typespic} className="carsPic" />
-              <div className="backgroundcolor">
-                <p className="carClass">{typesclass}</p>
-              </div>
-            </div>
-          </Link>
-        );
-      }
+  const moreCars = (carsid) => {
+    if (focusedButton === carsid) //Abhängigkeit ob die übergebene id des bodytypes dem focusedButton entspricht (focused Button wird in showCar gesetzt)
       return (
-        <div className='showReturnFalse'>
-          <img src={typespic} className="carsPic" />
-          <div className="backgroundcolor">
-            <p className="carClass">{typesclass}</p>
-          </div>
-        </div>
+        <button className="moreButton"><SlArrowUp /></button> //Pfeil nach oben, um einklappen der mehr angezeigten cars zu symbolisieren
       );
-    }
-    if (selectedModell === "kaufmodell") {
-      if (typesKaufmodell === true) {
-        if (carsmoreCars)
-          return (
-            <div className="showReturn">
-              <div className={`showReturni${typesid}`}>
-              <button className={focusedButton === typesid ? "clickred" : "notclickred" } onClick={() => {ShowCars(typesid, typesclass)}}>
-                  <img src={typespic} className="carsPic" />
-                  <div className="backgroundcolor1">
-                    <p className="carClass">{typesclass}</p>
-                    {moreCars(typesid)}
-                  </div>
-              </button>
-              </div>
-            </div>
-          );
-        return (
-          <Link className="linkSpecificCar" to={{pathname: `/configurator/${typesclass}`, state: { selectedModell }}}>
-            <div className="showReturn">
-              <img src={typespic} className="carsPic" />
-              <div className="backgroundcolor">
-                <p className="carClass">{typesclass}</p>
-              </div>
-            </div>
-          </Link>
-        );
-      }
-      return (
-        <div className="showReturnFalse">
-          <img src={typespic} className="carsPic" />
-          <div className="backgroundcolor">
-            <p className="carClass">{typesclass}</p>
-          </div>
-        </div>
-      );
-    }
-  };
-
-  const moreCars = (typesid) => {
-    
-    if (focusedButton === typesid) {
-      return (
-        <button className="moreButton">
-            <SlArrowUp />  
-        </button>
-      );
-    }
     return ( 
-        <button className="moreButton">
-            <SlArrowDown />
-        </button>
+      <button className="moreButton"><SlArrowDown /></button> // Pfeil nach unten, um Möglichkeit des Anzeigen vor cars zu symbolisieren
     );
-  };
+  };//Entscheidungslogik, ob der Pfeil bei den buttons zum Mehranzeigen, eine Pfeil navch oben oder Unten abbilden soll
 
-  const ShowCars = async (typesid, typeskarosserie) => {
-    if (focusedButton){
-      setFocusedButton(null);
+  const showCar = (cars) => {
+    const matchedCars = umstellung.filter((car) => cars.id === car.bodyType); //filtert die Liste der ganzen cars, nach cars die die bodyType id enthalten, die gerade geklickt worden ist
+    
+    if (focusedButton){ //Selektion wenn focusedButton Wert hat
+      setPrompti([]) //prompti wird auf leeres Array gesetzt (detailiertAnzeige wird ausgeblendet)
+      setFocusedButton(null); //focusedButton wird null gestzt (Anzeigen des nach unten gerichteten Pfeils)
     }
-    else{
-      setFocusedButton(typesid);
-    }
+    else{ //wenn focusedButton keinen Wert hat
+      setPrompti(matchedCars); //prompti wird auf das zuvor erstellte matchedCars Array gestzt + detailierte Anzeige wird ausgelöst
+      setFocusedButton(cars.id); //focusedButton wird auf den Wert von cars.id gestzt (Anzeige des nach oben gerichteten Pfeils)
+    } //Logik zum setzen des focusedButton(unteranderem benötigt in moreCars) + setzen der Werte von prompti --> nötig für detailierte Ausgabe
+  }; //Reaktion auf button Click
 
-    if (!showMoreCars) {
-      const carMoreData = [];
-      for (let i = 0; i < 41; i++) {
-        const response = await fetch(`http://localhost:3057/cars/${i}`);
-        const data = await response.json();
-        if (data.karosserie === typeskarosserie) {
-          carMoreData.push(data);
-        }
+  const calcprompt = (id) => {
+    var index = umstellung2.findIndex(umst => umst.id === id); //Ermittlung des index des bodyTypes (an welcher Stelle sie im Array stehen)
+
+    if (index % 3 !== 0) {
+      index = index + 1;
+      if (index % 3 !== 0) {
+        return('prompt2') //wenn index geteilt durch drei Rest == 1 --> className == prompt3
+      } 
+      else {
+        return('prompt3') //wenn index getilt durch drei Rest == 2 --> className == prompt2
       }
-      const addition = (typesid) => {
-        let add = 0;
-        if (typesid % 3 !== 0) {
-         typesid = typesid + 1;
-          if (typesid % 3 !== 0) {
-            typesid = typesid + 1;
-            add = 2;
-          } else {
-            add = 1;
-          }
-        }
-        return add;
-      };
-      const typeDiv = (carMoreDataLength) => {
-        if(carMoreDataLength % 3 !== 0){
-          carMoreDataLength = carMoreDataLength +1
-          if((carMoreDataLength % 3 !== 0)){
-            setNewTypeDiv("NewTypeDiv2");
-            setType([
-              ...type.slice(0, typesid + addition(typesid)),
-              ...carMoreData.map((type) => ({ ...type, newCar: true }) ),
-              ...type.slice(typesid + addition(typesid) -2 ),
-            ]);
-          }
-          else if((carMoreDataLength % 3 === 0)) {
-            setNewTypeDiv("NewTypeDiv1");
-            setType([
-              ...type.slice(0, typesid + addition(typesid)),
-              ...carMoreData.map((type) => ({ ...type, newCar: true }) ),
-              ...type.slice(typesid + addition(typesid) -1),
-            ]);
-          }
-        }
-        else{
-          setNewTypeDiv("NewTypeDiv");
-          setType([
-            ...type.slice(0, typesid + addition(typesid)),
-            ...carMoreData.map((type) => ({ ...type, newCar: true }) ),
-            ...type.slice(typesid + addition(typesid) ),
-          ]);
-        }
-      }
-      setShowMoreCars(!showMoreCars);
-      typeDiv(carMoreData.length);
-    } else {
-      setType(typeback);
-      setShowMoreCars(!showMoreCars);
     }
-  };
-
-  const BeforeShowReturn = (typesNewCar,typesmietmodell,typeskaufmodell,typespic,typesclass,typesmoreCars,typesid) => {
-    if(typesNewCar){
-      return(
-      <div className={NewTypeDiv}>
-          <div className={`cars-prview ${typesNewCar ? 'new-cars-row' : ''}`} key={typesid}>
-          {showReturn(
-              typesmietmodell,
-              typeskaufmodell,
-              typespic,
-              typesclass,
-              typesid,
-              typesmoreCars
-          )}
-          </div>
-      </div>
-      );
-    }
-    if(!typesNewCar){
-      return(
-      <div className="OldTypeDiv">
-        <div className={`margin-${typesid}`}>
-          <div className={`cars-prview ${typesNewCar ? 'new-cars-row' : ''}`} key={typesid}>
-          {showReturn(
-              typesmietmodell,
-              typeskaufmodell,
-              typespic,
-              typesclass,
-              typesid,
-              typesmoreCars
-          )}
-          </div>
-        </div>
-      </div>
-      );
-    }
-  }
-
-  return (
-    <div className="returnALLtype">
+    return('prompt1') //wenn index ohne Rest durch 3 teilbar ist --> className == prompt1
+  } //zur Entscheidung des classNames für prompti --> Relevant zur Verschiebung nach rechts/links in css
+  
+  return(
+    <div className="returnALL">
       <div className="cars-map">
-        {type.map((types) => (
+        {umstellung2.map((cars) => (
           <div>
-            {BeforeShowReturn(types.newCar,types.mietmodell,types.kaufmodell,types.pic,types.class,types.moreCars,types.id)}
+            <div className="showReturn">
+              <button className={focusedButton === cars.id ? "clickred" : "notclickred" } onClick={() => {showCar(cars)}}>
+                <img src={cars.imageUrl} className="carsPic" />
+                <div className="backgroundcolor1">
+                  <p className="carClass">{cars.name}</p>
+                  {moreCars(cars.id)}
+                </div>
+              </button>
+            </div>
+            {prompti.some(car => car.bodyType === cars.id) ? ( 
+              <div className={calcprompt(cars.id)}>
+                {prompti.map((car) => (
+                  <Link className="linkSpecificCarpr" to={{pathname: `/configurator/${car.name}`, state: { selectedModell }}}>
+                    <div className="showReturn">
+                      <img src={car.imageUrl} className="carsPicpr" alt={car.name} />
+                      <div className="backgroundcolorpr">
+                        <p className="carClass">{car.name}</p>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            ) : null}
           </div>
         ))}
       </div>
@@ -240,4 +94,4 @@ const TypeList = ({ selectedModell }) => {
   );
 };
 
-export default TypeList;
+export default CarList;

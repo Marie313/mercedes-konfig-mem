@@ -56,9 +56,15 @@ p{
   height: 35px;
   justify-content: space-between;
 }
+.backgroundcolorpr{
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  width: 255px;
+  height: 35px;
+  justify-content: space-between;
+}
 .backgroundcolor1{
   display: flex;
-  width: 260px;
   height: 38px;
   justify-content: space-between;
 }
@@ -76,6 +82,9 @@ p{
 .backgroundcolor:hover{
   background-color: rgb(224, 224, 224);
 }
+.backgroundcolorpr:hover{
+  background-color: rgb(224, 224, 224);
+}
 .carClass {
   margin-top: 0px;
   padding-top: 10px;
@@ -83,19 +92,22 @@ p{
   padding-left: 10px;
   font-size: 12.5px;
 }
-.cars-map{
-  display: flex;
-  flex-wrap: wrap;
-}
 .carsPic{
-  height: 125px;
-  width: 260px;
   background-color: rgb(198, 198, 198);
   vertical-align: bottom;
+}
+.carsPicpr{
+  background-color: rgb(198, 198, 198);
+  vertical-align: bottom;
+  width: 255px;
 }
 .showReturnFalse{
   opacity: 0.5;
   position: relative;
+}
+.showReturn{
+  margin-top: 5px;
+  margin-right: 5px;
 }
 .h2{
   font-size: 18px;
@@ -143,16 +155,6 @@ button{
 }
 input{
   cursor: pointer;
-}
-.returnALL{
-  margin-left: 70px;
-}
-.returnALLtype{
-  overflow: hidden; /* Verhindert das Scrollen */
-  width: 800px;
-  height: 100%;
-  margin-left: 70px;
-  margin-right: 72px;
 }
 .moreButton{
   height: 30px;
@@ -1216,4 +1218,52 @@ hr{
 }
 .classLabel{
   height: 250px;
+}
+.cars-map {
+  margin-right: 150px;
+  width: 780px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  row-gap: -5px;
+  column-gap: 10px;
+}
+.prompt1 {
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 781px;
+  position: relative;
+  background-color: #000000;
+  color: white;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+.prompt2 {
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 781px;
+  position: relative;
+  right: 263px;
+  background-color: #000000;
+  color: white;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+.prompt3 {
+  right: 526px;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 781px;
+  position: relative;
+  right: 526px;
+  background-color: #000000;
+  color: white;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+.linkSpecificCarpr{
+  text-decoration: none;
+  color: black;
 }

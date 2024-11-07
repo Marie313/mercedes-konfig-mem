@@ -1,17 +1,28 @@
-import { useState } from "react";
-import CarList3 from "./CarList3";
+import { useState, useEffect } from "react";
+import CarList from "./CarList";
 import TypeList from "./TypeList";
 
 const Toolbar = () => {
-    
+    const [deliveryDates, setDeliveryDates] = useState([]);
     const [checkbox1Checked, setCheckbox1Checked] = useState(true);
     const [checkbox2Checked, setCheckbox2Checked] = useState(false);
     const [selectedModell, setSelectedModell] = useState("mietmodell");
+
+    useEffect(() => {
+        const fetchData = async (fileName) => {
+          const response = await fetch(`http://localhost:3057/${fileName}/deliveryDates`);
+          const data = await response.json();
+          setDeliveryDates(data);
+        };
+    
+        fetchData('startpage');
+      }, []);
 
     const handleCheckbox1 = () => {
         setCheckbox1Checked(true);
         setCheckbox2Checked(false);
     }
+
     const handleCheckbox2 = () => {
         setCheckbox1Checked(false);
         setCheckbox2Checked(true);
@@ -20,20 +31,6 @@ const Toolbar = () => {
     const handleModellChange = (event) => {
         setSelectedModell(event.target.value);
     }
-
-    const generateOptions = () => {
-        const options = [];
-        const currentDate = new Date();
-        const startDate = new Date(currentDate.getFullYear(), currentDate.getMonth() + 2);
-        for (let i = 0; i < 24; i++) {
-            const date = new Date(startDate.getFullYear(), startDate.getMonth() + i);
-            const formattedDate = `${date.getMonth() + 1}/${date.getFullYear()}`;
-            options.push(
-                <option key={formattedDate} value={formattedDate}>{formattedDate}</option>
-            );
-        }
-        return options;
-    };
 
     return ( 
         <div className="content">
@@ -46,7 +43,9 @@ const Toolbar = () => {
             <h2 className="h2">Wählen Sie Ihren gewünschten Liefretermin</h2>
             <div className="selct">
                 <select>
-                    {generateOptions()}
+                    {deliveryDates.map((dD) => (
+                            <option key={dD.name} value={dD.name}>{dD.name}</option>
+                    ))}
                 </select>
             </div>
             <h2 className="h2">Wonach sollen die Fahrzeuge sortiert werden?</h2>
@@ -59,7 +58,7 @@ const Toolbar = () => {
                 <p>nach Karosserie</p>
             </div>
         </div>
-        {checkbox1Checked && <CarList3 selectedModell={selectedModell}/>}
+        {checkbox1Checked && <CarList selectedModell={selectedModell}/>}
         {checkbox2Checked && <TypeList selectedModell={selectedModell}/>}
         </div>
     );
